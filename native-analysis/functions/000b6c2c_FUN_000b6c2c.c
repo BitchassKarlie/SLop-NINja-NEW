@@ -1,0 +1,19 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000b6c2c FUN_000b6c2c */
+
+int FUN_000b6c2c(int param_1,undefined4 param_2)
+
+{
+  uint uVar1;
+  int iVar2;
+  
+  uVar1 = FUN_000badd8(param_1 + 8,param_2,param_2,0);
+  iVar2 = 1 - uVar1;
+  if (1 < uVar1) {
+    iVar2 = 0;
+  }
+  return iVar2;
+}
+
+
+

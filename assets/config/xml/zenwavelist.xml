@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<waveManagerFile version="1.0.0">
+   
+   
+   
+   <WaveInfo waveNo="0" criticalChance="0" chance="10">
+    <Spawn type="random" min="4" max="6" delay="0.4" />
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+    <WaveInfo waveNo="0" criticalChance="0" chance="10">
+    <Spawn type="random" min="4" max="8" delay="0.3" />
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+   
+   
+
+  
+  
+  <!--same fruit waves -->
+  
+    <WaveInfo waveNo="1" criticalChance="0" chance="5">
+    <Spawn type="1fruit" min="4" max="10" delay="0.4" />
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+    
+  <!--standard waves-->
+  
+      <WaveInfo waveNo="1" criticalChance="0" chance="8">
+    <Spawn type="random" min="4" max="10" delay="0.4" />
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+  
+        <WaveInfo waveNo="1" criticalChance="0" chance="7">
+    <Spawn type="random" min="4" max="14" delay="0.2" />
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+  
+    <WaveInfo waveNo="1" criticalChance="0" chance="20">
+    <Spawn type="random, random" min="3" max="7"/>
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+      <WaveInfo waveNo="1" criticalChance="0" chance="10">
+    <Spawn type="1fruit" min="3" max="7"/>
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+  <!-- COMBO ORIENTATED WAVES RIGHT UP IN HERE! -->
+  
+   <WaveInfo waveNo="1" criticalChance="0" chance="15">
+    <Spawn type="random" min="4" max="7" delay="0.8"/>
+	<Spawn type="random" min="3" max="7" delay="0.6"/>
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+  
+     <WaveInfo waveNo="1" criticalChance="0" chance="15">
+    <Spawn type="random" min="4" max="7" delay="0.8"/>
+	<Spawn type="random" min="3" max="7" delay="0.75"/>
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+       <WaveInfo waveNo="1" criticalChance="0" chance="15">
+    <Spawn type="random" min="2" max="2" delay="0.5"/>
+	<Spawn type="random" min="2" max="2" delay="0.5"/>
+	<Spawn type="random" min="1" max="1" delay="1.2"/>
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+         <WaveInfo waveNo="1" criticalChance="0" chance="15">
+    <Spawn type="random" min="3" max="3"/>
+	<Spawn type="random" min="1" max="1" delay="0.45"/>
+	<Spawn type="random" min="1" max="1" delay="0.9"/>
+	
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+  
+  
+           <WaveInfo waveNo="1" criticalChance="0" chance="18">
+    <Spawn type="random" min="1" max="1"/>
+	<Spawn type="random" min="1" max="1" delay="0.45"/>
+	<Spawn type="random" min="1" max="1" delay="0.9"/>
+	<Spawn type="random" min="1" max="1" delay="0.9"/>
+	<Spawn type="random" min="1" max="1" delay="0.9"/>	
+    <Wave_dt dt="0.95" />
+    <NextWaveDelay delay="0.2" />
+  </WaveInfo>
+    
+
+</waveManagerFile>

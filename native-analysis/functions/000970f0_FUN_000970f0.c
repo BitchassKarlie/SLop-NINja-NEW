@@ -1,0 +1,12 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000970f0 FUN_000970f0 */
+
+void FUN_000970f0(int param_1)
+
+{
+  FUN_000970cc(param_1 + 4);
+  return;
+}
+
+
+

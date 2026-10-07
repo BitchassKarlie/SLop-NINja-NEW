@@ -1,0 +1,27 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00039b24 FUN_00039b24 */
+
+void FUN_00039b24(int param_1)
+
+{
+  uint uVar1;
+  uint uVar2;
+  
+  uVar1 = (*(int *)(param_1 + 0xc) - *(int *)(param_1 + 4) >> 5) * -0x55555555;
+  if (uVar1 < (*(int *)(param_1 + 8) - *(int *)(param_1 + 4) >> 5) * -0x55555555 + 1U) {
+    if (uVar1 == 0) {
+      uVar2 = 0x10;
+    }
+    else {
+      uVar2 = uVar1 + (uVar1 >> 1);
+      if (uVar2 <= uVar1) {
+        return;
+      }
+    }
+    FUN_00039ab0(param_1,uVar2);
+  }
+  return;
+}
+
+
+

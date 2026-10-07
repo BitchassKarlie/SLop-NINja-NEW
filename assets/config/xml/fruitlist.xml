@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fruitInfoFile version="1.0.0">
+  <critical chance="50" chance_inc="30" score="10" colour="0,140,245,170" scale="1.25" splats="15" spread="1.25" disappear_speed="1"/>
+  <bomb size="55" collision="35"/>
+  <FruitInfo name="apple" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" singularEnglish="apple" pluralEnglish="apples" chance="100" scale="60" colour="248,255,164,130" collision="5" onSide="true" factColour="189,238,58" factTexture="sml_ap" onlySprinkle="true">
+    <fact>FRUIT_FACT_00</fact><fact>FRUIT_FACT_01</fact><fact>FRUIT_FACT_02</fact><fact>FRUIT_FACT_03</fact><fact>FRUIT_FACT_04</fact><fact>FRUIT_FACT_05</fact><fact>FRUIT_FACT_06</fact><fact>FRUIT_FACT_07</fact><fact>FRUIT_FACT_08</fact><fact>FRUIT_FACT_09</fact><fact>FRUIT_FACT_10</fact><fact>FRUIT_FACT_11</fact>
+  </FruitInfo>
+  <FruitInfo name="banana" singular="FRUITNAME_BANANA" plural="FRUITNAME_PLURAL_BANANA" singularEnglish="banana" pluralEnglish="bananas" chance="100" scale="60" colour="0,0,0,0"  collision="5" factColour="245,237,16" factTexture="sml_bn">
+    <fact>FRUIT_FACT_30</fact><fact>FRUIT_FACT_31</fact><fact>FRUIT_FACT_32</fact><fact>FRUIT_FACT_33</fact><fact>FRUIT_FACT_34</fact><fact>FRUIT_FACT_35</fact><fact>FRUIT_FACT_36</fact><fact>FRUIT_FACT_37</fact>
+  </FruitInfo>
+  <FruitInfo name="orange" singular="FRUITNAME_ORANGE" plural="FRUITNAME_PLURAL_ORANGE" singularEnglish="orange" pluralEnglish="oranges" chance="100" scale="60" colour="255,115,0,158" collision="5" factColour="255,198,0" factTexture="sml_or">
+    <fact>FRUIT_FACT_177</fact><fact>FRUIT_FACT_178</fact><fact>FRUIT_FACT_179</fact><fact>FRUIT_FACT_180</fact><fact>FRUIT_FACT_181</fact>
+  </FruitInfo>
+  <FruitInfo name="watermelon" singular="FRUITNAME_WATERMELON" plural="FRUITNAME_PLURAL_WATERMELON" singularEnglish="watermelon" pluralEnglish="watermelons" chance="100" scale="75" colour="166,34,38,160" collision="5" factColour="255,31,31" factTexture="sml_wm">
+    <fact>FRUIT_FACT_292</fact><fact>FRUIT_FACT_293</fact><fact>FRUIT_FACT_294</fact><fact>FRUIT_FACT_295</fact><fact>FRUIT_FACT_296</fact><fact>FRUIT_FACT_297</fact>
+  </FruitInfo>
+  <FruitInfo name="strawberry" singular="FRUITNAME_STRAWBERRY" plural="FRUITNAME_PLURAL_STRAWBERRY" singularEnglish="strawberry" pluralEnglish="strawberries" chance="100" scale="50" colour="200,0,0,190" collision="5" onSide="true" factColour="199,27,27" factTexture="sml_st">
+    <fact>FRUIT_FACT_270</fact><fact>FRUIT_FACT_271</fact><fact>FRUIT_FACT_272</fact><fact>FRUIT_FACT_273</fact><fact>FRUIT_FACT_274</fact><fact>FRUIT_FACT_275</fact>  
+  </FruitInfo>    
+  <FruitInfo name="kiwifruit" singular="FRUITNAME_KIWIFRUIT" plural="FRUITNAME_PLURAL_KIWIFRUIT" singularEnglish="kiwifruit" pluralEnglish="kiwifruits" chance="100" scale="50" colour="150,217,17,145" collision="5" factColour="80,141,0" factTexture="sml_kw">
+    <fact>FRUIT_FACT_116</fact><fact>FRUIT_FACT_117</fact><fact>FRUIT_FACT_118</fact><fact>FRUIT_FACT_119</fact><fact>FRUIT_FACT_120</fact><fact>FRUIT_FACT_121</fact>
+  </FruitInfo>
+  <FruitInfo name="pineapple" singular="FRUITNAME_PINEAPPLE" plural="FRUITNAME_PLURAL_PINEAPPLE" singularEnglish="pineapple" pluralEnglish="pineapples" chance="100" scale="65" colour="235,175,14,155" collision="5" factColour="255,210,0" factTexture="sml_pn">
+    <fact>FRUIT_FACT_214</fact><fact>FRUIT_FACT_215</fact><fact>FRUIT_FACT_216</fact><fact>FRUIT_FACT_217</fact><fact>FRUIT_FACT_218</fact>  
+  </FruitInfo>  
+  <FruitInfo name="plum" singular="FRUITNAME_PLUM" plural="FRUITNAME_PLURAL_PLUM" singularEnglish="plum" pluralEnglish="plums" scale="55" chance="100" colour="247,141,10,160" collision="5" factColour="130,40,91" factTexture="sml_pl">
+    <fact>FRUIT_FACT_230</fact><fact>FRUIT_FACT_231</fact><fact>FRUIT_FACT_232</fact><fact>FRUIT_FACT_233</fact>
+  </FruitInfo>
+  <FruitInfo name="pear" singular="FRUITNAME_PEAR" plural="FRUITNAME_PLURAL_PEAR" singularEnglish="pear" pluralEnglish="pears" scale="60" chance="100" colour="248,255,164,130" collision="5" factColour="212,239,34" factTexture="sml_pr" onlySprinkle="true">
+    <fact>FRUIT_FACT_204</fact><fact>FRUIT_FACT_205</fact><fact>FRUIT_FACT_206</fact><fact>FRUIT_FACT_207</fact><fact>FRUIT_FACT_208</fact>
+    <impact_sound>Impact-Apple</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="mango" singular="FRUITNAME_MANGO" plural="FRUITNAME_PLURAL_MANGO" singularEnglish="mango" pluralEnglish="mangoes" scale="65" chance="100" colour="255,174,0,170" collision="5" factColour="255,198,0" factTexture="sml_mn" >
+    <fact>FRUIT_FACT_160</fact><fact>FRUIT_FACT_161</fact><fact>FRUIT_FACT_162</fact><fact>FRUIT_FACT_163</fact><fact>FRUIT_FACT_164</fact>
+    <impact_sound>Impact-Watermelon</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="apple_red" singular="FRUITNAME_RED_APPLE" plural="FRUITNAME_PLURAL_RED_APPLE" singularEnglish="red apple" pluralEnglish="red apples" chance="100" scale="60" colour="248,255,164,130" collision="5" onSide="true" factColour="89,238,58" factTexture="sml_ap" onlySprinkle="true">
+    <impact_sound>Impact-Apple</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="lime" singular="FRUITNAME_LIME" plural="FRUITNAME_PLURAL_LIME" singularEnglish="lime" pluralEnglish="limes" chance="100" scale="51" colour="150,217,17,145" collision="5" factColour="80,141,0" factTexture="sml_lm" >
+    <fact>FRUIT_FACT_148</fact><fact>FRUIT_FACT_149</fact><fact>FRUIT_FACT_150</fact><fact>FRUIT_FACT_151</fact>
+    <impact_sound>Impact-Orange</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="dragon" singular="FRUITNAME_DRAGON" plural="FRUITNAME_PLURAL_DRAGON" singularEnglish="dragon fruit" pluralEnglish="dragon fruits" chance="0" score="50" scale="65" colour="255,255,255,145" collision="5" factColour="233,5,80" factTexture="sml_df">
+    <impact_sound>dragonfruit</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="coconut" singular="FRUITNAME_COCONUT" plural="FRUITNAME_PLURAL_COCONUT" singularEnglish="coconut" pluralEnglish="coconuts" chance="50" scale="70" colour="255,255,255,145" collision="5" hitInfluence="0.9" factColour="255,255,255" factTexture="sml_co" >
+    <fact>FRUIT_FACT_53</fact><fact>FRUIT_FACT_54</fact><fact>FRUIT_FACT_55</fact><fact>FRUIT_FACT_56</fact>
+    <impact_sound>Impact-Coconut-More-Attack</impact_sound> 
+    <impact_sound>Impact-Banana</impact_sound> 
+  </FruitInfo>  
+  <FruitInfo name="passionfruit" singular="FRUITNAME_PASSIONFRUIT" plural="FRUITNAME_PLURAL_PASSIONFRUIT" singularEnglish="passion fruit" pluralEnglish="passion fruits" chance="70" scale="55" colour="255,184,0,170" collision="5" hasSplatSeeds="1" factColour="212,239,34" factTexture="sml_pas">
+    <fact>FRUIT_FACT_190</fact><fact>FRUIT_FACT_191</fact><fact>FRUIT_FACT_192</fact><fact>FRUIT_FACT_193</fact>
+    <impact_sound>Impact-watermelon</impact_sound>
+  </FruitInfo>
+  <FruitInfo name="lemon" singular="FRUITNAME_LEMON" plural="FRUITNAME_PLURAL_LEMON" singularEnglish="lemon" pluralEnglish="lemons" chance="80" scale="55" colour="255,252,0,130" collision="5" onSide="true" factColour="255,210,0" factTexture="sml_lmn">
+    <fact>FRUIT_FACT_130</fact><fact>FRUIT_FACT_131</fact><fact>FRUIT_FACT_132</fact><fact>FRUIT_FACT_133</fact><fact>FRUIT_FACT_134</fact>    
+    <impact_sound>Impact-Orange</impact_sound>
+  </FruitInfo>
+
+  <FruitInfo name="black_pineapple" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,150" collision="-105" >
+    <impact_sound>Impact-Pineapple</impact_sound>
+  </FruitInfo>    
+  <FruitInfo name="vs_watermelon" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" chance="0" scale="75" colour="200,0,0,190" collision="5" factColour="255,31,31" factTexture="sml_st">
+    <impact_sound>Impact-strawberry</impact_sound>
+  </FruitInfo>
+
+  <FruitInfo name="frenzy" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,150" collision="5" onlySprinkle="true" modelName="banana_speed" >
+    <impact_sound>Impact-Apple</impact_sound>
+    <power name="speed"/>
+  </FruitInfo>
+  
+  <FruitInfo name="freeze" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,150" collision="5" onlySprinkle="true" modelName="banana_ice" >
+    <impact_sound>Impact-Apple</impact_sound>
+    <power name="freeze"/>
+  </FruitInfo>  
+  
+  <FruitInfo name="scorex2" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,0" collision="5" onlySprinkle="true" modelName="banana_x2">
+    <impact_sound>Impact-Banana</impact_sound>
+    <power name="score_mult"/>
+  </FruitInfo>
+ 
+  <FruitInfo name="banana_locked" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,0" collision="-105" onlySprinkle="true">
+    <impact_sound>Impact-Banana</impact_sound>
+  </FruitInfo>
+  
+  <FruitInfo name="apple_center" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="235,175,14,155" collision="5" onlySprinkle="true">
+    <impact_sound>Impact-Apple</impact_sound>
+  </FruitInfo>
+  
+  <FruitInfo name="openfeint" singular="FRUITNAME_APPLE" plural="FRUITNAME_PLURAL_APPLE" scale="60" colour="255,255,255,150" collision="5" onlySprinkle="true">
+    <impact_sound>Impact-Apple</impact_sound>
+  </FruitInfo>
+  
+  
+</fruitInfoFile>

@@ -1,0 +1,45 @@
+name: Build Windows
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Build, test and package
+        run: ./platform/windows/build.ps1
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-windows-x64
+          path: dist/fruit-ninja-windows-x64.zip
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Upload diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: windows-build-diagnostics
+          path: |
+            windows-build.log
+            build-win-native/Testing/Temporary/LastTest.log
+          if-no-files-found: ignore
+          retention-days: 14

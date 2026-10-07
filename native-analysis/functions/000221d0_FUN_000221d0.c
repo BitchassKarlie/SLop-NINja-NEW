@@ -1,0 +1,16 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000221d0 FUN_000221d0 */
+
+void FUN_000221d0(void)
+
+{
+  int iVar1;
+  
+  iVar1 = DAT_000221e8 + 0x221e4;
+  FUN_000221ac((int)&DAT_000221e8 + DAT_000221e8);
+  FUN_000221ac(iVar1);
+  return;
+}
+
+
+

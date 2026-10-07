@@ -1,0 +1,12 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000b3328 _INIT_116 */
+
+void _INIT_116(void)
+
+{
+  FUN_000b32ec(DAT_000b3334 + 0xb3330);
+  return;
+}
+
+
+

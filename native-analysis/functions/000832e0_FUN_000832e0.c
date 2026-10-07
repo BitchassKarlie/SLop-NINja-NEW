@@ -1,0 +1,13 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000832e0 FUN_000832e0 */
+
+void FUN_000832e0(void)
+
+{
+  FUN_00083148(0);
+  *(undefined *)(DAT_000832f4 + 0x832f0) = 1;
+  return;
+}
+
+
+

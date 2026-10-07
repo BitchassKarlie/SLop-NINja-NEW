@@ -1,0 +1,11 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 0002c850 FUN_0002c850 */
+
+undefined4 FUN_0002c850(void)
+
+{
+  return *(undefined4 *)(DAT_0002c858 + 0x2c856);
+}
+
+
+

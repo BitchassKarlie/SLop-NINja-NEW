@@ -1,0 +1,11 @@
+if(NOT DEFINED VITASDK)
+ set(VITASDK "$ENV{VITASDK}")
+endif()
+include("${VITASDK}/share/vita.cmake" REQUIRED)
+set(FRUIT_VITA_TITLE_ID "FNAT00001" CACHE STRING "Vita homebrew title ID")
+if(NOT FRUIT_VITA_TITLE_ID MATCHES "^[A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9][A-Z0-9]$")
+ message(FATAL_ERROR "FRUIT_VITA_TITLE_ID must contain nine uppercase letters/digits")
+endif()
+target_sources(fruit_ninja PRIVATE platform/vita/runtime.cpp)
+# SDL GXM/touch homebrew needs an unrestricted SELF on CFW.
+vita_create_self(eboot.bin fruit_ninja UNSAFE)

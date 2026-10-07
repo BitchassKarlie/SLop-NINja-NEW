@@ -1,0 +1,36 @@
+name: Build PS Vita
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Build and package with pinned SDK image
+        run: |
+          docker run --rm --user 0:0 \
+            -v "$PWD:/project" -w /project \
+            vitasdk/vitasdk:2026.08 \
+            sh platform/ci/container-build.sh vita
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-vita
+          path: dist/fruit-ninja-vita.vpk
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

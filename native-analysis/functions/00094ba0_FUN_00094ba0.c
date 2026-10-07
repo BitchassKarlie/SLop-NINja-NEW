@@ -1,0 +1,11 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00094ba0 FUN_00094ba0 */
+
+int FUN_00094ba0(void)
+
+{
+  return DAT_00094ba8 + 0x94baa;
+}
+
+
+

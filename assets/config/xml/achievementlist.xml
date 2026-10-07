@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<achievementManagerFile version="1.0.0">
+
+  <achievement type="SCORE"     name="ACHIEVEMENT_00"           id="261454"  idhd="440904"  score="10"  total="50"      mode="CLASSIC"    texture="fruit_ninja" />
+  <achievement type="SCORE"     name="ACHIEVEMENT_01"     id="261464"  idhd="440914"  score="20"  total="100"     mode="CLASSIC"    texture="great_fruit_ninja" />
+  <achievement type="SCORE"     name="ACHIEVEMENT_02"  id="261514"  idhd="440924"  score="40"  total="200"     mode="CLASSIC"    texture="ultimate_fruit_ninja" />
+  <achievement type="TOTAL"     name="ACHIEVEMENT_03"           id="261524"  idhd="440934"  score="20"  total="150"     mode="ALL"        texture="fruit_fight" />
+  <achievement type="TOTAL"     name="ACHIEVEMENT_04"           id="261544"  idhd="440944"  score="40"  total="500"     mode="ALL"        texture="fight_blitz" />
+  <achievement type="TOTAL"     name="ACHIEVEMENT_05"          id="261554"  idhd="440954"  score="60"  total="1000"    mode="ALL"        texture="fruit_frenzy" />
+  <achievement type="TOTAL"     name="ACHIEVEMENT_06"         id="261574"  idhd="440964"  score="80"  total="5000"    mode="ALL"        texture="fruit_rampage" />
+  <achievement type="TOTAL"     name="ACHIEVEMENT_07"   id="261584"  idhd="440974"  score="100" total="10000"   mode="ALL"        texture="fruit_annihilation" />
+  <achievement type="SPECIFIC"  name="ACHIEVEMENT_08"             id="261614"  idhd="440984"  score="20"  total="10"      mode="CLASSIC"        specific_type="banana" texture="go_banana" />
+  <achievement type="SPECIFIC"  name="ACHIEVEMENT_09"       id="261634"  idhd="440994" score="40"  total="15"      mode="CLASSIC"        specific_type="apple"  texture="no_doctors_here" />
+  <achievement type="SPECIFIC"  name="ACHIEVEMENT_10"     id="261644"  idhd="441004" score="60"  total="20"      mode="CLASSIC"        specific_type="plum"   texture="purple_is_a_fruit" />
+  <achievement type="SPECIFIC"  name="ACHIEVEMENT_11"           id="261654"  idhd="441014" score="60"  total="6"       mode="CLASSIC"        specific_type="crit"   texture="lucky_ninja" />
+  <achievement type="END_SCORE" name="ACHIEVEMENT_15"  id="261724"  idhd="441054" score="20"  total="-1"      mode="CLASSIC, ZEN"   texture="are_you_kidding_me" />
+  <achievement type="END_SCORE" name="ACHIEVEMENT_16"               id="261754"  idhd="441064" score="20"  total="0"       mode="CLASSIC, ZEN"   texture="wake_up" />
+  <achievement type="END_SCORE" name="ACHIEVEMENT_17"           id="261774"  idhd="441074" score="20"  total="69"      mode="CLASSIC, ZEN"   texture="tee_hee_hee" />
+  <achievement type="END_SCORE" name="ACHIEVEMENT_18"      id="261794"  idhd="441084" score="20"  total="99"      mode="CLASSIC, ZEN"   texture="almost_a_centery" />
+
+  <achievement type="SPECIFIC"    name="ACHIEVEMENT_13"            id="324154"  idhd="441034"  score="20"  total="1"    mode="CLASSIC"        specific_type="mangocrit" texture="mango_magic" />
+  <achievement type="CONSECUTIVE" name="ACHIEVEMENT_12"  id="324144"  idhd="441024"  score="40"  total="3"    mode="CLASSIC"        specific_type="pear"      texture="its_all_pear_shaped" />
+  <achievement type="CONSECUTIVE_ANY" name="ACHIEVEMENT_14"            id="324524"  idhd="441044"  score="60"  total="4"    mode="CLASSIC"        texture="deja_vu" />
+
+  <achievement type="COMBO"       name="ACHIEVEMENT_19"            id="350264"  idhd="441094"       score="30"  total="6"       mode="ALL"      texture="combo_mambo" />
+  <achievement type="SCORE"       name="ACHIEVEMENT_20"          id="350274"  idhd="441104"       score="30"  total="200"     mode="ZEN"      texture="moment_of_zen" />
+  <achievement type="SPECIFIC"    name="ACHIEVEMENT_21"   id="350294"  idhd="441144"       score="20"  total="10"      mode="ALL"      specific_type="coming_soon"   texture="patience_is_a_virtue" />
+
+  <achievement type="SPECIFIC"    name="ACHIEVEMENT_22"     id="370914" idhd="441124"        score="40"  total="1"      mode="ALL"      specific_type="dragon"   texture="dragons_wrath" />
+  <achievement type="COMBO_STAR"  name="ACHIEVEMENT_23"           id="374004" idhd="441134"        score="20"  total="3"      mode="ZEN"      specific_type="ALL_COCONUTS"   texture="lovely_bunch" />
+
+  <achievement type="BONUS_ACHIEVED" name="ACHIEVEMENT_24" id="624202"  idhd="652512"       score="20"  total="20"      mode="ARCADE" 		specific_type="UNDER ACHIEVER" texture="under_achiever" />  
+  <achievement type="BONUS_ACHIEVED" name="ACHIEVEMENT_25"  id="624192"  idhd="652502"       score="20"  total="400"     mode="ARCADE"  	specific_type="OVER ACHIEVER"  texture="over_achiever" />
+  <achievement type="BONUS_ACHIEVED" name="ACHIEVEMENT_26"    id="624212"  idhd="652522"       score="20"  total="250"     mode="ARCADE" 	specific_type="BOMB MAGNET"    texture="bomb_magnet" />
+
+  
+  <!--<achievement type="SPECIFIC"        name="UNLOCKED NEW BLADE" id="SHINY_RED_SLASH"  total="100"    mode="ALL"      specific_type="strawberry_total" texture="item_shiney_red_blade" /> --> 
+  <achievement type="SPECIFIC"        name="ACHIEVEMENT_NEWBLADE"     id="DISCO_SLASH"    total="50"      mode="ANY"      specific_type="banana_total"   texture="item_discoblade" />
+  <achievement type="CONSECUTIVE"     name="ACHIEVEMENT_NEWBLADE"     id="SPARKLE_SLASH"  total="3"       mode="CLASSIC"  specific_type="pineapple"   texture="item_mr_sparkle" />  
+
+  <achievement type="SCORE_UNSULLIED" name="ACHIEVEMENT_NEWBACKGROUND"   id="background9" total="125"     mode="CLASSIC"   texture="item_BG_fruit_ninja" />
+  <achievement type="SPECIFIC"     name="ACHIEVEMENT_NEWBACKGROUND"   id="background3"    total="3"       mode="ALL"      specific_type="strawberry_facts"    texture="item_BG_i_heart_sensei" />
+  <achievement type="SPECIFIC"     name="ACHIEVEMENT_NEWBACKGROUND"   id="background4"    total="250"     mode="ALL"      specific_type="watermelon_total"    texture="item_BG_greatwave" />
+  <achievement type="END_SCORE"    name="ACHIEVEMENT_NEWBLADE"      id="AMERICAN_SLASH"    total="50"      mode="ALL"   	texture="item_american_blade" />
+  <achievement type="SPECIFIC"     name="ACHIEVEMENT_NEWBLADE"      id="BUTTERFLY_KNIFE"  total="40"      mode="ALL"   	specific_type="strawberry_combo_total"          texture="item_butterfly_knife" />
+  <achievement type="COMBO"     name="ACHIEVEMENT_NEWBLADE"      id="FLAME_BLADE"  total="1"      mode="ZEN"   	isGameOver="1"          texture="item_flame_blade" />
+  <achievement type="SPECIFIC"     name="ACHIEVEMENT_NEWBACKGROUND"   id="background5"    total="75"       mode="ALL"      specific_type="passionfruit_total"    texture="item_BG_YinYang" />
+  <achievement type="SPECIFIC"     name="ACHIEVEMENT_NEWBLADE"   id="ICE_BLADE"    total="20"       mode="ALL"      specific_type="freeze_total"    texture="item_ice_blade" />  
+  
+  
+</achievementManagerFile>

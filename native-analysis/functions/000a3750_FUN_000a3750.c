@@ -1,0 +1,11 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000a3750 FUN_000a3750 */
+
+undefined4 FUN_000a3750(void)
+
+{
+  return 0;
+}
+
+
+

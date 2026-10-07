@@ -1,0 +1,11 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 0006e164 FUN_0006e164 */
+
+int FUN_0006e164(void)
+
+{
+  return *(int *)(DAT_0006e170 + 0x6e16a) + 4;
+}
+
+
+

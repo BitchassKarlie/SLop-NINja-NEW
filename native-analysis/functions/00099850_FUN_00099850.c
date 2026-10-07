@@ -1,0 +1,12 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00099850 FUN_00099850 */
+
+undefined4 FUN_00099850(undefined4 param_1)
+
+{
+  FUN_000997f0();
+  return param_1;
+}
+
+
+

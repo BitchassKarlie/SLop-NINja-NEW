@@ -1,0 +1,1718 @@
+address	value	referencing_functions
+000114a9	__aeabi_unwind_cpp_pr0	
+000114c0	_ZdlPv	
+000114c7	_Znwj	
+000114cd	__cxa_guard_acquire	
+000114e1	__cxa_guard_release	
+000114f5	__aeabi_atexit	
+00011504	__dso_handle	
+00011511	strlen	
+00011518	strcpy	
+0001151f	_Znaj	
+00011525	_ZdaPv	
+0001152c	__stack_chk_fail	
+0001153d	__stack_chk_guard	
+0001154f	__cxa_pure_virtual	
+00011562	__aeabi_unwind_cpp_pr1	
+00011579	__aeabi_idivmod	
+00011589	__aeabi_idiv	
+00011596	strcmp	
+0001159d	atoi	
+000115a2	memset	
+000115a9	strtod	
+000115b0	memcpy	
+000115b7	fmod	
+000115bc	strncpy	
+000115c4	__aeabi_uldivmod	
+000115d5	__aeabi_ldivmod	
+000115e5	strcat	
+000115ec	ceil	
+000115f1	puts	
+000115f6	sscanf	
+000115fd	lrand48	
+00011605	memcmp	
+0001160c	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1read	
+0001164a	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1getComment	
+0001168e	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1getCommentCount	
+000116d7	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1channels	
+00011719	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1sampleRate	
+0001175d	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1tellTime	
+0001179f	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1tellPCM	
+000117e0	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1seekTimePage	
+00011826	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1seekTime	
+00011868	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1seekPCMPage	
+000118ad	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1seekPCM	
+000118ee	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1lengthTime	
+00011932	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1lengthPCM	
+00011975	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1release	
+000119b6	Java_com_halfbrick_fruitninja_AudioDecoderStream_native_1createDecoderStream	
+00011a03	Java_com_halfbrick_fruitninja_NativeGameLib_native_1displayNotification	
+00011a4b	Java_com_halfbrick_fruitninja_NativeGameLib_native_1canShowNotification	
+00011a93	Java_com_halfbrick_fruitninja_NativeGameLib_native_1confirmQuitRequest	
+00011ada	Java_com_halfbrick_fruitninja_NativeGameLib_native_1gameRequestedQuit	
+00011b20	Java_com_halfbrick_fruitninja_NativeGameLib_native_1GetIsAppLicensed	
+00011b65	Java_com_halfbrick_fruitninja_NativeGameLib_native_1SetAppLicensed	
+00011ba8	Java_com_halfbrick_fruitninja_NativeGameLib_native_1saveOnExit	
+00011be7	Java_com_halfbrick_fruitninja_NativeGameLib_native_1onFocusRetrieved	
+00011c2c	Java_com_halfbrick_fruitninja_NativeGameLib_native_1onFocusLost	
+00011c6c	Java_com_halfbrick_fruitninja_NativeGameLib_native_1onResume	
+00011ca9	Java_com_halfbrick_fruitninja_NativeGameLib_native_1onPause	
+00011ce5	Java_com_halfbrick_fruitninja_NativeGameLib_native_1step	
+00011d1e	Java_com_halfbrick_fruitninja_NativeGameLib_native_1keyEvent	
+00011d5b	Java_com_halfbrick_fruitninja_NativeGameLib_native_1touchEvent	
+00011d9a	Java_com_halfbrick_fruitninja_NativeGameLib_native_1InitFileManager	
+00011dde	Java_com_halfbrick_fruitninja_NativeGameLib_native_1init	
+00011e17	glMatrixMode	
+00011e24	glLoadMatrixf	
+00011e32	glPopMatrix	
+00011e3e	glPushMatrix	
+00011e4b	glMultMatrixf	
+00011e59	_tolower_tab_	
+00011e67	_toupper_tab_	
+00011e75	vsprintf	
+00011e7e	sqrt	
+00011e83	qsort	
+00011e89	__aeabi_uidivmod	
+00011e9a	clock	
+00011ea0	memmove	
+00011ea8	snprintf	
+00011eb1	_ctype_	
+00011eb9	strncmp	
+00011ec1	strchr	
+00011ec8	glColor4f	
+00011ed2	glDepthMask	
+00011ede	glDisable	
+00011ee8	glEnable	
+00011ef1	glDisableClientState	
+00011f06	glBlendFunc	
+00011f12	glViewport	
+00011f1d	glClear	
+00011f25	glClearColor	
+00011f32	glClearDepthf	
+00011f40	glLoadIdentity	
+00011f4f	glCullFace	
+00011f5a	ftell	
+00011f60	fwrite	
+00011f67	fopen	
+00011f6d	fseek	
+00011f73	strstr	
+00011f7a	stat	
+00011f7f	glVertexPointer	
+00011f8f	glColorPointer	
+00011f9e	glTexCoordPointer	
+00011fb0	glDrawArrays	
+00011fbd	glEnableClientState	
+00011fd1	__android_log_print	
+00011fe5	glBindTexture	
+00011ff3	glGetError	
+00011ffe	glFinish	
+00012007	glFlush	
+0001200f	glDeleteTextures	
+00012020	glGenTextures	
+0001202e	glTexParameteri	
+0001203e	glTexImage2D	
+0001204b	zip_fread	
+00012055	zip_fclose	
+00012060	zip_fopen_index	
+00012070	zip_stat_index	
+0001207f	zip_close	
+00012089	zip_open	
+00012092	zip_get_num_files	
+000120a4	glNormalPointer	
+000120b4	glClientActiveTexture	
+000120ca	glDrawElements	
+000120d9	glBindBuffer	
+000120e6	glLightModelfv	
+000120f5	glLightfv	
+000120ff	glMaterialfv	
+0001210c	glMaterialf	
+00012118	glBufferData	
+00012125	glBufferSubData	
+00012135	glGenBuffers	
+00012142	glDeleteBuffers	
+00012152	_zip_file_fillbuf	
+00012164	_zip_error_set	
+00012173	__errno	
+0001217b	malloc	
+00012182	realloc	
+0001218a	_zip_error_init	
+0001219a	crc32	
+000121a0	_zip_file_get_offset	
+000121b5	inflateInit2_	
+000121c3	_zip_error_copy	
+000121d3	_zip_get_name	
+000121e1	zip_get_archive_flag	
+000121f6	deflateInit2_	
+00012204	deflate	
+0001220c	deflateEnd	
+00012217	remove	
+0001221e	_zip_free	
+00012228	_zip_cdir_new	
+00012236	_zip_dirent_init	
+00012247	_zip_memdup	
+00012253	_zip_mkstemp	
+00012260	fdopen	
+00012267	strdup	
+0001226e	zip_source_zip	
+0001227d	_zip_dirent_write	
+0001228f	_zip_dirent_finalize	
+000122a4	_zip_cdir_write	
+000122b4	_zip_cdir_free	
+000122c3	rename	
+000122ca	umask	
+000122d0	chmod	
+000122d6	_zip_dirent_read	
+000122e7	_zip_dirent_torrent_normalize	
+00012305	_zip_filerange_crc	
+00012318	strcasecmp	
+00012323	_zip_read2	
+0001232e	_zip_read4	
+00012339	mktime	
+00012340	_zip_cdir_grow	
+0001234f	__swbuf	
+00012357	localtime	
+00012361	inflateEnd	
+0001236c	inflate	
+00012374	_zip_error_get	
+00012383	zip_error_get_sys_type	
+0001239a	_zip_new	
+000123a3	clearerr	
+000123ac	_zip_entry_new	
+000123bb	memchr	
+000123c2	strtoul	
+000123ca	zip_source_function	
+000123de	zip_file_error_get	
+000123f1	getpid	
+000123f8	_zip_error_clear	
+00012409	_zip_error_fini	
+00012419	_zip_entry_free	
+00012429	_zip_nerr_str	
+00012437	_zip_err_type	
+00012445	_zip_unchange_data	
+00012458	_zip_err_str	
+00012465	calloc	
+0001246c	libc.so	
+00012474	libstdc++.so	
+00012481	libm.so	
+00012489	libGLESv1_CM.so	
+00012499	libz.so	
+000124a1	liblog.so	
+000124ab	libdl.so	
+000124b4	__exidx_start	
+000124c2	__exidx_end	
+000124ce	__data_start	
+000124db	_edata	
+000124e2	__bss_start	
+000124ee	__bss_start__	
+000124fc	__bss_end__	
+00012508	__end__	
+00012510	libfruitninja.so	
+00037629	 pGpG	000e61a0,FUN_0003d160,FUN_0003d160,
+0006e0d9	HxDpG	000e4a20,
+0008367d	 pGpG	000e4bd4,
+00094cb9	 pGpG	000e5724,000e576c,
+00098e79	HxDpG	000e4f38,
+00099f5d	 pGpG	000e4fc8,
+00099f91	 pGpG	000e502c,000e50b4,000e5104,000e5154,000e51a4,000e5244,000e52ac,
+000a3711	 pGpG	000e5718,000e5760,
+000aa455	 pGpG	000e5940,
+000b6b51	 pG\tK	FUN_000b6cac,
+000c3bbc	achievment_banner.tex	_elfSectionHeaders::0000014c,FUN_00019550,
+000c3bd4	hud_unlocked_dialog.tex	FUN_00019550,
+000c3bec	xml/achievementList.xml	FUN_00019550,
+000c3c04	achievementManagerFile	FUN_00019550,
+000c3c1c	achievement	FUN_00075c1c,FUN_00019550,FUN_00019550,FUN_0001f84c,FUN_00042f88,
+000c3c34	description	FUN_0007a588,FUN_000780d8,FUN_000780d8,FUN_00019550,FUN_00019550,
+000c3c40	total	FUN_00070880,FUN_00070880,FUN_00072de4,FUN_000780d8,FUN_00019550,FUN_00075ea4,
+000c3c48	isGameOver	FUN_00019550,
+000c3c54	texture	FUN_0008204c,FUN_0007a588,FUN_00075c1c,FUN_000780d8,FUN_00019550,FUN_00077ea8,FUN_00075ea4,FUN_0007e4c8,00082be4,
+000c3c64	TOTAL	FUN_00019550,
+000c3c6c	SCORE_UNSULLIED	FUN_00019550,
+000c3c7c	END_SCORE	FUN_00019550,
+000c3c88	SPECIFIC	FUN_00019550,
+000c3c94	CONSECUTIVE	FUN_00019550,
+000c3ca0	CONSECUTIVE_ANY	FUN_00019550,
+000c3cb0	COMBO	FUN_00019550,
+000c3cb8	COMBO_STAR	FUN_00019550,
+000c3cc4	SPECIFIC_ORDER	FUN_00019550,
+000c3cd4	BONUS_ACHIEVED	FUN_00019550,
+000c3cec	specific_type	FUN_00019550,FUN_00019550,FUN_00019550,FUN_00019550,
+000c3cfc	267503	000e6264,
+000c3d04	427164	000e626c,
+000c3d0c	317793	000e6270,
+000c3d1c	547534	000e31e8,
+000c3d24	549674	000e31ec,
+000c3d2c	549784	000e31f0,
+000c3d34	splat01.tex	
+000c3d40	Lists	FUN_0001c368,
+000c3d48	blue_bomb_warning	FUN_0001dcdc,
+000c3d5c	red_bomb_warning	FUN_0001dcdc,
+000c3d70	player-bomb-launch	FUN_0001dcdc,
+000c3d84	Bomb-Fuse	FUN_0001e1f8,FUN_000336cc,FUN_00033038,
+000c3d90	Throw-bomb	FUN_0001e1f8,
+000c3d9c	bombs_hit	0001efa2,0001f07a,
+000c3da8	bomb_explode.tex	FUN_0001f0a4,
+000c3dbc	models/Fruit/Bomb.mmd	FUN_0001f37c,
+000c3dd4	bomb_smoke	FUN_0001f37c,
+000c3de0	models/Fruit/Bomb_purple.mmd	FUN_0001f37c,
+000c3e00	minus_10.tex	FUN_0001f37c,
+000c3e10	purple_bomb_smoke	FUN_0001f37c,
+000c3e24	coin_fly	FUN_00020034,
+000c3e30	coin_collect	FUN_00020034,
+000c3e40	fruit	FUN_00020778,FUN_000460d4,
+000c3e50	slash	FUN_00020778,
+000c3e58	blast	FUN_00020778,
+000c3e98	freeze	FUN_000225d0,FUN_000252d0,FUN_0008a1a4,FUN_0007b784,
+000c3ea0	apple_red	FUN_0004e774,FUN_0002285c,FUN_00076120,FUN_00044c88,
+000c3eac	facts	FUN_0002285c,FUN_0002285c,
+000c3eb4	%s_facts	FUN_0002285c,
+000c3ec0	Invalid string	FUN_0002285c,FUN_0002285c,
+000c3ed0	dropped	FUN_00023b48,FUN_00023b48,
+000c3ee0	xml/fruitList.xml	FUN_00024030,
+000c3ef4	fruitInfoFile	FUN_00024030,FUN_00024030,
+000c3f04	critical	FUN_00024030,
+000c3f10	colour	FUN_0008204c,FUN_0007a6e4,FUN_000780d8,FUN_00077ea8,FUN_00077ea8,FUN_00077ea8,FUN_00077ea8,FUN_00077ea8,FUN_00077ea8,FUN_00024030,FUN_00024030,00082c38,00082c42,00082c88,00082ca4,
+000c3f18	new_life_at	FUN_00024030,
+000c3f24	chance	FUN_00088e88,FUN_00086564,FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,
+000c3f2c	chance_inc	FUN_00024030,
+000c3f38	splats	FUN_00024030,
+000c3f40	spread	FUN_00024030,
+000c3f48	disappear_speed	FUN_00024030,
+000c3f60	collision	FUN_00024030,FUN_00024030,
+000c3f6c	FruitInfo	FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,
+000c3f78	%s_trail	FUN_00024030,
+000c3f84	%s_sliced	FUN_00024030,
+000c3f90	%s_total	FUN_00024030,
+000c3f9c	%s_point_total	FUN_00024030,
+000c3fac	hud_%s.tex	FUN_00024030,
+000c3fb8	zen_%s.tex	FUN_00024030,
+000c3fc4	plural	FUN_00024030,
+000c3fd0	singular	FUN_00024030,
+000c3fdc	pluralEnglish	FUN_00024030,
+000c3fec	singularEnglish	FUN_00024030,
+000c3ffc	factTexture	FUN_00024030,
+000c4008	modelName	FUN_00024030,
+000c4014	factColour	FUN_00024030,
+000c4020	hitInfluence	FUN_00024030,
+000c4030	coins	FUN_00077b20,FUN_00078ae4,FUN_000780d8,FUN_00024030,
+000c4038	coinsMin	FUN_00024030,
+000c4044	coinsMax	FUN_00024030,
+000c4050	hasSplatSeeds	FUN_00024030,
+000c4060	onside	FUN_00024030,
+000c4068	onSide	FUN_00024030,
+000c4078	onlySprinkle	FUN_00024030,FUN_00024030,
+000c4088	noCritical	FUN_00024030,
+000c409c	impact_sound	FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,
+000c40ac	Impact-%c%s	FUN_00024030,
+000c40b8	power	FUN_00079eec,FUN_0007d1dc,FUN_0007d1dc,FUN_0007ce4c,FUN_0007ce4c,FUN_0007ce4c,FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,
+000c40c0	models/Fruit/%s_%c_piece_%d.mmd	FUN_00024030,FUN_00024030,
+000c40e0	DiffuseMap	000a27dc,000a2a88,FUN_000b5be8,FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,FUN_00024030,
+000c40ec	models/Fruit/%s_single.mmd	FUN_00024030,FUN_00024030,
+000c4108	models/Fruit/%s_outline.mmd	FUN_00024030,
+000c4124	banana	FUN_00076120,FUN_000252d0,FUN_0005be04,FUN_00044c88,
+000c412c	strawberry	FUN_00076120,FUN_000252d0,0002c65a,
+000c4138	Critical	FUN_000308ac,FUN_000256f8,
+000c4144	crit_hit	FUN_000256f8,
+000c4150	crit_hit_stars	FUN_0002a1b4,FUN_000256f8,
+000c4160	combo-%i	FUN_000256f8,FUN_00055fa4,
+000c416c	plus_3_red	FUN_000256f8,
+000c4178	plus_3	FUN_000256f8,
+000c4180	first_fruit	FUN_000256f8,FUN_000256f8,
+000c418c	last_fruit	FUN_000256f8,FUN_000256f8,
+000c41a0	%scrit	FUN_000256f8,
+000c41a8	Clean-Slice-%d	FUN_00026804,
+000c41b8	Throw-fruit	FUN_0002765c,
+000c41c4	fruit_flight	FUN_0002765c,
+000c41d4	scorex2_trail	FUN_0002765c,
+000c41e4	blue_fruit_flight	FUN_0002765c,
+000c41f8	PUSH_FRUIT	FUN_00028a44,
+000c4204	PULL_FRUIT	FUN_00028a44,
+000c4210	PUSH_BOMB	FUN_00028a44,
+000c421c	PULL_BOMB	FUN_00028a44,
+000c4228	BOMB_HIT	FUN_00028a44,
+000c4234	FRUIT_BOUNCE	FUN_00028a44,
+000c4254	PER_SLASH	FUN_00028b00,
+000c4260	CONTINUOUS	FUN_00028b00,
+000c426c	blade.tex	FUN_0002b0d8,
+000c4278	rave_blade_glow.tex	FUN_0002b0d8,
+000c428c	Sword-swipe-%d	FUN_0002b374,
+000c429c	strawberry_combo_total	0002c58e,0002c646,
+000c4344	white_splash.tex	FUN_0002d17c,
+000c4358	Pulp-drip-2	FUN_0006c9a8,FUN_0002d5e4,FUN_0002d8a4,
+000c4364	Pulp-drip-1	FUN_0006c9a8,
+000c4370	Splatter-Small-2	FUN_0006c9a8,
+000c4384	Splatter-Small-1	FUN_0006c9a8,
+000c4398	Splatter-Medium-2	FUN_0006c9a8,
+000c43ac	Splatter-Medium-1	FUN_0006c9a8,
+000c43c0	coconut	FUN_00076120,FUN_0002daac,
+000c43c8	titleBG.tex	
+000c43d4	input/frontend.txt	
+000c43e8	TouchScreen	
+000c43f4	Particles	
+000c4400	extra-life	FUN_0006c9a8,FUN_0006a128,FUN_0002f6fc,
+000c4410	textures/fr/%s	FUN_0002fa48,
+000c4420	textures/de/%s	FUN_0002fa48,
+000c4430	textures/zh/%s	FUN_0002fa48,
+000c4440	textures/ko/%s	FUN_0002fa48,
+000c4450	textures/%s	FUN_0002fa48,
+000c448b	?Combo-Blitz-Backing-Light	
+000c44a8	Combo-Blitz-Backing	FUN_000652a8,FUN_000307d0,FUN_000307d0,
+000c44bc	combo-blitz-1	FUN_000307d0,FUN_00085f44,000e35f0,
+000c44cc	combo-blitz-2	FUN_000307d0,000e35f4,
+000c44dc	combo-blitz-3	FUN_000307d0,000e35f8,
+000c44ec	combo-blitz-4	FUN_000307d0,000e35fc,
+000c44fc	combo-blitz-5	FUN_000307d0,000e3600,
+000c450c	combo-blitz-6	FUN_000307d0,000e3604,
+000c451c	Bonus-Banana-Freeze	FUN_000307d0,
+000c4530	Bonus-Banana-Frenzy	FUN_000307d0,
+000c4544	Bonus-Banana-X2	FUN_000307d0,
+000c4554	Time-tick	FUN_000308ac,
+000c4560	Time-tock	FUN_000308ac,FUN_00066244,
+000c4574	Combo-	FUN_000308ac,
+000c457c	soundOff	FUN_000313d0,FUN_000313d0,FUN_0006cdbc,FUN_0006cdbc,FUN_0006cdbc,FUN_0006cdbc,
+000c4588	musicOff	FUN_000313d0,FUN_000313d0,FUN_0006cdbc,FUN_0006cdbc,FUN_0006cdbc,FUN_0006cdbc,
+000c4594	gameover.tex	FUN_000318fc,FUN_00046fe4,FUN_0004edbc,
+000c45a4	Music-menu	FUN_00032044,
+000c45b0	background	FUN_00032044,
+000c45cc	%s%s.tex	FUN_00032dc8,
+000c45d8	flash.tex	FUN_00034ebc,FUN_00032e54,FUN_00035254,
+000c45e4	Game-start	000465f8,FUN_000332c8,FUN_00045830,
+000c45f0	menu-bomb	FUN_0004d240,FUN_000333d4,FUN_000637c8,FUN_0003ceb4,FUN_00043a54,FUN_00036174,
+000c45fc	http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=362949845&mt=8	FUN_000336cc,
+000c4650	HB_logo.tex	FUN_000336cc,
+000c465c	Bomb-explode	FUN_00033ec8,
+000c466c	Visceral-impact-1	
+000c4680	Visceral-impact-3	FUN_00033ffc,
+000c4694	Visceral-impact-2	
+000c46a8	Input/Input.txt	FUN_00034278,FUN_000356fc,
+000c46b8	TouchMove_X%d	FUN_00034278,FUN_00034278,
+000c46c8	TouchDown_%d	FUN_00034278,FUN_00034278,
+000c46d8	TouchReleased_%d	FUN_00034278,FUN_00034278,
+000c46ec	PointerMove	FUN_00034278,
+000c46f8	PointerPressed	FUN_00034278,
+000c4708	PointerReleased	FUN_00034278,
+000c4718	PauseGame	FUN_00034278,
+000c4724	RegressMenu	FUN_00034278,
+000c4730	ShowPauseMenu	FUN_00034278,
+000c4740	hud_fruit.tex	FUN_0005e42c,FUN_0003466c,FUN_0005e4bc,
+000c4750	score.tex	FUN_0003466c,
+000c475c	new_best_score.tex	FUN_0003466c,
+000c4770	gb_game.tex	FUN_0003466c,
+000c477c	gb_game_sml.tex	FUN_0003466c,
+000c478c	models/fruit/slice_fx.mmd	FUN_0003466c,
+000c47a8	models/fruit/slice_fx_crit.mmd	FUN_0003466c,
+000c47cc	Sound/Win32Project/Win/FruitNinja	FUN_0003466c,
+000c47f0	preferredNetwork	FUN_00034d28,FUN_00034d28,FUN_0006cf4c,FUN_0006cf4c,FUN_0006cf4c,FUN_0006cce4,
+000c4804	Input/PauseMenu.txt	FUN_000356fc,
+000c4818	buysTitle	000e325c,
+000c4824	buysModeSelect	000e3260,
+000c4834	buysLimit	000e3264,
+000c4840	buysArcade	000e3268,
+000c4854	buysMulti	000e3270,
+000c4860	buysResults	000e3274,
+000c486c	buysShop	000e3278,
+000c4878	buysModeSelectVS	000e327c,
+000c488c	buysResultsVS	000e3280,
+000c489c	547434	000e31fc,
+000c48a4	549574	000e3200,
+000c48ac	549684	000e3204,
+000c48b4	547444	000e3208,
+000c48bc	549584	000e320c,
+000c48c4	549694	000e3210,
+000c48cc	547454	000e3214,
+000c48d4	549594	000e3218,
+000c48dc	549704	000e321c,
+000c48e4	547464	000e3220,
+000c48ec	549604	000e3224,
+000c48f4	549714	000e3228,
+000c48fc	547474	000e322c,
+000c4904	549614	000e3230,
+000c490c	549724	000e3234,
+000c4914	547484	000e3238,
+000c491c	549624	000e323c,
+000c4924	549734	000e3240,
+000c492c	547494	000e3244,
+000c4934	549634	000e3248,
+000c493c	549744	000e324c,
+000c4944	547504	000e3250,
+000c494c	549644	000e3254,
+000c4954	549754	000e3258,
+000c495c	haikus.tex	FUN_00036a98,
+000c4968	credits.tex	FUN_00036a98,
+000c4974	sensei.tex	FUN_00036a98,
+000c4980	sml_title.tex	FUN_00038a18,
+000c4990	blurry_backing.tex	FUN_0003f92c,FUN_000500b4,FUN_00050510,FUN_00053e20,FUN_00038a18,
+000c49a4	arcade_diolog_box.tex	FUN_00039c88,
+000c49bc	Bonus-Firework-Explode	FUN_00039c88,FUN_0003a470,
+000c49d4	Bonus-drum-roll	FUN_00039c88,FUN_0003a714,FUN_0003a714,
+000c49e4	equip-unlock	FUN_00039c88,FUN_00058274,FUN_00058438,FUN_0003a000,
+000c49f4	Bonus-Explosion-1	FUN_00039c88,
+000c4a08	Bonus-Explosion-3	FUN_00039c88,
+000c4a1c	Bonus-Explosion-5	FUN_00039c88,
+000c4a30	bonus_star_trail	FUN_0003a000,FUN_0003a000,FUN_0003a000,
+000c4a44	bonus_star_impact	FUN_0005eb10,FUN_0003a000,FUN_0003a000,
+000c4a58	impact_fx	FUN_0003a714,FUN_0003a000,
+000c4a64	bonus_mode_fx_red	FUN_0003a714,FUN_0003a714,FUN_0003a470,
+000c4a78	arcade_confetti	FUN_0003a470,
+000c4a88	Pause	FUN_000590d8,FUN_0006a128,FUN_0006b324,FUN_0006b324,FUN_0003a714,
+000c4a90	bonus_mode_fx_blue	FUN_0003a714,
+000c4aa4	Bonus-Explosion-%i	FUN_0003a714,
+000c4ab8	fonts/fruit_ninja_numbers_silver.fnt	FUN_0003b708,
+000c4ae0	hud_coin.tex	FUN_0003b708,
+000c4af0	loading.tex	FUN_00068904,FUN_00065984,FUN_0003cbe0,FUN_00062c08,
+000c4afc	dojo.tex	FUN_0003cbe0,
+000c4b08	dojo_sensei.tex	FUN_0003cbe0,
+000c4b18	senseis_swag.tex	FUN_0003cbe0,
+000c4b2c	about.tex	FUN_0003cbe0,
+000c4b38	pineapple	FUN_00061b00,FUN_00076120,FUN_0003d41c,
+000c4b60	fact_board.tex	FUN_0003f92c,
+000c4b70	diolog_box_big.tex	FUN_0003f92c,
+000c4b84	combo_description.tex	FUN_0003f92c,
+000c4b9c	sensei_head.tex	FUN_0003f92c,
+000c4bac	arcade_results_arrow.tex	FUN_0003f92c,
+000c4bc8	arcade_results_score_box.tex	FUN_0003f92c,
+000c4be8	arcade_results_diolog_box.tex	FUN_0003f92c,
+000c4c08	arcade_results_bonus_box.tex	FUN_0003f92c,
+000c4c28	op_title.tex	FUN_0003f92c,
+000c4c38	op_connect_button.tex	FUN_0003f92c,
+000c4c50	op_add_friends_button.tex	FUN_0003f92c,
+000c4c6c	gc_title.tex	FUN_0003f92c,
+000c4c7c	gc_connect_button.tex	FUN_0003f92c,
+000c4c94	gc_no_score_this_week.tex	FUN_0003f92c,
+000c4cb0	score_you.tex	FUN_0003f92c,
+000c4cc0	no_score_this_week.tex	FUN_0003f92c,
+000c4cd8	factMode	FUN_0003fe48,FUN_0003ff54,00040120,FUN_0004016c,
+000c4ce4	Next-screen-button	000400fa,FUN_0004016c,
+000c4cf8	popup-%i	FUN_00042f88,
+000c4d04	Hey %s,\nI just got a score of %i this week in Fruit Ninja's awesome new Arcade Mode. See if you can beat that!	FUN_0003e380,
+000c4d74	coming_soon	FUN_00072de4,000439f6,00043a2a,
+000c4d80	mode_sensei.tex	FUN_00044984,
+000c4d90	mode_select.tex	FUN_00044984,
+000c4da0	classic.tex	FUN_0004de00,FUN_0004de00,FUN_0004de00,FUN_0004de00,FUN_0004de00,FUN_0004de00,FUN_00044984,
+000c4dac	mode_2.tex	FUN_00044984,
+000c4db8	arcade_mode.tex	FUN_00044984,
+000c4dc8	coming_soon.tex	FUN_00044984,
+000c4dd8	zen_sign.tex	FUN_00044984,
+000c4de8	learnings	FUN_00044a98,FUN_00044a98,
+000c4df4	watermelon	FUN_0004e96c,FUN_00061c10,FUN_00076120,FUN_00044c88,
+000c4e00	vs_watermelon	FUN_00045300,FUN_00045300,
+000c4e10	arcadeLearnings	FUN_00044a98,
+000c4e20	zenLearnings	FUN_00044a98,
+000c4e30	multiLearnings	FUN_00044a98,
+000c4e40	scored %i points in Fruit Ninja's %s Mode on iPhone, with a %s %i %s combo! http://www.fruitninja.com	FUN_000460d4,
+000c4ea8	scored %i points in Fruit Ninja's %s Mode on iPhone! Needs to practice those combos! http://www.fruitninja.com	FUN_000460d4,
+000c4f18	just sliced %i fruits, including %i %s %s on Fruit Ninja for iPhone! http://www.fruitninja.com	FUN_000460d4,
+000c4f78	just sliced %i fruits. Need to play more Fruit Ninja on iPhone! http://www.fruitninja.com	FUN_000460d4,
+000c4fdc	Notifications disabled	FUN_000460d4,
+000c4ff4	You must enable notifications to post to facebook or twitter	FUN_000460d4,
+000c5034	No facebook or twitter credentials	FUN_000460d4,
+000c5058	You must scroll down and enable facebook or twitter integration	FUN_000460d4,
+000c5098	unrated_games	FUN_00047678,FUN_00047678,FUN_00072de4,FUN_00073730,
+000c50a8	arcade_time_up.tex	FUN_00046fe4,
+000c50bc	time_up.tex	FUN_00046fe4,
+000c50c8	retry.tex	FUN_00046fe4,
+000c50d4	leaderboards.tex	FUN_00046fe4,
+000c50e8	gc_leaderboards.tex	FUN_00046fe4,
+000c50fc	quit.tex	FUN_00046fe4,FUN_000500b4,FUN_00050510,
+000c5108	twitterbook.tex	FUN_00046fe4,
+000c5118	twitterbook_tick.tex	FUN_00046fe4,
+000c5130	sensei_head_0%d.tex	FUN_00046fe4,
+000c5144	sensei_body_0%d.tex	FUN_00046fe4,FUN_00046fe4,
+000c5158	YOU JUST EARNT %i COINS	FUN_000471ec,
+000c5170	totalscore	FUN_00047810,FUN_00047810,FUN_00072de4,
+000c517c	427184	FUN_00047810,FUN_000773bc,
+000c5184	openfeint	FUN_00047810,FUN_00051d14,
+000c5190	apple_center	FUN_00047810,FUN_00051d14,
+000c51a0	delicious	000e3294,
+000c51ac	tasty	000e3298,
+000c51b4	juicy	000e329c,
+000c51bc	luscious	000e32a0,
+000c51c8	succulent	000e32a4,
+000c51e7	?key_piece.tex	
+000c51f8	space_bar.tex	
+000c5208	highscore_name_board.tex	
+000c5224	back_arrow_key.tex	
+000c5238	Key_board_backing.tex	
+000c5250	arrow_for_key.tex	FUN_0004c104,
+000c5264	1234567890!:	000e32ac,
+000c5274	QWERTYUIOP	000e32b0,
+000c5280	ASDFGHJKL	000e32b4,
+000c528c	ZXCVBNM_	000e32b8,
+000c52a0	ERROR DOWNLOADING SCORES	FUN_0004ca94,
+000c52bc	mango	FUN_0004df8c,FUN_0004e18c,FUN_0004e384,FUN_00076120,FUN_00051f80,
+000c52c4	passionfruit	FUN_0004e57c,FUN_00076120,
+000c52d4	fruit_text.tex	FUN_000500b4,FUN_00050510,
+000c52e4	ninja_text.tex	FUN_000500b4,FUN_00050510,
+000c52f4	slice_fruit.tex	FUN_000500b4,FUN_00050510,
+000c5304	newgame.tex	FUN_000500b4,FUN_00050510,
+000c5310	dojo_icon.tex	FUN_000500b4,FUN_00050510,
+000c5320	more_games.tex	FUN_000500b4,FUN_00050510,
+000c5330	feint.tex	FUN_000500b4,FUN_00050510,
+000c533c	gc_achievements.tex	FUN_000500b4,FUN_00050510,
+000c5350	news_icon_off.tex	FUN_000500b4,FUN_00050510,
+000c5364	news_backing.tex	FUN_000500b4,FUN_00050510,
+000c5378	news_icon_on.tex	FUN_000500b4,FUN_00050510,
+000c538c	scrollBar.tex	FUN_000500b4,FUN_00050510,
+000c539c	newsUrlButton.tex	FUN_000500b4,FUN_00050510,
+000c53b0	notification.tex	FUN_000500b4,FUN_00050510,
+000c53c4	fonts/verdana.fnt	FUN_000500b4,FUN_00050510,
+000c53d8	sound.tex	FUN_000500b4,FUN_00050510,
+000c53e4	sound_cross.tex	FUN_000500b4,FUN_00050510,
+000c53f4	music.tex	FUN_000500b4,FUN_00050510,
+000c5400	music_cross.tex	FUN_000500b4,FUN_00050510,
+000c5410	scratchs.tex	FUN_00053e20,
+000c5420	new_item.tex	FUN_00053e20,
+000c5430	New-best-score	FUN_0005dbe4,FUN_00055fa4,
+000c5440	hud_cross.tex	FUN_00057470,FUN_00057674,
+000c5450	critical.tex	FUN_00057470,FUN_00057674,
+000c5460	ultra_rare_plus_50.tex	FUN_00057470,FUN_00057674,
+000c5478	combo_%d.tex	FUN_00057470,FUN_00057674,
+000c5488	confetti	FUN_00057b18,
+000c5494	Unpause	FUN_000590d8,
+000c549c	pause_title.tex	FUN_0005a34c,
+000c54ac	pause_button.tex	FUN_0005a34c,
+000c54c0	retry_button.tex	FUN_0005a34c,
+000c54d4	play_button.tex	FUN_0005a34c,
+000c54e4	quit_title.tex	FUN_0005a34c,
+000c54f4	READY	FUN_0005ac58,FUN_0005ac58,
+000c54fc	YOU HAVE %i COINS TO USE!	FUN_0005b428,FUN_0005c308,
+000c5518	banana_locked	FUN_0005be04,FUN_0005be04,
+000c5530	Bonus-count-up	FUN_0005dbe4,
+000c554b	?clicked	
+000c5554	BOUGHT	FUN_00061204,FUN_00061204,FUN_00061204,
+000c5564	EQUIPPED	FUN_00061204,
+000c5570	black_pineapple	FUN_00061b00,
+000c5580	item_%s.tex	FUN_00062750,
+000c558c	scratch_deviders.tex	FUN_00062c08,
+000c55a4	dialog_box_shop.tex	FUN_00062c08,
+000c55b8	locked.tex	FUN_00062c08,
+000c55c4	select_item.tex	FUN_00062c08,
+000c55d4	selected.tex	FUN_00062c08,
+000c55e4	selected_sml.tex	FUN_00062c08,
+000c55f8	locked_stroke.tex	FUN_00062c08,
+000c560c	new_item_sml.tex	FUN_00062c08,
+000c5620	BG_store.tex	FUN_00062c08,
+000c5630	BG_store_sml.tex	FUN_00062c08,
+000c5644	equip-locked	FUN_00062ec8,
+000c5654	equip-new-sword	FUN_00064b14,
+000c5664	equip-new-wallpaper	FUN_00064b14,
+000c567c	time-up	FUN_000862fc,FUN_00066244,
+000c5684	%i:%02i	FUN_00066244,
+000c568c	swipe_fruit_begin.tex	FUN_000677d0,FUN_0006784c,
+000c56a4	press_indicate.tex	FUN_000677d0,FUN_0006784c,
+000c56b8	Upsell_BG.tex	FUN_00068904,
+000c56c8	modes.tex	FUN_00068904,
+000c56d4	extra_words.tex	FUN_00068904,
+000c56e4	buy_now_ring.tex	FUN_00068904,
+000c56f8	buy_now_rays.tex	FUN_00068904,
+000c570c	mode_description_1.tex	FUN_00068904,
+000c5724	mode_description_2.tex	FUN_00068904,
+000c573c	pear_gold	FUN_00068ce8,FUN_0006917c,
+000c5748	gold_pear_trail	FUN_00068ce8,FUN_0006917c,
+000c5758	upsell_continue.tex	FUN_0006a128,
+000c576c	Upsell-whoosh	FUN_0006a128,
+000c584b	>upsell_flame_blade.tex	
+000c5864	popup-1	FUN_0006b324,FUN_0006b324,
+000c586c	cheaper_than_a.tex	FUN_0006b324,
+000c5880	screen_arcade.tex	FUN_0006bb64,
+000c5894	screen_zen.tex	FUN_0006bb64,
+000c58a4	screen_multi.tex	FUN_0006bb64,FUN_0006bb64,
+000c58b8	Clean-Slice-1	FUN_0006c9a8,
+000c58c8	Clean-Slice-2	FUN_0006c9a8,
+000c58d8	Clean-Slice-3	FUN_0006c9a8,
+000c58e8	Sword-swipe-	FUN_0006c9a8,
+000c58f8	Visceral-impact-	FUN_0006c9a8,
+000c590c	CLASSIC	FUN_0006cb38,000e6364,
+000c5914	CASINO	FUN_0006cb38,000e6368,
+000c591c	ARCADE	FUN_0006cb38,000e636c,
+000c5928	sessions	FUN_00072de4,FUN_0006cc28,FUN_0006cc28,
+000c5934	Fruit Ninja	FUN_0006cf4c,
+000c594c	particles/particles_slow.xml	FUN_0006cf4c,
+000c596c	fonts/font_fruit_ninja_HD.fnt	FUN_0006cf4c,
+000c598c	fonts/font_fruit_ninja.fnt	FUN_0006cf4c,
+000c59a8	fonts/fruit_ninja_numbers_HD.fnt	FUN_0006cf4c,
+000c59cc	fonts/fruit_ninja_numbers.fnt	FUN_0006cf4c,
+000c59ec	fonts/arcade_results_numbers.fnt	FUN_0006cf4c,
+000c5a10	fonts/gold_numbers.fnt	FUN_0006cf4c,FUN_0006cf4c,
+000c5a28	fonts/silver_numbers.fnt	FUN_0006cf4c,FUN_0006cf4c,
+000c5a44	fonts/bronze_numbers.fnt	FUN_0006cf4c,FUN_0006cf4c,
+000c5a60	fonts/fruit_ninja_numbers_blue2.fnt	FUN_0006cf4c,
+000c5a84	fonts/fruit_ninja_numbers_green.fnt	FUN_0006cf4c,
+000c5aa8	back_icon.tex	FUN_0006cf4c,
+000c5ad4	iPhone 1G	FUN_0006e350,
+000c5ae0	iPhone 3G	FUN_0006e350,
+000c5aec	iPod Touch 1G	FUN_0006e350,
+000c5afc	iPod Touch 2G	FUN_0006e350,
+000c5b0c	\Halfbrick\FruitNinja\	FUN_00070020,
+000c5b24	C:\%s	FUN_00070020,
+000c5b2c	FruitySave.xml	FUN_00070060,
+000c5b3c	waveCount	FUN_00070880,FUN_00086624,FUN_000703d0,
+000c5b48	waveDelay	FUN_00070880,FUN_000703d0,
+000c5b54	waveWait	FUN_00070880,FUN_000703d0,
+000c5b60	blitzSpawnedThisGame	FUN_00070880,FUN_000703d0,
+000c5b78	blitzForceSpawnedCounter	FUN_00070880,FUN_000703d0,
+000c5b94	blitzSpawnTime	FUN_00070880,FUN_000703d0,
+000c5bb0	index	FUN_00070880,FUN_000703d0,
+000c5bb8	spawner	FUN_00070880,FUN_000703d0,FUN_000703d0,FUN_000703d0,
+000c5bc0	delay	FUN_00070880,FUN_00088e88,FUN_00088e88,FUN_000703d0,
+000c5bc8	toSpawn	FUN_00070880,FUN_00070880,FUN_000703d0,
+000c5bd0	save_file	FUN_00070880,FUN_00072de4,
+000c5bdc	version	FUN_00070880,FUN_00077b20,FUN_00072de4,FUN_0009e200,
+000c5be4	highscore	FUN_00070880,FUN_00072de4,
+000c5bf0	%shighscore	FUN_00070880,FUN_00072de4,
+000c5bfc	critical_chance	FUN_00070880,FUN_00072de4,
+000c5c0c	false	FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00077b20,FUN_00088e88,FUN_00088e88,FUN_00088e88,FUN_00088e88,
+000c5c14	rated	FUN_00070880,FUN_00072de4,
+000c5c1c	p2pCancelled	FUN_00070880,FUN_00072de4,
+000c5c2c	appLicensedState	FUN_00070880,FUN_00072de4,
+000c5c48	unlocked	FUN_00070880,FUN_00072de4,
+000c5c54	state	FUN_00070880,FUN_00072de4,
+000c5c5c	hasDropped	FUN_00070880,FUN_00072de4,
+000c5c68	misses	FUN_00070880,FUN_00072de4,
+000c5c70	consecutiveCount	FUN_00070880,FUN_00072de4,
+000c5c84	consecutiveType	FUN_00070880,FUN_00072de4,
+000c5c94	timer	FUN_00070880,FUN_00072de4,
+000c5ca0	globalWaveDt	FUN_00070880,FUN_00072de4,
+000c5cb0	%s,%i	FUN_00070880,FUN_00070880,
+000c5cb8	typesToPickFrom	FUN_00070880,FUN_00072de4,
+000c5cc8	best_combo	FUN_00070880,FUN_000744ec,FUN_000744ec,FUN_00072de4,
+000c5cd4	go_state	FUN_00070880,FUN_00072de4,
+000c5ce0	go_time	FUN_00070880,FUN_00072de4,
+000c5ce8	go_bombHitTime	FUN_00070880,FUN_00072de4,
+000c5cf8	go_transition	FUN_00070880,FUN_00072de4,
+000c5d08	go_body	FUN_00070880,FUN_00072de4,
+000c5d10	go_head	FUN_00070880,FUN_00072de4,
+000c5d18	go_fruit	FUN_00070880,FUN_00072de4,
+000c5d24	go_fact	FUN_00070880,FUN_00072de4,
+000c5d2c	go_showHighScore	FUN_00070880,FUN_00072de4,
+000c5d40	go_setScore	FUN_00070880,FUN_00072de4,
+000c5d4c	speedLossTime	FUN_00070880,FUN_00072de4,
+000c5d5c	desiredSpeed	FUN_00070880,FUN_00072de4,
+000c5d6c	nextComboBonus	FUN_00070880,FUN_00072de4,
+000c5d7c	shake_time	FUN_00070880,FUN_00072de4,
+000c5d88	shake_max_time	FUN_00070880,FUN_00072de4,
+000c5d98	wave_info	FUN_00070880,FUN_00072de4,
+000c5da4	%f,%f,%f	FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,FUN_00070880,
+000c5dcc	wave_counts_%s	FUN_00070880,FUN_00072de4,
+000c5ddc	game_count	FUN_00070880,FUN_00072de4,FUN_00072de4,FUN_00072de4,FUN_00072de4,
+000c5de8	waveIdx	FUN_00070880,FUN_00072de4,
+000c5df0	powers	FUN_00070880,FUN_00072de4,
+000c5df8	combo_bonus	FUN_000744ec,FUN_000744ec,
+000c5e08	equals	FUN_00075c1c,
+000c5e10	points	FUN_00075c1c,FUN_00075c1c,
+000c5e18	multiple	FUN_00075c1c,
+000c5e24	valuesEqual	FUN_00075c1c,
+000c5e40	bonus	FUN_00075ea4,FUN_00075ea4,FUN_00076010,
+000c5e48	xml/bonusAwards.xml	FUN_00076010,
+000c5e5c	bonusAwardsFile	FUN_00076010,
+000c5e6c	bonusType	FUN_00076010,FUN_00076010,
+000c5e78	combo	FUN_00076010,FUN_00076010,
+000c5e9c	orange	FUN_00076120,
+000c5ebc	lemon	FUN_00076120,
+000c5ec4	3_FRUIT	000e32d0,
+000c5ecc	4_FRUIT	000e32d4,
+000c5ed4	5_FRUIT	000e32d8,
+000c5edc	6_FRUIT	000e32dc,
+000c5ee4	ALL_DIFFERENT	000e32e0,
+000c5ef4	7_FRUIT_PLUS	000e32e4,
+000c5f04	ALL_APPLES	000e32e8,
+000c5f10	ALL_ORANGES	000e32ec,
+000c5f1c	ALL_PINEAPPLES	000e32f0,
+000c5f2c	ALL_WATERMELONS	000e32f4,
+000c5f3c	ALL_KIWIS	000e32f8,
+000c5f48	ALL_MANGOES	000e32fc,
+000c5f54	ALL_STRAWBERRIES	000e3300,
+000c5f68	ALL_PEARS	000e3304,
+000c5f74	ALL_BANANAS	000e3308,
+000c5f80	ALL_LIMES	000e330c,
+000c5f8c	ALL_LEMONS	000e3310,
+000c5f98	ALL_COCONUTS	000e3314,
+000c5fa8	ALL_PASSIONFRUITS	000e3318,
+000c5fbc	ALPHABETICAL	000e331c,
+000c5fcc	FULLHOUSE	000e3320,
+000c5fd8	2_PAIR	000e3324,
+000c5fe0	3_OF_A_KIND	000e3328,
+000c5fec	4_OF_A_KIND	000e332c,
+000c5ff8	PATTERN	000e3330,
+000c6000	star_fruity.tex	
+000c6010	star_juicy.tex	
+000c6020	star_yummy.tex	
+000c6030	star_tasty.tex	
+000c6040	star_lush.tex	
+000c6050	star_delicious.tex	
+000c6064	star_succulent.tex	
+000c6078	star_fruit_salad.tex	000e33a8,
+000c6090	star_fruits_basket.tex	000e33ac,
+000c60a8	star_megamix.tex	000e33b0,
+000c60bc	star_amazing.tex	
+000c60d0	star_exquisite.tex	
+000c60e4	star_its_apples.tex	
+000c60f8	star_vitamin_c.tex	
+000c610c	star_got_the_sweats.tex	
+000c6124	star_melon_mania.tex	
+000c613c	star_flightless_bird.tex	
+000c6158	star_mango_smoothie.tex	
+000c6170	star_full_punnet.tex	
+000c6188	star_pear_tree.tex	
+000c619c	star_banana_cake.tex	
+000c61b4	star_scurvy_cure.tex	
+000c61cc	star_lemon_line_up.tex	
+000c61e4	star_lovely_bunch.tex	
+000c61fc	star_passion_punch.tex	
+000c6214	star_alphabetic.tex	
+000c6228	star_full_house.tex	
+000c623c	star_two_pairs.tex	
+000c6250	star_three_of_a_kind.tex	
+000c626c	star_four_of_a_kind.tex	
+000c6284	star_checkers.tex	
+000c6298	item_save_file	FUN_00077b20,FUN_00078ae4,
+000c62a8	coinsTotal	FUN_00077b20,FUN_00078ae4,
+000c62b4	levelStartCoins	FUN_00077b20,FUN_00078ae4,
+000c62c4	boughtItems	FUN_00077b20,FUN_00078ae4,
+000c62e0	equippedItems	FUN_00077b20,FUN_00078ae4,
+000c62f0	C:/ItemSave.xml	FUN_00077b20,FUN_00078ae4,
+000c6300	speed	FUN_00077ea8,00082bb2,
+000c6308	release_particles	FUN_00077ea8,
+000c631c	contact_particles	FUN_00077ea8,
+000c6330	slash_flash	FUN_00077ea8,
+000c633c	particles_directional	FUN_00077ea8,
+000c6354	scales	FUN_00077ea8,
+000c635c	start_thickness	FUN_00077ea8,
+000c636c	end_thickness	FUN_00077ea8,
+000c637c	length	FUN_00079e78,FUN_00082650,FUN_00077ea8,
+000c6384	point_scale	FUN_00077ea8,
+000c6390	requirements	FUN_000780d8,
+000c63a0	countDownFrom	FUN_000780d8,
+000c63b0	title	FUN_000a4ef4,FUN_0007a588,FUN_000780d8,
+000c63b8	titleolour	FUN_000780d8,
+000c63c4	slashModInfo	FUN_00078234,
+000c63d4	SLASH_MODIFIER	FUN_000782a0,
+000c63e4	BACKGROUND	FUN_000782a0,
+000c63f0	UPSELL	FUN_000782a0,
+000c63f8	xml/itemList.xml	FUN_00078ae4,
+000c640c	itemManagerFile	FUN_00078ae4,
+000c641c	waitUntilTime	FUN_00079e78,
+000c642c	totalTime	FUN_00079eec,FUN_0007ce4c,FUN_0007ce4c,
+000c643c	deferedPoints	FUN_00079eec,FUN_00079eec,FUN_00079eec,FUN_0007ce4c,FUN_0007ce4c,FUN_0007ce4c,
+000c6454	arcade_item_01_buy	FUN_0007a588,
+000c6468	selectedTexture	FUN_0007a588,
+000c6478	arcade_item_01_selected	FUN_0007a588,
+000c6490	usedTexture	FUN_0007a588,
+000c649c	arcade_item_01_used	FUN_0007a588,
+000c64b0	single	FUN_0007a6e4,
+000c64b8	automatic	FUN_0007a6e4,
+000c64c8	popup	FUN_0007a6e4,
+000c64d0	purchase_info	FUN_0007a6e4,
+000c64e0	effect	FUN_0007d1dc,FUN_0007d1dc,FUN_0007a6e4,
+000c64e8	wave_mod	FUN_0007a6e4,
+000c64f4	slash_mod	FUN_0007a6e4,
+000c6500	time_mod	FUN_0007a6e4,
+000c650c	score_mod	FUN_0007a6e4,
+000c6518	overtime	FUN_0007b784,
+000c6524	xml/powerUpList.xml	FUN_0007d1dc,
+000c6538	powerInfoFile	FUN_0007d1dc,
+000c654c	particle_file	FUN_0007e4c8,
+000c6564	particleTemplate	FUN_0007e4c8,FUN_0007e4c8,
+000c6578	useDepth	FUN_0007e4c8,
+000c6584	%s/%s.tex	FUN_0007e4c8,
+000c6598	Point	FUN_0007e4c8,FUN_0007e4c8,
+000c65a0	Vortex	FUN_0007e4c8,FUN_0007e4c8,
+000c65a8	Direction	FUN_0007e4c8,FUN_0007e4c8,
+000c65b4	Angular	FUN_0007e4c8,
+000c65bc	system	FUN_0007e4c8,FUN_0007e4c8,
+000c65c4	Local	FUN_0007e4c8,FUN_0007e4c8,
+000c65cc	Global	FUN_0007e4c8,
+000c65d4	gravity	FUN_00088e88,FUN_0007e4c8,
+000c65dc	%d %d %d	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c65e8	gravity_max	FUN_0007e4c8,FUN_0007e4c8,
+000c65f4	color	FUN_0007e4c8,
+000c65fc	startMin	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6608	%d %d %d %d	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6614	startMax	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6620	endMin	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6628	endMax	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6630	midMax	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6638	midMin	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6640	friction	FUN_0007e4c8,
+000c664c	start	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c6654	%f %f %f	FUN_0007e4c8,FUN_0007e4c8,
+000c6660	cycleX	FUN_0007e4c8,
+000c6668	cycleY	FUN_0007e4c8,
+000c6670	angle	FUN_0007e4c8,
+000c6680	SourceBlend	FUN_0007e4c8,
+000c668c	SourceAlpha	FUN_0007e4c8,
+000c6698	DestinationBlend	FUN_0007e4c8,
+000c66ac	InverseSourceAlpha	FUN_0007e4c8,
+000c66c4	emitter	FUN_0007e4c8,FUN_0007e4c8,
+000c66cc	particleSet	FUN_0007e4c8,FUN_0007e4c8,
+000c66e0	particleNumber	FUN_0007e4c8,FUN_0007e4c8,FUN_0007e4c8,
+000c66f8	perSec	FUN_0007e4c8,FUN_0007e4c8,
+000c6700	velocity	FUN_0007e4c8,FUN_0007e4c8,
+000c670c	multiplier	FUN_000809c8,FUN_000809c8,
+000c6718	gainAdd	FUN_000809c8,
+000c6720	gainMultiply	FUN_000809c8,
+000c6730	lossAdd	FUN_000809c8,
+000c6738	lossMultiply	FUN_000809c8,
+000c6748	deferPoints	FUN_000809c8,FUN_0008204c,
+000c6754	anchor	FUN_00081b78,FUN_0008204c,
+000c675c	particle	FUN_00081b78,FUN_00081b78,
+000c6768	timeStart	FUN_00081f20,FUN_00081f84,FUN_0008204c,
+000c6774	timeEnd	FUN_00081f20,FUN_00081f84,FUN_0008204c,
+000c6784	backTint	FUN_00081f84,
+000c6790	hudTint	FUN_00081f84,
+000c6798	transitionTime	FUN_00081f84,FUN_0008204c,FUN_00083898,
+000c67a8	transitionMove	FUN_0008204c,
+000c67b8	transitionMoveIn	FUN_0008204c,
+000c67cc	transitionMoveOut	FUN_0008204c,
+000c67e0	slowHardwareScale	FUN_0008204c,
+000c67f4	pulseSpeed	FUN_0008204c,
+000c6800	pulseScale	FUN_0008204c,
+000c680c	pulseScalePositive	FUN_0008204c,
+000c6820	pulseScaleNegative	FUN_0008204c,
+000c683c	transition	FUN_0008204c,
+000c6848	normal	FUN_0008204c,
+000c6858	before_splats	FUN_0008204c,
+000c6868	after_splats	FUN_0008204c,
+000c6878	after_bomb	FUN_0008204c,
+000c6884	drawOrder	FUN_0008204c,
+000c6890	scaleToScreen	FUN_0008204c,
+000c68a8	hardware	FUN_00082650,
+000c68bc	emmiter	FUN_00082650,
+000c68c4	sound	FUN_00082650,FUN_00082650,FUN_00082650,
+000c68d4	image	FUN_00082650,FUN_00082650,FUN_00082650,
+000c68dc	slash_power	00082bfe,00082c1e,
+000c68e8	STRING NOT FOUND	FUN_00083098,FUN_000832f8,
+000c68fc	german	
+000c6904	dutch	
+000c690c	french	
+000c6914	spanish	
+000c691c	italian	
+000c6924	swedish	
+000c692c	danish	
+000c6934	norwegian	
+000c6940	finnish	FUN_00083148,
+000c6948	korean	
+000c6950	japanese	
+000c695c	english_uk	
+000c6968	chinese	
+000c6970	english_us	FUN_00083148,
+000c697c	translations	FUN_00083148,FUN_00083148,FUN_00083148,
+000c698c	stringtables/%s_header.str	FUN_00083148,
+000c69a8	stringtables/%s_%s.str	FUN_00083148,FUN_00083148,
+000c69c0	stopClock	FUN_00083898,
+000c69cc	slowClock	FUN_00083898,
+000c69d8	addClock	FUN_00083898,
+000c69e4	dt_speed	FUN_00083898,
+000c6a0c	1fruit	FUN_00085b7c,FUN_00085b7c,FUN_00085c80,FUN_00085c80,FUN_0008a1a4,
+000c6a14	BOTTOM	FUN_00085de4,
+000c6a28	RIGHT	FUN_00085de4,
+000c6a30	LEFT_RIGHT	FUN_00085de4,
+000c6a3c	blitz_bonus	FUN_0008ae78,FUN_00085e94,FUN_00085f44,FUN_00085f44,FUN_00085f44,
+000c6a48	blitz_%i	FUN_00085f44,
+000c6a54	blitz_1	FUN_00085f44,
+000c6a5c	best_blitz	FUN_00085f44,FUN_00085f44,
+000c6a68	limitsReached	FUN_000862fc,FUN_000862fc,
+000c6a78	coin_chance	FUN_00086564,FUN_00086564,FUN_00086564,FUN_00086564,
+000c6a84	percentageChance	FUN_00086624,
+000c6a98	types	FUN_00088e88,FUN_00086624,
+000c6aa0	perWave	FUN_00086624,
+000c6aa8	disableWhenPowered	FUN_00086624,
+000c6abc	numWaves	FUN_00086624,
+000c6ac8	waveManagerFile	FUN_00088e88,
+000c6ad8	WaveInfo	FUN_00088e88,
+000c6ae4	waveNo	FUN_00088e88,
+000c6aec	overideProbabiltyPool	FUN_00088e88,FUN_00088e88,
+000c6b04	until	FUN_00088e88,
+000c6b0c	forever	FUN_00088e88,
+000c6b14	criticalChance	FUN_00088e88,FUN_00088e88,FUN_0008ba90,
+000c6b24	chanceRegrowth	FUN_00088e88,
+000c6b34	gamesMin	FUN_00088e88,
+000c6b40	gamesMax	FUN_00088e88,
+000c6b4c	coin_chances	FUN_00088e88,FUN_00088e88,
+000c6b5c	Spawn	FUN_00088e88,FUN_00088e88,FUN_00088e88,FUN_00088e88,
+000c6b64	mininc	FUN_00088e88,FUN_00088e88,FUN_00088e88,
+000c6b6c	maxinc	FUN_00088e88,
+000c6b74	delayinc	FUN_00088e88,
+000c6b80	horizmin	FUN_00088e88,
+000c6b8c	horizmax	FUN_00088e88,
+000c6b98	velscale	FUN_00088e88,
+000c6ba4	velXscale	FUN_00088e88,
+000c6bb0	velYscale	FUN_00088e88,
+000c6bbc	placement	FUN_00088e88,
+000c6bc8	mirror	FUN_00088e88,
+000c6bd0	Wave_dt	FUN_00088e88,
+000c6bd8	spinc	FUN_00088e88,
+000c6be0	NextWaveDelay	FUN_00088e88,
+000c6bf0	waitSpinc	FUN_00088e88,
+000c6bfc	speedLoss	FUN_00088e88,FUN_00088e88,
+000c6c08	waitForEntities	FUN_00088e88,FUN_00088e88,
+000c6c18	waitForProcessing	FUN_00088e88,FUN_00088e88,
+000c6c2c	ChooseFrom	FUN_00088e88,
+000c6c38	defaults	FUN_00088e88,
+000c6c44	waveChance	FUN_00088e88,
+000c6c50	waveChanceRegrowth	FUN_00088e88,
+000c6c64	dtInc	FUN_00088e88,
+000c6c6c	dtSpInc	FUN_00088e88,
+000c6c74	beforeDelay	FUN_00088e88,
+000c6c80	beforeDelayInc	FUN_00088e88,
+000c6c90	nextDelay	FUN_00088e88,
+000c6c9c	nextDelayInc	FUN_00088e88,
+000c6cac	nextDelaySpInc	FUN_00088e88,
+000c6cbc	players	FUN_00088e88,FUN_00088e88,
+000c6cc8	globalDtInc	FUN_00088e88,
+000c6cd4	globalDtStart	FUN_00088e88,
+000c6ce4	globalDtMax	FUN_00088e88,
+000c6cf0	OverideProbability	FUN_00088e88,FUN_0008ba90,FUN_0008ba90,FUN_0008ba90,FUN_0008ba90,FUN_0008ba90,
+000c6d04	GAMECOUNT:%i	FUN_0008abb0,FUN_0008abb0,
+000c6d14	xml/originalWaveList.xml	000e6400,
+000c6d30	xml/comboWaveList.xml	000e6404,
+000c6d48	xml/arcadeWaveList.xml	000e6408,
+000c6d60	xml/zenWaveList.xml	000e640c,
+000c6d74	fruitMultiplyer	FUN_0008ba90,
+000c6d84	bombMultiplyer	FUN_0008ba90,
+000c6d94	bombScale	FUN_0008ba90,
+000c6da0	powerUpDtMod	FUN_0008ba90,
+000c6db0	waveOveride	FUN_0008ba90,
+000c6ebc	first	FUN_0008fa30,
+000c6ec4	second	FUN_0008fa30,FUN_0008fa30,
+000c6ecc	amount	FUN_0008fa30,FUN_0008fa30,
+000c6ed4	xadvance	FUN_0008fb30,FUN_0008fb30,
+000c6ee0	xoffset	FUN_0008fb30,FUN_0008fb30,
+000c6ee8	yoffset	FUN_0008fb30,FUN_0008fb30,
+000c6ef0	width	FUN_0008fb30,
+000c6ef8	height	FUN_0008fb30,
+000c6f08	chars	FUN_00090014,FUN_00090014,
+000c6f18	kernings	FUN_00090014,FUN_00090014,
+000c6f24	kerning	FUN_00090014,FUN_00090014,FUN_00090014,
+000c6f2c	pages	FUN_00090014,
+000c6f34	scaleW	FUN_00090014,
+000c6f3c	scaleH	FUN_00090014,
+000c6f44	lineHeight	FUN_00090014,
+000c6f58	<font 	FUN_0009046c,FUN_0009046c,FUN_0009046c,FUN_0009046c,
+000c6f60	</font	FUN_000909a4,FUN_000909a4,FUN_000909a4,FUN_000909a4,FUN_0009046c,FUN_0009046c,FUN_0009046c,FUN_0009046c,
+000c6f68	<font color=	FUN_000909a4,FUN_000909a4,FUN_000909a4,FUN_000909a4,
+000c7400	pressed	FUN_00091950,
+000c7408	released	FUN_00091950,
+000c741c	active	FUN_00091950,
+000c7438	escape	FUN_00091a04,
+000c7440	AppMenu	FUN_00091a04,
+000c7448	MouseButton1	FUN_00091a04,
+000c7458	MouseButton2	FUN_00091a04,
+000c7468	MouseButton3	FUN_00091a04,
+000c7478	MouseButton4	FUN_00091a04,
+000c7488	MouseButton5	FUN_00091a04,
+000c7498	MouseButton6	FUN_00091a04,
+000c74a8	MouseButton7	FUN_00091a04,
+000c74b8	MouseButton8	FUN_00091a04,
+000c74c8	MouseAxisX	FUN_00091a04,
+000c74d4	MouseAxisY	FUN_00091a04,
+000c74e0	Touch1	FUN_00091a04,
+000c74e8	Touch2	FUN_00091a04,
+000c74f0	Touch3	FUN_00091a04,
+000c74f8	Touch4	FUN_00091a04,
+000c7500	Touch5	FUN_00091a04,
+000c7508	Touch6	FUN_00091a04,
+000c7510	Touch7	FUN_00091a04,
+000c7518	Touch8	FUN_00091a04,
+000c7520	Touch9	FUN_00091a04,
+000c7528	Touch10	FUN_00091a04,
+000c7530	Touch11	FUN_00091a04,
+000c7538	Touch12	FUN_00091a04,
+000c7540	Touch13	FUN_00091a04,
+000c7548	Touch14	FUN_00091a04,
+000c7550	Touch15	FUN_00091a04,
+000c7558	Touch16	FUN_00091a04,
+000c7560	TouchAxisX1	FUN_00091a04,
+000c756c	TouchAxisX2	FUN_00091a04,
+000c7578	TouchAxisX3	FUN_00091a04,
+000c7584	TouchAxisX4	FUN_00091a04,
+000c7590	TouchAxisX5	FUN_00091a04,
+000c759c	TouchAxisX6	FUN_00091a04,
+000c75a8	TouchAxisX7	FUN_00091a04,
+000c75b4	TouchAxisX8	FUN_00091a04,
+000c75c0	TouchAxisX9	FUN_00091a04,
+000c75cc	TouchAxisX10	FUN_00091a04,
+000c75dc	TouchAxisX11	FUN_00091a04,
+000c75ec	TouchAxisX12	FUN_00091a04,
+000c75fc	TouchAxisX13	FUN_00091a04,
+000c760c	TouchAxisX14	FUN_00091a04,
+000c761c	TouchAxisX15	FUN_00091a04,
+000c762c	TouchAxisX16	FUN_00091a04,
+000c763c	TouchAxisY1	FUN_00091a04,
+000c7648	TouchAxisY2	FUN_00091a04,
+000c7654	TouchAxisY3	FUN_00091a04,
+000c7660	TouchAxisY4	FUN_00091a04,
+000c766c	TouchAxisY5	FUN_00091a04,
+000c7678	TouchAxisY6	FUN_00091a04,
+000c7684	TouchAxisY7	FUN_00091a04,
+000c7690	TouchAxisY8	FUN_00091a04,
+000c769c	TouchAxisY9	FUN_00091a04,
+000c76a8	TouchAxisY10	FUN_00091a04,
+000c76b8	TouchAxisY11	FUN_00091a04,
+000c76c8	TouchAxisY12	FUN_00091a04,
+000c76d8	TouchAxisY13	FUN_00091a04,
+000c76e8	TouchAxisY14	FUN_00091a04,
+000c76f8	TouchAxisY15	FUN_00091a04,
+000c7708	TouchAxisY16	FUN_00091a04,
+000c7718	AccelAxisX	FUN_00091a04,
+000c7724	AccelAxisY	FUN_00091a04,
+000c7730	AccelAxisZ	FUN_00091a04,
+000cb840	unnamed	FUN_000930d4,
+000cb848	STEVE!	FUN_00094f90,
+000cb854	Network error	FUN_00095a84,
+000cb864	Unable to communicate with matchmaking servers.	FUN_00095a84,
+000cb894	Please choose	FUN_00095a84,
+000cb8a4	Game Center	FUN_00095a84,
+000cb8b0	OpenFeint	FUN_00095a84,
+000cb8bc	Which game network provider would you prefer to use?	FUN_00095a84,
+000cb8f4	Still Connecting...	FUN_00095a84,
+000cb908	A Game Center connection has not yet been established	FUN_00095a84,
+000cb940	Connection Failed	FUN_00095a84,
+000cb954	You must have a wifi or cellular connection to use Game Center	FUN_00095a84,
+000cb994	Parental controls are blocking this content.	FUN_00095a84,
+000cb9c4	[URL=	FUN_00096518,
+000cb9cc	[url=	FUN_00096518,
+000cb9d4	[/URL]	FUN_00096518,
+000cb9dc	[/url]	FUN_00096518,
+000cb9ec	%04i.%02i.%02i	FUN_00098ec8,
+000cb9fc	ANDROID	FUN_00098ec8,
+000cba08	&#x%02X;	FUN_0009a720,
+000cba44	<![CDATA[%s]]>\n	FUN_0009b4c0,
+000cba54	<![CDATA[	FUN_0009d7f0,FUN_0009b4c0,FUN_0009c700,FUN_0009df4c,FUN_0009df4c,
+000cba78	<?xml 	FUN_0009c550,FUN_0009c550,
+000cba80	version="%s" 	FUN_0009c550,
+000cba90	version="	FUN_0009c550,
+000cba9c	encoding="%s" 	FUN_0009c550,
+000cbaac	encoding="	FUN_0009c550,
+000cbab8	standalone="%s" 	FUN_0009c550,
+000cbacc	standalone="	FUN_0009c550,
+000cbae4	%s="%s"	FUN_0009c824,
+000cbaec	%s='%s'	FUN_0009c824,
+000cbb00	</%s>	FUN_0009c9d8,FUN_0009c9d8,
+000cbf24	<?xml	FUN_0009d7f0,FUN_0009e200,
+000cbf30	UTF-8	FUN_0009ddc8,
+000cbf40	encoding	FUN_0009e200,
+000cbf4c	standalone	FUN_0009e200,
+000cbf58	&amp;	FUN_0009a720,FUN_0009d0f8,
+000cbf78	&apos;	FUN_0009a720,
+000cbf80	%d, %d, %d, %d (argb)	
+000cbfc8	---newframe	FUN_0009efd4,
+000cc120	assets/	FUN_0009f940,
+000cc168	UVWOffset	FUN_000b314c,000a280e,FUN_000b1f2c,FUN_000b1f2c,
+000cc174	Alpha	000a2842,
+000cc17c	Ambience	000a2874,000a29fa,000a2a24,FUN_000b5be8,
+000cc188	Diffuse	_INIT_109,000a28a8,000a2a08,000a2a3a,FUN_000b5be8,
+000cc190	SelfIllum	000a28dc,
+000cc19c	Specular	000a2910,000a2a52,FUN_000b5be8,
+000cc1a8	SpecularStrength	000a2944,000a2a5e,FUN_000b5be8,
+000cc1bc	IsLit	000a2976,000a29f2,000a2bfc,FUN_000b5be8,
+000cc1c4	halfbrick.Mortar	FUN_000a379c,FUN_000a379c,
+000cc1d8	Native registration unable to find class '%s'\n	FUN_000a379c,
+000cc208	RegisterNatives failed for '%s'\n	FUN_000a379c,
+000cc22c	com/halfbrick/mortar/OpenFeintApplication$LeaderboardGetScoresCB_Native	FUN_000a3808,FUN_000a4744,
+000cc274	com/halfbrick/mortar/OpenFeintApplication$UserGetFriendsCB_Native	FUN_000a3808,FUN_000a48e8,
+000cc2b8	com/openfeint/api/resource/Leaderboard	FUN_000a3cf4,
+000cc2e0	<init>	FUN_000a3cf4,FUN_000a3d74,FUN_000a3de0,FUN_000a4744,FUN_000a48e8,
+000cc2e8	(Ljava/lang/String;)V	FUN_000a3cf4,FUN_000a3de0,FUN_000a6038,
+000cc300	com/openfeint/api/resource/Score	FUN_000a3d74,
+000cc32c	com/openfeint/api/resource/Achievement	FUN_000a3de0,
+000cc354	isUnlocked	FUN_000a3f88,
+000cc370	nativePtr	FUN_000a409c,FUN_000a45a0,FUN_000a4808,FUN_000a412c,
+000cc380	com/openfeint/api/ui/Dashboard	FUN_000a428c,FUN_000a43c8,FUN_000a4454,
+000cc3ac	openLeaderboard	
+000cc3bc	openAchievements	FUN_000a43c8,
+000cc3d0	openLeaderboards	FUN_000a4454,
+000cc3e4	com/openfeint/api/OpenFeint	FUN_000a51d8,FUN_000a527c,FUN_000a4500,
+000cc400	getCurrentUser	FUN_000a4500,
+000cc410	()Lcom/openfeint/api/resource/CurrentUser;	FUN_000a4500,
+000cc43c	com/halfbrick/mortar/OpenFeintApplication	FUN_000a496c,
+000cc468	GetServerEpochSeconds	FUN_000a496c,
+000cc484	getScores	FUN_000a49f8,
+000cc490	(Lcom/openfeint/api/resource/Leaderboard$GetScoresCB;)V	FUN_000a49f8,FUN_000a4a84,
+000cc4c8	getFriendScores	FUN_000a4a84,
+000cc4d8	submitTo	FUN_000a4c18,
+000cc4e4	(Lcom/openfeint/api/resource/Leaderboard;Lcom/openfeint/api/resource/Score$SubmitToCB;)V	FUN_000a4c18,
+000cc540	getFriends	FUN_000a4ce8,
+000cc54c	(Lcom/openfeint/api/resource/User$GetFriendsCB;)V	FUN_000a4ce8,
+000cc588	(Lcom/openfeint/api/resource/Achievement$LoadCB;)V	FUN_000a4d74,
+000cc5bc	unlock	FUN_000a4df4,
+000cc5c4	(Lcom/openfeint/api/resource/Achievement$UnlockCB;)V	FUN_000a4df4,
+000cc5fc	downloadIcon	FUN_000a4e74,
+000cc60c	(Lcom/openfeint/api/resource/Achievement$DownloadIconCB;)V	FUN_000a4e74,
+000cc648	Ljava/lang/String;	FUN_000a4ef4,FUN_000a5654,
+000cc664	()Ljava/lang/Object;	FUN_000a53dc,FUN_000a506c,
+000cc684	Lcom/openfeint/api/resource/User;	FUN_000a5120,
+000cc6a8	isNetworkConnected	FUN_000a51d8,
+000cc6c0	isUserLoggedIn	FUN_000a527c,
+000cc6d0	iterator	FUN_000a5328,FUN_000a5490,
+000cc6dc	()Ljava/util/Iterator;	FUN_000a5328,FUN_000a5490,
+000cc6f4	hasNext	FUN_000a5544,FUN_000a55cc,
+000cc6fc	com/fruity	
+000cc708	native_RecievedFriends	FUN_000a3808,
+000cc720	(Ljava/util/List;)V	FUN_000a3808,FUN_000a3808,
+000cc734	native_ReleaseNative	FUN_000a3808,FUN_000a3808,
+000cc74c	native_RecievedScores	FUN_000a3808,
+000cc764	isPlaying	FUN_000a59cc,
+000cc770	pause	FUN_000a5a64,
+000cc778	resume	FUN_000a5bc8,
+000cc788	setStereoVolume	FUN_000a5ce0,
+000cc798	(FF)V	FUN_000a5ce0,
+000cc7a0	isPaused	FUN_000a5d84,
+000cc7ac	com/halfbrick/fruitninja/SoundManager	FUN_000a5f94,FUN_000a6180,FUN_000a6240,FUN_000a6038,FUN_000a60dc,
+000cc7d4	SetSFXVolume	FUN_000a5f94,
+000cc7ec	SongPlay	FUN_000a6038,
+000cc7f8	SetMusicVolume	FUN_000a60dc,
+000cc808	SFXPlayInternal	FUN_000a6180,FUN_000a6240,
+000cc818	(IISI)Lcom/halfbrick/fruitninja/SoundManager$IActiveSound;	FUN_000a6180,
+000cc854	(Ljava/lang/String;ISI)Lcom/halfbrick/fruitninja/SoundManager$IActiveSound;	FUN_000a6240,
+000cc8bc	Position	_INIT_109,
+000cc8c8	Normal	_INIT_109,
+000cc8d0	TexCoord0	_INIT_109,
+000cc8dc	BoneIndices	_INIT_109,
+000cc8e8	BoneWeights	_INIT_109,
+000cc8f4	Ambient	_INIT_109,
+000cc965	textureOffset	
+000cc979	UVWOffset	
+000cc9a1	diffuseTexture	
+000cc9b5	DiffuseMap	
+000cca65	diffuse	
+000ccb41	Global	
+000ccb4d	SceneCamera	
+000ccb5d	ViewMat	
+000ccb81	Projection	
+000ccbed	WorldMat	
+000ccbfd	World	
+000ccc21	POSITION0	
+000ccc49	NORMAL0	
+000ccc6d	TEXCOORD0	
+000cce6d	Diffuse	
+000cce7d	TexCoord0	
+000cce91	Normal	
+000ccea1	Position	
+000ccef9	d:\Projects\Engines\Mortar\src\Source\Mesh\DefaultMeshEffect.effect	
+000ccf71	ps_main	
+000ccf79	colour	
+000ccfc5	texCoord	
+000cd029	Microsoft (R) HLSL Shader Compiler 9.27.952.3022	
+000cd095	diffuse	
+000cd0b4	Microsoft (R) HLSL Shader Compiler 9.27.952.3022	
+000cd185	d:\Projects\Engines\Mortar\src\Source\Mesh\DefaultMeshEffect.effect	
+000cd22d	vs_main	
+000cd235	input	
+000cd256	texCoord	
+000cd271	colour	
+000cd381	Microsoft (R) HLSL Shader Compiler 9.27.952.3022	
+000cd3ed	textureOffset	
+000cd424	Microsoft (R) HLSL Shader Compiler 9.27.952.3022	
+000cd4ad	Global	
+000cd4b4	ViewMat	
+000cd585	WorldMat	
+000cd5e4	Microsoft (R) HLSL Shader Compiler 9.27.952.3022	
+000ce0e1	diffuseTexture	
+000ce15d	iPhone (OpenGL ES 1.1)	
+000ce180	Opacity	FUN_000b1f2c,
+000ce188	World	FUN_000b245c,FUN_000b245c,FUN_000b5be8,
+000ce190	SceneCamera.View	FUN_000b245c,FUN_000b245c,FUN_000b5be8,FUN_000b5be8,
+000ce1a4	SceneCamera.Projection	FUN_000b245c,FUN_000b245c,FUN_000b5be8,
+000ce1bc	No error	000e66a4,
+000ce1c8	Error	000e66a8,
+000ce1d0	Failed to open file	000e66ac,
+000ce1e4	Memory allocation failed.	000e66b0,
+000ce200	Error parsing Element.	000e66b4,
+000ce218	Failed to read Element name	000e66b8,
+000ce234	Error reading Element value.	000e66bc,
+000ce254	Error reading Attributes.	000e66c0,
+000ce270	Error: empty tag.	000e66c4,
+000ce284	Error reading end tag.	000e66c8,
+000ce29c	Error parsing Unknown.	000e66cc,
+000ce2b4	Error parsing Comment.	000e66d0,
+000ce2cc	Error parsing Declaration.	000e66d4,
+000ce2e8	Error document empty.	000e66d8,
+000ce300	Error null (0) or unexpected EOF found in input stream.	000e66dc,
+000ce338	Error parsing CDATA.	000e66e0,
+000ce350	Error when TiXmlDocument added to document, because TiXmlDocument can only be at the root.	000e66e4,
+000ce41c	1.2.3	zip_fopen_index,FUN_000b70c8,
+000ce424	TORRENTZIPPED-XXXXXXXX	zip_close,
+000ce43c	%s.XXXXXX	zip_close,
+000ce44c	%08lX	zip_close,
+000ce474	TORRENTZIPPED-	zip_open,
+000ce4e8	Multi-disk zip archives not supported	
+000ce510	Renaming temporary file failed	
+000ce530	Closing zip archive failed	
+000ce54c	Seek error	
+000ce558	Read error	
+000ce564	Write error	
+000ce570	CRC error	
+000ce57c	Containing zip archive was closed	
+000ce5a0	No such file	
+000ce5b0	File already exists	
+000ce5c4	Can't open file	
+000ce5d4	Failure to create temporary file	
+000ce5f8	Zlib error	
+000ce604	Malloc failure	
+000ce614	Entry has been changed	
+000ce62c	Compression method not supported	
+000ce650	Premature EOF	
+000ce660	Invalid argument	
+000ce674	Not a zip archive	
+000ce688	Internal error	
+000ce698	Zip archive inconsistent	
+000ce6b4	Can't remove file	
+000ce6c8	Entry has been deleted	
+000ce6e0	vorbis	FUN_000bc228,FUN_000bc434,
+.comment::00000000		_elfSectionHeaders::000002b4,
+.comment::00000001	GCC: (GNU) 4.4.3	
+.comment::00000012		
+.comment::00000013	GCC: (GNU) 4.4.3	
+.comment::00000024		
+.comment::00000025	GCC: (GNU) 4.4.3	
+.comment::00000036		
+.comment::00000037	GCC: (GNU) 4.4.3	
+.comment::00000048		
+.comment::00000049	GCC: (GNU) 4.4.3	
+.comment::0000005a		
+.comment::0000005b	GCC: (GNU) 4.4.3	
+.comment::0000006c		
+.comment::0000006d	GCC: (GNU) 4.4.3	
+.comment::0000007e		
+.comment::0000007f	GCC: (GNU) 4.4.3	
+.comment::00000090		
+.comment::00000091	GCC: (GNU) 4.4.3	
+.comment::000000a2		
+.comment::000000a3	GCC: (GNU) 4.4.3	
+.comment::000000b4		
+.comment::000000b5	GCC: (GNU) 4.4.3	
+.comment::000000c6		
+.comment::000000c7	GCC: (GNU) 4.4.3	
+.comment::000000d8		
+.comment::000000d9	GCC: (GNU) 4.4.3	
+.comment::000000ea		
+.comment::000000eb	GCC: (GNU) 4.4.3	
+.comment::000000fc		
+.comment::000000fd	GCC: (GNU) 4.4.3	
+.comment::0000010e		
+.comment::0000010f	GCC: (GNU) 4.4.3	
+.comment::00000120		
+.comment::00000121	GCC: (GNU) 4.4.3	
+.comment::00000132		
+.comment::00000133	GCC: (GNU) 4.4.3	
+.comment::00000144		
+.comment::00000145	GCC: (GNU) 4.4.3	
+.comment::00000156		
+.comment::00000157	GCC: (GNU) 4.4.3	
+.comment::00000168		
+.comment::00000169	GCC: (GNU) 4.4.3	
+.comment::0000017a		
+.comment::0000017b	GCC: (GNU) 4.4.3	
+.comment::0000018c		
+.comment::0000018d	GCC: (GNU) 4.4.3	
+.comment::0000019e		
+.comment::0000019f	GCC: (GNU) 4.4.3	
+.comment::000001b0		
+.comment::000001b1	GCC: (GNU) 4.4.3	
+.comment::000001c2		
+.comment::000001c3	GCC: (GNU) 4.4.3	
+.comment::000001d4		
+.comment::000001d5	GCC: (GNU) 4.4.3	
+.comment::000001e6		
+.comment::000001e7	GCC: (GNU) 4.4.3	
+.comment::000001f8		
+.comment::000001f9	GCC: (GNU) 4.4.3	
+.comment::0000020a		
+.comment::0000020b	GCC: (GNU) 4.4.3	
+.comment::0000021c		
+.comment::0000021d	GCC: (GNU) 4.4.3	
+.comment::0000022e		
+.comment::0000022f	GCC: (GNU) 4.4.3	
+.comment::00000240		
+.comment::00000241	GCC: (GNU) 4.4.3	
+.comment::00000252		
+.comment::00000253	GCC: (GNU) 4.4.3	
+.comment::00000264		
+.comment::00000265	GCC: (GNU) 4.4.3	
+.comment::00000276		
+.comment::00000277	GCC: (GNU) 4.4.3	
+.comment::00000288		
+.comment::00000289	GCC: (GNU) 4.4.3	
+.comment::0000029a		
+.comment::0000029b	GCC: (GNU) 4.4.3	
+.comment::000002ac		
+.comment::000002ad	GCC: (GNU) 4.4.3	
+.comment::000002be		
+.comment::000002bf	GCC: (GNU) 4.4.3	
+.comment::000002d0		
+.comment::000002d1	GCC: (GNU) 4.4.3	
+.comment::000002e2		
+.comment::000002e3	GCC: (GNU) 4.4.3	
+.comment::000002f4		
+.comment::000002f5	GCC: (GNU) 4.4.3	
+.comment::00000306		
+.comment::00000307	GCC: (GNU) 4.4.3	
+.comment::00000318		
+.comment::00000319	GCC: (GNU) 4.4.3	
+.comment::0000032a		
+.comment::0000032b	GCC: (GNU) 4.4.3	
+.comment::0000033c		
+.comment::0000033d	GCC: (GNU) 4.4.3	
+.comment::0000034e		
+.comment::0000034f	GCC: (GNU) 4.4.3	
+.comment::00000360		
+.comment::00000361	GCC: (GNU) 4.4.3	
+.comment::00000372		
+.comment::00000373	GCC: (GNU) 4.4.3	
+.comment::00000384		
+.comment::00000385	GCC: (GNU) 4.4.3	
+.comment::00000396		
+.comment::00000397	GCC: (GNU) 4.4.3	
+.comment::000003a8		
+.comment::000003a9	GCC: (GNU) 4.4.3	
+.comment::000003ba		
+.comment::000003bb	GCC: (GNU) 4.4.3	
+.comment::000003cc		
+.comment::000003cd	GCC: (GNU) 4.4.3	
+.comment::000003de		
+.comment::000003df	GCC: (GNU) 4.4.3	
+.comment::000003f0		
+.comment::000003f1	GCC: (GNU) 4.4.3	
+.comment::00000402		
+.comment::00000403	GCC: (GNU) 4.4.3	
+.comment::00000414		
+.comment::00000415	GCC: (GNU) 4.4.3	
+.comment::00000426		
+.comment::00000427	GCC: (GNU) 4.4.3	
+.comment::00000438		
+.comment::00000439	GCC: (GNU) 4.4.3	
+.comment::0000044a		
+.comment::0000044b	GCC: (GNU) 4.4.3	
+.comment::0000045c		
+.comment::0000045d	GCC: (GNU) 4.4.3	
+.comment::0000046e		
+.comment::0000046f	GCC: (GNU) 4.4.3	
+.comment::00000480		
+.comment::00000481	GCC: (GNU) 4.4.3	
+.comment::00000492		
+.comment::00000493	GCC: (GNU) 4.4.3	
+.comment::000004a4		
+.comment::000004a5	GCC: (GNU) 4.4.3	
+.comment::000004b6		
+.comment::000004b7	GCC: (GNU) 4.4.3	
+.comment::000004c8		
+.comment::000004c9	GCC: (GNU) 4.4.3	
+.comment::000004da		
+.comment::000004db	GCC: (GNU) 4.4.3	
+.comment::000004ec		
+.comment::000004ed	GCC: (GNU) 4.4.3	
+.comment::000004fe		
+.comment::000004ff	GCC: (GNU) 4.4.3	
+.comment::00000510		
+.comment::00000511	GCC: (GNU) 4.4.3	
+.comment::00000522		
+.comment::00000523	GCC: (GNU) 4.4.3	
+.comment::00000534		
+.comment::00000535	GCC: (GNU) 4.4.3	
+.comment::00000546		
+.comment::00000547	GCC: (GNU) 4.4.3	
+.comment::00000558		
+.comment::00000559	GCC: (GNU) 4.4.3	
+.comment::0000056a		
+.comment::0000056b	GCC: (GNU) 4.4.3	
+.comment::0000057c		
+.comment::0000057d	GCC: (GNU) 4.4.3	
+.comment::0000058e		
+.comment::0000058f	GCC: (GNU) 4.4.3	
+.comment::000005a0		
+.comment::000005a1	GCC: (GNU) 4.4.3	
+.comment::000005b2		
+.comment::000005b3	GCC: (GNU) 4.4.3	
+.comment::000005c4		
+.comment::000005c5	GCC: (GNU) 4.4.3	
+.comment::000005d6		
+.comment::000005d7	GCC: (GNU) 4.4.3	
+.comment::000005e8		
+.comment::000005e9	GCC: (GNU) 4.4.3	
+.comment::000005fa		
+.comment::000005fb	GCC: (GNU) 4.4.3	
+.comment::0000060c		
+.comment::0000060d	GCC: (GNU) 4.4.3	
+.comment::0000061e		
+.comment::0000061f	GCC: (GNU) 4.4.3	
+.comment::00000630		
+.comment::00000631	GCC: (GNU) 4.4.3	
+.comment::00000642		
+.comment::00000643	GCC: (GNU) 4.4.3	
+.comment::00000654		
+.comment::00000655	GCC: (GNU) 4.4.3	
+.comment::00000666		
+.comment::00000667	GCC: (GNU) 4.4.3	
+.comment::00000678		
+.comment::00000679	GCC: (GNU) 4.4.3	
+.comment::0000068a		
+.comment::0000068b	GCC: (GNU) 4.4.3	
+.comment::0000069c		
+.comment::0000069d	GCC: (GNU) 4.4.3	
+.comment::000006ae		
+.comment::000006af	GCC: (GNU) 4.4.3	
+.comment::000006c0		
+.comment::000006c1	GCC: (GNU) 4.4.3	
+.comment::000006d2		
+.comment::000006d3	GCC: (GNU) 4.4.3	
+.comment::000006e4		
+.comment::000006e5	GCC: (GNU) 4.4.3	
+.comment::000006f6		
+.comment::000006f7	GCC: (GNU) 4.4.3	
+.comment::00000708		
+.comment::00000709	GCC: (GNU) 4.4.3	
+.comment::0000071a		
+.comment::0000071b	GCC: (GNU) 4.4.3	
+.comment::0000072c		
+.comment::0000072d	GCC: (GNU) 4.4.3	
+.comment::0000073e		
+.comment::0000073f	GCC: (GNU) 4.4.3	
+.comment::00000750		
+.comment::00000751	GCC: (GNU) 4.4.3	
+.comment::00000762		
+.comment::00000763	GCC: (GNU) 4.4.3	
+.comment::00000774		
+.comment::00000775	GCC: (GNU) 4.4.3	
+.comment::00000786		
+.comment::00000787	GCC: (GNU) 4.4.3	
+.comment::00000798		
+.comment::00000799	GCC: (GNU) 4.4.3	
+.comment::000007aa		
+.comment::000007ab	GCC: (GNU) 4.4.3	
+.comment::000007bc		
+.comment::000007bd	GCC: (GNU) 4.4.3	
+.comment::000007ce		
+.comment::000007cf	GCC: (GNU) 4.4.3	
+.comment::000007e0		
+.comment::000007e1	GCC: (GNU) 4.4.3	
+.comment::000007f2		
+.comment::000007f3	GCC: (GNU) 4.4.3	
+.comment::00000804		
+.comment::00000805	GCC: (GNU) 4.4.3	
+.comment::00000816		
+.comment::00000817	GCC: (GNU) 4.4.3	
+.comment::00000828		
+.comment::00000829	GCC: (GNU) 4.4.3	
+.comment::0000083a		
+.comment::0000083b	GCC: (GNU) 4.4.3	
+.comment::0000084c		
+.comment::0000084d	GCC: (GNU) 4.4.3	
+.comment::0000085e		
+.comment::0000085f	GCC: (GNU) 4.4.3	
+.comment::00000870		
+.comment::00000871	GCC: (GNU) 4.4.3	
+.comment::00000882		
+.comment::00000883	GCC: (GNU) 4.4.3	
+.comment::00000894		
+.comment::00000895	GCC: (GNU) 4.4.3	
+.comment::000008a6		
+.comment::000008a7	GCC: (GNU) 4.4.3	
+.comment::000008b8		
+.comment::000008b9	GCC: (GNU) 4.4.3	
+.comment::000008ca		
+.comment::000008cb	GCC: (GNU) 4.4.3	
+.comment::000008dc		
+.comment::000008dd	GCC: (GNU) 4.4.3	
+.comment::000008ee		
+.comment::000008ef	GCC: (GNU) 4.4.3	
+.comment::00000900		
+.comment::00000901	GCC: (GNU) 4.4.3	
+.comment::00000912		
+.comment::00000913	GCC: (GNU) 4.4.3	
+.comment::00000924		
+.comment::00000925	GCC: (GNU) 4.4.3	
+.comment::00000936		
+.comment::00000937	GCC: (GNU) 4.4.3	
+.comment::00000948		
+.comment::00000949	GCC: (GNU) 4.4.3	
+.comment::0000095a		
+.comment::0000095b	GCC: (GNU) 4.4.3	
+.comment::0000096c		
+.comment::0000096d	GCC: (GNU) 4.4.3	
+.comment::0000097e		
+.comment::0000097f	GCC: (GNU) 4.4.3	
+.comment::00000990		
+.comment::00000991	GCC: (GNU) 4.4.3	
+.comment::000009a2		
+.comment::000009a3	GCC: (GNU) 4.4.3	
+.comment::000009b4		
+.comment::000009b5	GCC: (GNU) 4.4.3	
+.comment::000009c6		
+.comment::000009c7	GCC: (GNU) 4.4.3	
+.comment::000009d8		
+.comment::000009d9	GCC: (GNU) 4.4.3	
+.comment::000009ea		
+.comment::000009eb	GCC: (GNU) 4.4.3	
+.comment::000009fc		
+.comment::000009fd	GCC: (GNU) 4.4.3	
+.comment::00000a0e		
+.comment::00000a0f	GCC: (GNU) 4.4.3	
+.comment::00000a20		
+.comment::00000a21	GCC: (GNU) 4.4.3	
+.comment::00000a32		
+.comment::00000a33	GCC: (GNU) 4.4.3	
+.comment::00000a44		
+.comment::00000a45	GCC: (GNU) 4.4.3	
+.comment::00000a56		
+.comment::00000a57	GCC: (GNU) 4.4.3	
+.comment::00000a68		
+.comment::00000a69	GCC: (GNU) 4.4.3	
+.comment::00000a7a		
+.comment::00000a7b	GCC: (GNU) 4.4.3	
+.comment::00000a8c		
+.comment::00000a8d	GCC: (GNU) 4.4.3	
+.comment::00000a9e		
+.comment::00000a9f	GCC: (GNU) 4.4.3	
+.comment::00000ab0		
+.comment::00000ab1	GCC: (GNU) 4.4.3	
+.comment::00000ac2		
+.comment::00000ac3	GCC: (GNU) 4.4.3	
+.comment::00000ad4		
+.comment::00000ad5	GCC: (GNU) 4.4.3	
+.comment::00000ae6		
+.comment::00000ae7	GCC: (GNU) 4.4.3	
+.comment::00000af8		
+.comment::00000af9	GCC: (GNU) 4.4.3	
+.comment::00000b0a		
+.comment::00000b0b	GCC: (GNU) 4.4.3	
+.comment::00000b1c		
+.comment::00000b1d	GCC: (GNU) 4.4.3	
+.comment::00000b2e		
+.comment::00000b2f	GCC: (GNU) 4.4.3	
+.comment::00000b40		
+.comment::00000b41	GCC: (GNU) 4.4.3	
+.comment::00000b52		
+.comment::00000b53	GCC: (GNU) 4.4.3	
+.comment::00000b64		
+.comment::00000b65	GCC: (GNU) 4.4.3	
+.comment::00000b76		
+.comment::00000b77	GCC: (GNU) 4.4.3	
+.comment::00000b88		
+.comment::00000b89	GCC: (GNU) 4.4.3	
+.comment::00000b9a		
+.comment::00000b9b	GCC: (GNU) 4.4.3	
+.comment::00000bac		
+.comment::00000bad	GCC: (GNU) 4.4.3	
+.comment::00000bbe		
+.comment::00000bbf	GCC: (GNU) 4.4.3	
+.comment::00000bd0		
+.comment::00000bd1	GCC: (GNU) 4.4.3	
+.comment::00000be2		
+.comment::00000be3	GCC: (GNU) 4.4.3	
+.comment::00000bf4		
+.comment::00000bf5	GCC: (GNU) 4.4.3	
+.comment::00000c06		
+.comment::00000c07	GCC: (GNU) 4.4.3	
+.comment::00000c18		
+.comment::00000c19	GCC: (GNU) 4.4.3	
+.comment::00000c2a		
+.comment::00000c2b	GCC: (GNU) 4.4.3	
+.comment::00000c3c		
+.comment::00000c3d	GCC: (GNU) 4.4.3	
+.comment::00000c4e		
+.comment::00000c4f	GCC: (GNU) 4.4.3	
+.comment::00000c60		
+.comment::00000c61	GCC: (GNU) 4.4.3	
+.comment::00000c72		
+.comment::00000c73	GCC: (GNU) 4.4.3	
+.comment::00000c84		
+.comment::00000c85	GCC: (GNU) 4.4.3	
+.comment::00000c96		
+.comment::00000c97	GCC: (GNU) 4.4.3	
+.comment::00000ca8		
+.comment::00000ca9	GCC: (GNU) 4.4.3	
+.comment::00000cba		
+.comment::00000cbb	GCC: (GNU) 4.4.3	
+.comment::00000ccc		
+.comment::00000ccd	GCC: (GNU) 4.4.3	
+.comment::00000cde		
+.comment::00000cdf	GCC: (GNU) 4.4.3	
+.comment::00000cf0		
+.comment::00000cf1	GCC: (GNU) 4.4.3	
+.comment::00000d02		
+.comment::00000d03	GCC: (GNU) 4.4.3	
+.comment::00000d14		
+.comment::00000d15	GCC: (GNU) 4.4.3	
+.comment::00000d26		
+.comment::00000d27	GCC: (GNU) 4.4.3	
+.comment::00000d38		
+.comment::00000d39	GCC: (GNU) 4.4.3	
+.comment::00000d4a		
+.comment::00000d4b	GCC: (GNU) 4.4.3	
+.comment::00000d5c		
+.comment::00000d5d	GCC: (GNU) 4.4.3	
+.comment::00000d6e		
+.comment::00000d6f	GCC: (GNU) 4.4.3	
+.comment::00000d80		
+.comment::00000d81	GCC: (GNU) 4.4.3	
+.comment::00000d92		
+.comment::00000d93	GCC: (GNU) 4.4.3	
+.comment::00000da4		
+.comment::00000da5	GCC: (GNU) 4.4.3	
+.comment::00000db6		
+.comment::00000db7	GCC: (GNU) 4.4.3	
+.comment::00000dc8		
+.comment::00000dc9	GCC: (GNU) 4.4.3	
+.comment::00000dda		
+.comment::00000ddb	GCC: (GNU) 4.4.3	
+.comment::00000dec		
+.comment::00000ded	GCC: (GNU) 4.4.3	
+.comment::00000dfe		
+.comment::00000dff	GCC: (GNU) 4.4.3	
+.comment::00000e10		
+.comment::00000e11	GCC: (GNU) 4.4.3	
+.comment::00000e22		
+.comment::00000e23	GCC: (GNU) 4.4.3	
+.comment::00000e34		
+.comment::00000e35	GCC: (GNU) 4.4.3	
+.comment::00000e46		
+.comment::00000e47	GCC: (GNU) 4.4.3	
+.comment::00000e58		
+.comment::00000e59	GCC: (GNU) 4.4.3	
+.comment::00000e6a		
+.comment::00000e6b	GCC: (GNU) 4.4.3	
+.comment::00000e7c		
+.comment::00000e7d	GCC: (GNU) 4.4.3	
+.comment::00000e8e		
+.comment::00000e8f	GCC: (GNU) 4.4.3	
+.comment::00000ea0		
+.comment::00000ea1	GCC: (GNU) 4.4.3	
+.comment::00000eb2		
+.comment::00000eb3	GCC: (GNU) 4.4.3	
+.comment::00000ec4		
+.comment::00000ec5	GCC: (GNU) 4.4.3	
+.comment::00000ed6		
+.comment::00000ed7	GCC: (GNU) 4.4.3	
+.comment::00000ee8		
+.comment::00000ee9	GCC: (GNU) 4.4.3	
+.comment::00000efa		
+.comment::00000efb	GCC: (GNU) 4.4.3	
+.comment::00000f0c		
+.comment::00000f0d	GCC: (GNU) 4.4.3	
+.comment::00000f1e		
+.comment::00000f1f	GCC: (GNU) 4.4.3	
+.comment::00000f30		
+.comment::00000f31	GCC: (GNU) 4.4.3	
+.comment::00000f42		
+.comment::00000f43	GCC: (GNU) 4.4.3	
+.comment::00000f54		
+.comment::00000f55	GCC: (GNU) 4.4.3	
+.shstrtab::00000001	.shstrtab	
+.shstrtab::0000000b	.hash	
+.shstrtab::00000011	.dynsym	
+.shstrtab::00000019	.dynstr	
+.shstrtab::00000021	.rel.dyn	
+.shstrtab::0000002a	.rel.plt	
+.shstrtab::00000033	.text	
+.shstrtab::00000039	.rodata	
+.shstrtab::00000041	.ARM.extab	
+.shstrtab::0000004c	.ARM.exidx	
+.shstrtab::00000057	.init_array	
+.shstrtab::00000063	.data.rel.ro	
+.shstrtab::00000070	.dynamic	
+.shstrtab::00000079	.got	
+.shstrtab::0000007e	.data	
+.shstrtab::00000084	.bss	
+.shstrtab::00000089	.comment	
+.shstrtab::00000092	.ARM.attributes	

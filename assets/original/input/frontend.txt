@@ -1,0 +1,2 @@
+TouchScreen:		MouseButton1;		down
+Particles:		MouseButton2;		down

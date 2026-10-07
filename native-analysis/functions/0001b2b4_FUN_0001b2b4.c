@@ -1,0 +1,123 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 0001b2b4 FUN_0001b2b4 */
+
+void FUN_0001b2b4(undefined *param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  int iVar4;
+  int iVar5;
+  undefined4 *puVar6;
+  float fVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  undefined local_24;
+  undefined local_23;
+  undefined local_22;
+  undefined local_21;
+  
+  iVar4 = DAT_0001b438;
+  puVar6 = (undefined4 *)(DAT_0001b430 + 0x1b2c4);
+  iVar5 = DAT_0001b434 + 0x1b2d0;
+  FUN_000995e4(*puVar6);
+  iVar5 = *(int *)(iVar5 + DAT_0001b43c);
+  *(undefined *)(iVar5 + 0x18d4) = 0;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2dc);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b2e0);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b2e4);
+  *(undefined4 *)(iVar5 + 0x1094) = *(undefined4 *)(iVar4 + 0x1b2d8);
+  *(undefined4 *)(iVar5 + 0x1098) = uVar1;
+  *(undefined4 *)(iVar5 + 0x109c) = uVar2;
+  *(undefined4 *)(iVar5 + 0x10a0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2ec);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b2f0);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b2f4);
+  *(undefined4 *)(iVar5 + 0x10a4) = *(undefined4 *)(iVar4 + 0x1b2e8);
+  *(undefined4 *)(iVar5 + 0x10a8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x10ac) = uVar2;
+  *(undefined4 *)(iVar5 + 0x10b0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2fc);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b300);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b304);
+  *(undefined4 *)(iVar5 + 0x10b4) = *(undefined4 *)(iVar4 + 0x1b2f8);
+  *(undefined4 *)(iVar5 + 0x10b8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x10bc) = uVar2;
+  *(undefined4 *)(iVar5 + 0x10c0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b30c);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b310);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b314);
+  *(undefined4 *)(iVar5 + 0x10c4) = *(undefined4 *)(iVar4 + 0x1b308);
+  *(undefined4 *)(iVar5 + 0x10c8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x10cc) = uVar2;
+  *(undefined4 *)(iVar5 + 0x10d0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2dc);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b2e0);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b2e4);
+  *(undefined4 *)(iVar5 + 0x1894) = *(undefined4 *)(iVar4 + 0x1b2d8);
+  *(undefined4 *)(iVar5 + 0x1898) = uVar1;
+  *(undefined4 *)(iVar5 + 0x189c) = uVar2;
+  *(undefined4 *)(iVar5 + 0x18a0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2ec);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b2f0);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b2f4);
+  *(undefined4 *)(iVar5 + 0x18a4) = *(undefined4 *)(iVar4 + 0x1b2e8);
+  *(undefined4 *)(iVar5 + 0x18a8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x18ac) = uVar2;
+  *(undefined4 *)(iVar5 + 0x18b0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b2fc);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b300);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b304);
+  *(undefined4 *)(iVar5 + 0x18b4) = *(undefined4 *)(iVar4 + 0x1b2f8);
+  *(undefined4 *)(iVar5 + 0x18b8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x18bc) = uVar2;
+  *(undefined4 *)(iVar5 + 0x18c0) = uVar3;
+  uVar1 = *(undefined4 *)(iVar4 + 0x1b30c);
+  uVar2 = *(undefined4 *)(iVar4 + 0x1b310);
+  uVar3 = *(undefined4 *)(iVar4 + 0x1b314);
+  *(undefined4 *)(iVar5 + 0x18c4) = *(undefined4 *)(iVar4 + 0x1b308);
+  *(undefined4 *)(iVar5 + 0x18c8) = uVar1;
+  *(undefined4 *)(iVar5 + 0x18cc) = uVar2;
+  *(undefined4 *)(iVar5 + 0x18d0) = uVar3;
+  iVar4 = *(int *)(iVar5 + 0x18d8);
+  *(int *)(iVar5 + 0x18d8) = iVar4 + 1;
+  fVar9 = *(float *)(param_1 + 4);
+  fVar10 = *(float *)(param_1 + 8);
+  fVar11 = *(float *)(param_1 + 0xc);
+  *(float *)(iVar5 + 0x1894) = fVar9 * *(float *)(iVar5 + 0x1894);
+  *(float *)(iVar5 + 0x18a4) = fVar9 * *(float *)(iVar5 + 0x18a4);
+  *(float *)(iVar5 + 0x18b4) = fVar9 * *(float *)(iVar5 + 0x18b4);
+  fVar9 = fVar9 * *(float *)(iVar5 + 0x18c4);
+  *(float *)(iVar5 + 0x18c4) = fVar9;
+  *(float *)(iVar5 + 0x1898) = fVar10 * *(float *)(iVar5 + 0x1898);
+  *(float *)(iVar5 + 0x18a8) = fVar10 * *(float *)(iVar5 + 0x18a8);
+  *(float *)(iVar5 + 0x18b8) = fVar10 * *(float *)(iVar5 + 0x18b8);
+  fVar10 = fVar10 * *(float *)(iVar5 + 0x18c8);
+  *(float *)(iVar5 + 0x18c8) = fVar10;
+  *(float *)(iVar5 + 0x189c) = fVar11 * *(float *)(iVar5 + 0x189c);
+  *(float *)(iVar5 + 0x18ac) = fVar11 * *(float *)(iVar5 + 0x18ac);
+  *(float *)(iVar5 + 0x18bc) = fVar11 * *(float *)(iVar5 + 0x18bc);
+  fVar11 = fVar11 * *(float *)(iVar5 + 0x18cc);
+  *(int *)(iVar5 + 0x18d8) = iVar4 + 2;
+  *(float *)(iVar5 + 0x18cc) = fVar11;
+  fVar7 = *(float *)(param_1 + 0x14);
+  fVar8 = *(float *)(param_1 + 0x18);
+  *(float *)(iVar5 + 0x18c4) = fVar9 + *(float *)(param_1 + 0x10);
+  *(float *)(iVar5 + 0x18c8) = fVar10 + fVar7;
+  *(float *)(iVar5 + 0x18cc) = fVar11 + fVar8;
+  *(int *)(iVar5 + 0x18d8) = iVar4 + 3;
+  FUN_0008d434(iVar5,1);
+  local_24 = *param_1;
+  local_23 = param_1[1];
+  local_22 = param_1[2];
+  local_21 = param_1[3];
+  FUN_000a35f4(&local_24);
+  FUN_000995e0(*puVar6);
+  return;
+}
+
+
+

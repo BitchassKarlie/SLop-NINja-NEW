@@ -1,0 +1,42 @@
+name: Build iOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        kind: [device, simulator]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Check toolchain
+        run: |
+          cmake --version
+          xcodebuild -version
+      - name: Build complete unsigned AltStore IPA or simulator app
+        env:
+          FRUIT_IOS_KIND: ${{ matrix.kind }}
+        run: sh platform/ios/build.sh "$FRUIT_IOS_KIND"
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-ios-${{ matrix.kind }}
+          path: dist/fruit-ninja-ios-${{ matrix.kind }}.${{ matrix.kind == 'device' && 'ipa' || 'zip' }}
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

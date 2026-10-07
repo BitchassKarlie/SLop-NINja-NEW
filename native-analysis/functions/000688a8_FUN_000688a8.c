@@ -1,0 +1,22 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000688a8 FUN_000688a8 */
+
+void FUN_000688a8(void)
+
+{
+  int iVar1;
+  
+  iVar1 = DAT_00068900;
+  FUN_00017d64(DAT_00068900 + 0x688b2,0);
+  FUN_00017d64(iVar1 + 0x688ba,0);
+  FUN_00017d64(iVar1 + 0x688be,0);
+  FUN_00017d64(iVar1 + 0x688c2,0);
+  FUN_00017d64(iVar1 + 0x688c6,0);
+  FUN_00017d64(iVar1 + 0x688ca,0);
+  FUN_00017d64(iVar1 + 0x688ce,0);
+  FUN_00017d64(iVar1 + 0x688d2,0);
+  return;
+}
+
+
+

@@ -1,0 +1,36 @@
+name: Build Nintendo 3DS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Build 3DSX and installable CIA with pinned SDK/tools
+        run: |
+          docker run --rm --user 0:0 \
+            -v "$PWD:/project" -w /project \
+            devkitpro/devkitarm:20260610 \
+            sh platform/ci/container-build.sh 3ds
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-3ds
+          path: dist/3ds/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

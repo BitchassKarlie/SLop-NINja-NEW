@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<powerInfoFile version="1.0.0">
+
+  <power name="ready_set_go" single="true" automatic="true">
+    <time_mod length="2" slowClock="0" />
+    
+    <effect>
+      <image texture="arcade_60seconds" pos="0,0" timeStart="0.85"  timeEnd="0.45"   transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.2" transition="fade"/>
+      <image texture="arcade_go"        pos="0,0" timeStart="0.4"                  transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.1" transition="fade"/>
+    </effect>
+    
+  </power>
+
+
+  <power name="freeze" single="true" colour="255,0,0" bar="arcade_banana_meter_freeze" popup="word_freeze">
+    <time_mod length="7" slowClock="0" >
+      <dt_speed transitionTime="0.5" dt="0.5"/>
+    </time_mod>
+    
+    <!--slash_mod length="7" particles="ice_blade" type="NONE" texture="ice_blade" >
+      <colour>255,255,200</colour>
+    </slash_mod-->
+
+    <effect>
+      <sound name="Bonus-Banana-Freeze"/>
+      <image texture="ice_cover" pos="0,0, -5000" scaleToScreen="true" transitionTime="0.75" transition="fade" drawOrder="before_splats"/>
+      <image texture="clock_freeze" pos="-64,-32"  anchor="0.5,0.5" transitionTime="0.75" transition="fade" drawOrder="normal"/>
+    </effect>    
+    
+    <wave_mod length="7" waveOveride="-100"/>    
+  </power>
+  
+  <power name="speed" single="true" colour="255,0,0" bar="arcade_banana_meter_frenzy" popup="word_frenzy">
+    <wave_mod length="5" waveOveride="-200" />
+    
+    <effect>
+      <sound name="Bonus-Banana-Frenzy"/>
+      <!--<image texture="frenzy_sides" pos="-220,0" transitionMove="-100,0" transitionTime="0.4" pulseSpeed="5" pulseScale="0.125"/>
+      <image texture="frenzy_sides" pos="220,0"  transitionMove="100,0" transitionTime="0.4" pulseSpeed="5" pulseScale="0.125"/>-->
+      <emmiter hardware="fast" particle="frenzy_mode_fx"    pos="-5"  anchor="0.5" />
+      <emmiter hardware="fast" particle="frenzy_mode_fx"    pos="5"  anchor="-0.5" />
+      <tint transitionTime="0.4" tint="1.0, 0.9, 0.8" />
+    </effect>
+    
+  </power>  
+  
+  <power name="score_mult" single="true" colour="255,0,0" bar="arcade_banana_meter_scorex2" popup="word_scorex2">
+    <score_mod length="8">
+      <multiplier gainMultiply="2" deferPoints="true"/>
+    </score_mod>
+    
+    <effect>
+      <sound name="Bonus-Banana-X2"/>
+      <image texture="hud_x2_sign" pos="46,-40" anchor="-0.5,0.5" transitionMoveIn="0,100" transitionTime="0.5" deferPoints="true" />
+      <emmiter hardware="fast" particle="scorex2_mode_fx" pos="30,-30" anchor="-0.5,0.5"/>
+      <tint transitionTime="0.5" backTint="0.40, 0.45, 0.60" hudTint="0.5"  />
+    </effect>
+  </power>
+  
+
+ 
+
+  <effect name="blitz_1" length="1">
+    <image hardware="fast"   texture="blitz_1" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_1" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>
+
+  <effect name="blitz_2" length="1">
+    <image hardware="fast"   texture="blitz_2" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_2" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>
+
+  <effect name="blitz_3" length="1">
+    <image hardware="fast"   texture="blitz_3" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_3" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>
+
+  <effect name="blitz_4" length="1">
+    <image hardware="fast"   texture="blitz_4" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_4" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>
+
+  <effect name="blitz_5" length="1">
+    <image hardware="fast"   texture="blitz_5" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_5" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>
+  
+  <effect name="blitz_6" length="1">
+    <image hardware="fast"   texture="blitz_6" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <image hardware="slow" texture="z_blitz_6" pos="0,0" transitionMoveIn="0,-100" transitionMoveOut="0,100" transitionTime="0.15" transition="fade" drawOrder="post" slowHardwareScale="0.8"/>
+    <tint timeStart="1.0"  timeEnd="0.6"  transitionTime="0.2" backTint="0.8" hudTint="1.0"/>
+    <emmiter particle="impact_fx" pos="21,-21" anchor="-0.5,0.5"/>
+  </effect>  
+
+</powerInfoFile>

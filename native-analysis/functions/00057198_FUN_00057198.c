@@ -1,0 +1,12 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00057198 FUN_00057198 */
+
+void FUN_00057198(int param_1)
+
+{
+  FUN_00017d64(param_1 + 0x68,0);
+  return;
+}
+
+
+

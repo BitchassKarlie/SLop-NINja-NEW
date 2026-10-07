@@ -1,0 +1,47 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'org.fruitnative.reconstruction'
+    compileSdk 34
+    ndkVersion '26.3.11579264'
+    defaultConfig {
+        applicationId 'org.fruitnative.reconstruction'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '0.1.0'
+        ndk { abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64' }
+        externalNativeBuild {
+            cmake {
+                arguments '-DFRUIT_USE_SYSTEM_SDL=OFF', '-DFRUIT_BUILD_TESTS=OFF',
+                          '-DFRUIT_BUILD_INSPECTOR=OFF', '-DANDROID_STL=c++_static'
+                targets 'fruit_ninja', 'SDL2'
+            }
+        }
+    }
+    externalNativeBuild { cmake { path '../../../CMakeLists.txt'; version '3.22.1' } }
+    sourceSets.main {
+        java.srcDir '../../../vendor/SDL2/android-project/app/src/main/java'
+        assets.srcDirs = [layout.buildDirectory.dir('generated/gameAssets')]
+    }
+    signingConfigs {
+        release {
+            if (System.getenv('ANDROID_KEYSTORE')) {
+                storeFile file(System.getenv('ANDROID_KEYSTORE'))
+                storePassword System.getenv('ANDROID_STORE_PASSWORD')
+                keyAlias System.getenv('ANDROID_KEY_ALIAS')
+                keyPassword System.getenv('ANDROID_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (System.getenv('ANDROID_KEYSTORE')) { signingConfig signingConfigs.release }
+        }
+    }
+}
+tasks.register('prepareGameAssets', Sync) {
+    from('../../../assets') { include 'original/**', 'config/**' }
+    into(layout.buildDirectory.dir('generated/gameAssets'))
+}
+tasks.named('preBuild').configure { dependsOn 'prepareGameAssets' }

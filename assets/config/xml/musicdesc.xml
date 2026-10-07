@@ -1,0 +1,12 @@
+<music>
+	<track>
+    <fileName>background.caf</fileName>
+		<name>background</name>
+		<loopPoint>720896</loopPoint>
+	</track>
+  <track>
+    <fileName>Music-menu.caf</fileName>
+    <name>Music-menu</name>
+    <loopPoint>66162</loopPoint>
+  </track>
+</music>

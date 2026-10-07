@@ -1,0 +1,2452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<particle_file version="1.0.0">
+	<body>	
+	
+		<emitter name="watermelon">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="w_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="w_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="orange">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="o_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="o_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="pineapple">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="p_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+
+		<emitter name="lemon">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="p_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		</emitter>    
+    
+		<emitter name="kiwifruit">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="k_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="k_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="strawberry">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="s_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="s_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="apple">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-600 -400 0" max="600 400 0"/>
+			</particleSet>
+		
+		</emitter>
+    
+		<emitter name="apple_red">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-600 -400 0" max="600 400 0"/>
+			</particleSet>
+		
+		</emitter>    
+		
+		<emitter name="plum">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="m_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="m_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+
+		</emitter>
+
+		<emitter name="pear">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-600 -400 0" max="600 400 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="mango">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="m_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="m_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="lime">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="k_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="k_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="dragon">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="d_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="d_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-700 -400 0" max="700 400 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="coconut">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="d_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="d_big_splat22">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="passionfruit">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="pas_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="m_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="20" perSec="0"/>
+				<velocity min="-800 -500 0" max="800 500 0"/>
+			</particleSet>	
+
+		</emitter>
+		
+		<emitter name="openfeint">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+
+			<particleSet name="p_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-600 -400 0" max="600 400 0"/>
+			</particleSet>		
+		
+		</emitter>
+		
+		<emitter name="apple_center">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="p_big_splat">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-500 200 0" max="500 400 0"/>
+			</particleSet>
+
+			<particleSet name="ac_big_splat2">
+				<time start="0" stop="5"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-700 -400 0" max="700 400 0"/>
+			</particleSet>
+		
+		</emitter>
+		
+		<emitter name="crit_hit">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="star">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-600 300 0" max="600 500 0"/>
+			</particleSet>
+
+			<particleSet name="star2">
+				<time start="0" stop="5"/>
+				<particleNumber init="12" perSec="0"/>
+				<velocity min="-700 -600 0" max="900 600 0"/>
+			</particleSet>
+
+			<particleSet name="star_splash">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>		
+
+		</emitter>
+
+		<emitter name="crit_hit_stars">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="flying_star">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="25"/>
+				<velocity min="-80 -60 0" max="80 60 0"/>
+			</particleSet>
+
+		</emitter>		
+		
+		<emitter name="bomb_smoke">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="smoke">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="30"/>
+				<velocity min="-20 20 0" max="20 40 0"/>
+			</particleSet>
+			
+			<particleSet name="sparks">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="30"/>
+				<velocity min="-300 -300 0" max="300 300 0"/>
+			</particleSet>
+	
+		</emitter>
+		
+		<emitter name="purple_bomb_smoke">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="purple_smoke">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="30"/>
+				<velocity min="-20 20 0" max="20 40 0"/>
+			</particleSet>
+			
+			<particleSet name="purple_sparks">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="30"/>
+				<velocity min="-300 -300 0" max="300 300 0"/>
+			</particleSet>
+	
+		</emitter>
+    
+    <emitter name="rim_hit">
+			<life>2.0</life>
+			<shape>"Point"</shape>
+			<size start="1" end="1"/>
+			<particleSet name="rim_spark">
+				<time start="0" stop="1"/>
+				<particleNumber init="22" perSec="0"/>
+				<velocity min="-1800 -1800 -1800" max="1800 1800 1800"/>
+			</particleSet>
+    </emitter> 
+
+	<emitter name="dragon_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="sparkles">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+			
+			<particleSet name="sparkles_sml">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="20"/>
+				<velocity min="-450 -450 0" max="450 450 0"/>
+			</particleSet>
+	
+    </emitter>
+
+
+		<emitter name="mr_sparkle_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="sparkles_coins">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="20"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+	
+		</emitter> 
+		
+		<emitter name="gold_pear_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="sparkles_coins_behind">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="20"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+	
+		</emitter> 				
+
+
+		<emitter name="coin_collect">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="sparkles_coins_burst">
+				<time start="0" stop="0"/>
+				<particleNumber init="3" perSec="0"/>
+				<velocity min="-600 -600 0" max="600 600 0"/>
+			</particleSet>
+			
+			<particleSet name="coins_shine">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>        
+	    
+		<emitter name="confetti">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="confetti_1">
+				<time start="0" stop="5"/>
+				<particleNumber init="4" perSec="0"/>
+				<velocity min="-3400 -450 0" max="3400 450 0"/>
+			</particleSet>
+			
+			<particleSet name="confetti_2">
+				<time start="0" stop="5"/>
+				<particleNumber init="4" perSec="0"/>
+				<velocity min="-3300 -700 0" max="3300 700 0"/>
+			</particleSet>
+			
+			<particleSet name="confetti_3">
+				<time start="0" stop="5"/>
+				<particleNumber init="4" perSec="0"/>
+				<velocity min="-3550 -700 0" max="3550 700 0"/>
+			</particleSet>
+      
+			<particleSet name="confetti_4">
+				<time start="0" stop="5"/>
+				<particleNumber init="4" perSec="0"/>
+				<velocity min="-3550 -700 0" max="3550 700 0"/>
+			</particleSet>			
+		</emitter>
+
+		<emitter name="american_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="stars_stripes">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="15"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+			
+			<particleSet name="stars_stripes_sml">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="butterfly_knife">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="butterfly">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+			
+			<particleSet name="butterfly_sml">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="Flame_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="flames">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="12"/>
+				<velocity min="-100 50 0" max="100 200 0"/>
+			</particleSet>
+			
+			<particleSet name="flame_spark">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="15"/>
+				<velocity min="-150 -50 0" max="150 300 0"/>
+			</particleSet>
+
+			<particleSet name="flame_smoke">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-80 -20 0" max="80 80 0"/>
+			</particleSet>
+		</emitter>
+		
+		<emitter name="ice_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="snowflakes">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="12"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+			
+			<particleSet name="snow">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-80 -300 0" max="80 30 0"/>
+			</particleSet>
+
+			<particleSet name="ice_fog">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-30 -30 0" max="30 30 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="multi_winning">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="stars_winning">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="12"/>
+				<velocity min="-100 -100 0" max="100 100 0"/>
+			</particleSet>
+			
+			<particleSet name="stars_winning_sml">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-350 -350 0" max="350 350 0"/>
+			</particleSet>
+
+		</emitter>
+		
+		<emitter name="multi_winning_2">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="winning_ring">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="2"/>
+				<velocity min="-0 -0 0" max="0 0 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="red_bomb_deploy">
+			<life>1</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="red_deploy_sparks">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-600 -600 0" max="600 600 0"/>
+			</particleSet>
+			
+			<particleSet name="red_ring_deploy">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>
+
+		<emitter name="blue_bomb_deploy">
+			<life>1</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="blue_deploy_sparks">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-600 -600 0" max="600 600 0"/>
+			</particleSet>
+			
+			<particleSet name="blue_ring_deploy">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>
+		
+		<emitter name="red_bomb_warning">
+			<life>1</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="red_warning_stars">
+				<time start="0" stop="5"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-200 600 0" max="200 300 0"/>
+			</particleSet>
+			
+			<particleSet name="red_ring_deploy">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>
+		
+		<emitter name="blue_bomb_warning">
+			<life>1</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="blue_warning_stars">
+				<time start="0" stop="5"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-200 600 0" max="200 300 0"/>
+			</particleSet>
+			
+			<particleSet name="blue_ring_deploy">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>
+
+		<emitter name="frenzy_mode_fx">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="frenzy_stars_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-700 -30 0" max="750 950 0"/>
+			</particleSet>
+		
+			<particleSet name="frenzy_stars_2">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-700 -750 0" max="700 50 0"/>
+			</particleSet>
+			
+		</emitter>
+		
+		<emitter name="scorex2_mode_fx">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="scorex2_stars_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-450 -450 0" max="450 450 0"/>
+			</particleSet>
+		
+			<particleSet name="scorex2_stars_2">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-700 -700 0" max="700 700 0"/>
+			</particleSet>
+			
+		</emitter>
+
+		<emitter name="x2">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="x2_float">
+				<time start="0" stop="0"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 110 0" max="0 110 0"/>
+			</particleSet>
+			
+		</emitter>
+
+		<emitter name="freeze_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+			<particleSet name="freeze_trail">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+			
+			<particleSet name="stars_freeze">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>	
+			
+			<particleSet name="snow">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-80 -300 0" max="80 30 0"/>
+			</particleSet>
+
+			<particleSet name="ice_fog">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-30 -30 0" max="30 30 0"/>
+			</particleSet>
+		</emitter>
+		
+		<emitter name="frenzy_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="frenzy_trail">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+			
+			<particleSet name="stars_frenzy">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+	
+		</emitter>
+
+		<emitter name="scorex2_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="scorex2_trail">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+			
+			<particleSet name="stars_scorex2">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-150 -150 0" max="150 150 0"/>
+			</particleSet>
+	
+		</emitter>
+
+		<emitter name="freeze">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="freeze_hit_1">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-600 300 0" max="600 500 0"/>
+			</particleSet>
+
+			<particleSet name="freeze_hit_2">
+				<time start="0" stop="5"/>
+				<particleNumber init="10" perSec="0"/>
+				<velocity min="-700 -600 0" max="900 600 0"/>
+			</particleSet>
+
+			<particleSet name="freeze_hit_splash">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>		
+
+		</emitter>  
+
+		<emitter name="frenzy">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="frenzy_hit_1">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-600 300 0" max="600 500 0"/>
+			</particleSet>
+
+			<particleSet name="frenzy_hit_2">
+				<time start="0" stop="5"/>
+				<particleNumber init="10" perSec="0"/>
+				<velocity min="-700 -600 0" max="900 600 0"/>
+			</particleSet>
+
+			<particleSet name="frenzy_hit_splash">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>		
+
+		</emitter>  
+
+		<emitter name="scorex2">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="scorex2_hit_1">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-600 300 0" max="600 500 0"/>
+			</particleSet>
+
+			<particleSet name="scorex2_hit_2">
+				<time start="0" stop="5"/>
+				<particleNumber init="10" perSec="0"/>
+				<velocity min="-700 -600 0" max="900 600 0"/>
+			</particleSet>
+
+			<particleSet name="scorex2_hit_splash">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>			
+
+		</emitter>
+
+		<emitter name="impact_fx">
+			<life>1</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="impact_burst">
+				<time start="0" stop="0"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+			
+			<particleSet name="burst">
+				<time start="0" stop="0"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-1000 -1000 0" max="1000 1000 0"/>
+			</particleSet>
+			
+			<particleSet name="impact_ring">
+				<time start="0" stop="0"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>	
+	
+		</emitter>
+
+		<emitter name="fruit_flight">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+			
+			<particleSet name="gust_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="18"/>
+				<velocity min="-10 -10 0" max="10 10 0"/>
+			</particleSet>
+			
+		</emitter>
+
+		<emitter name="bonus_mode_fx_red">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="bonus_stars_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-1200 -60 0" max="1250 1650 0"/>
+			</particleSet>
+		
+			<particleSet name="bonus_stars_2">
+				<time start="0" stop="0"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-1200 -1250 0" max="1200 100 0"/>
+			</particleSet>
+			
+		</emitter>
+		
+		<emitter name="bonus_mode_fx_blue">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			
+			<particleSet name="bonus_stars_3">
+				<time start="0" stop="0"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-1200 -60 0" max="1250 1650 0"/>
+			</particleSet>
+			
+			<particleSet name="bonus_stars_4">
+				<time start="0" stop="0"/>
+				<particleNumber init="15" perSec="0"/>
+				<velocity min="-1200 -1250 0" max="1200 100 0"/>
+			</particleSet>
+			
+		</emitter>
+
+		<emitter name="bonus_star_trail">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="bonus_trail">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="15"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+			
+			<particleSet name="bonus_star_trail">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="20"/>
+				<velocity min="-200 -200 0" max="200 200 0"/>
+			</particleSet>
+				
+		</emitter> 
+
+		<emitter name="bonus_star_impact">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+			<particleSet name="sparkles_bonus_burst">
+				<time start="0" stop="5"/>
+				<particleNumber init="10" perSec="0"/>
+				<velocity min="-600 -600 0" max="600 600 0"/>
+			</particleSet>
+	
+			<particleSet name="stars_bonus_burst">
+				<time start="0" stop="5"/>
+				<particleNumber init="8" perSec="0"/>
+				<velocity min="-600 -600 0" max="600 600 0"/>
+			</particleSet>
+			
+			<particleSet name="bonus_shine">
+				<time start="0" stop="5"/>
+				<particleNumber init="1" perSec="0"/>
+				<velocity min="0 -1 0" max="0 -1 0"/>
+			</particleSet>
+
+		</emitter>
+
+		<emitter name="plus_3">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+	
+			<particleSet name="plus_3_stars">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-400 100 0" max="400 400 0"/>
+			</particleSet>
+
+		</emitter>
+
+		<emitter name="plus_3_red">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>
+	
+			<particleSet name="plus_3_stars_red">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-400 100 0" max="400 400 0"/>
+			</particleSet>
+
+		</emitter>
+
+		<emitter name="arcade_confetti">
+			<life>5</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="arcade_confetti_1">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-3400 -450 0" max="3400 450 0"/>
+			</particleSet>
+			
+			<particleSet name="arcade_confetti_2">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-3300 -700 0" max="3300 700 0"/>
+			</particleSet>
+			
+			<particleSet name="arcade_confetti_3">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-3550 -700 0" max="3550 700 0"/>
+			</particleSet>
+      
+			<particleSet name="arcade_confetti_4">
+				<time start="0" stop="5"/>
+				<particleNumber init="5" perSec="0"/>
+				<velocity min="-3550 -700 0" max="3550 700 0"/>
+			</particleSet>			
+		</emitter>
+
+		<emitter name="dark_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="darkstuff">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-180 -110 0" max="180 110 0"/>
+			</particleSet>
+			
+			<particleSet name="dark_snow">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="-120 -350 0" max="120 40 0"/>
+			</particleSet>
+
+			<particleSet name="black_fog">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="8"/>
+				<velocity min="-30 -30 0" max="30 30 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="light_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="angel_wings">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="9"/>
+				<velocity min="1 1 0" max="1 1 0"/>
+			</particleSet>
+			
+			<particleSet name="angel_rings">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="15"/>
+				<velocity min="-0 1 0" max="0 1 0"/>
+			</particleSet>
+			
+			<particleSet name="light_sparkle">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="10"/>
+				<velocity min="400 400 0" max="-400 -400 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="musical_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="music_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="1" perSec="2"/>
+				<velocity min="0 80 0" max="0 100 0"/>
+			</particleSet>
+			
+			<particleSet name="music_2">
+				<time start="0.1666" stop="0"/>
+				<particleNumber init="1" perSec="2"/>
+				<velocity min="0 70 0" max="-0 100 0"/>
+			</particleSet>
+			
+			<particleSet name="music_3">
+				<time start="0.333" stop="0"/>
+				<particleNumber init="1" perSec="2"/>
+				<velocity min="0 100 0" max="-0 150 0"/>
+			</particleSet>
+		</emitter>
+
+		<emitter name="musical_blade_2">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+			<particleSet name="music_4">
+				<time start="0" stop="0"/>
+				<particleNumber init="1" perSec="3"/>
+				<velocity min="0 80 0" max="0 100 0"/>
+			</particleSet>
+			
+			<particleSet name="music_5">
+				<time start="0.1666" stop="0"/>
+				<particleNumber init="1" perSec="3"/>
+				<velocity min="0 70 0" max="-0 100 0"/>
+			</particleSet>
+			
+			<particleSet name="music_6">
+				<time start="0.333" stop="0"/>
+				<particleNumber init="1" perSec="3"/>
+				<velocity min="0 100 0" max="-0 150 0"/>
+			</particleSet>
+		</emitter>
+
+
+		<emitter name="rainbow_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>			
+			<particleSet name="rainbow_sparks">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="15"/>
+				<velocity min="500 500 0" max="-500 -500 0"/>
+			</particleSet>
+			
+			<particleSet name="blade_confetti_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="2" perSec="6"/>
+				<velocity min="-2200 -450 0" max="2200 450 0"/>
+			</particleSet>
+			
+			<particleSet name="blade_confetti_2">
+				<time start="0" stop="0"/>
+				<particleNumber init="2" perSec="6"/>
+				<velocity min="-2500 -700 0" max="2500 700 0"/>
+			</particleSet>
+      
+			<particleSet name="blade_confetti_3">
+				<time start="0" stop="0"/>
+				<particleNumber init="2" perSec="6"/>
+				<velocity min="-2550 -700 0" max="2550 700 0"/>
+			</particleSet>
+
+			<particleSet name="blade_confetti_4">
+				<time start="0" stop="0"/>
+				<particleNumber init="2" perSec="6"/>
+				<velocity min="-2650 -700 0" max="2650 700 0"/>
+			</particleSet>			
+		</emitter>
+
+		<emitter name="pixel_blade">
+			<life>0</life>
+			<shape>Point</shape>
+			<size start="1" end="1"/>	
+
+			<particleSet name="pixel_1">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="40"/>
+				<velocity min="-400 -500 0" max="400 -100 0"/>
+			</particleSet>
+
+			<particleSet name="pixel_2">
+				<time start="0" stop="0"/>
+				<particleNumber init="0" perSec="60"/>
+				<velocity min="-50 -100 0" max="50 -50 0"/>
+			</particleSet>	
+
+			<particleSet name="pixel_3">
+				<time start="0.250" stop="0"/>
+				<particleNumber init="0" perSec="50"/>
+				<velocity min="-300 -600 0" max="300 -300 0"/>
+			</particleSet>		
+		</emitter>								 	  
+   
+      
+    <particleTemplate name="rim_spark">
+        <drawOrder>400</drawOrder>
+        <texture name="rimhit" Tsize="32" Ssize="32" format="GX_TEXFMT_A5I3"/>
+        <life>0.3</life>
+        <type>Direction</type>
+        <gravity>0 100 0</gravity>
+        <color startMin="20 8 0 31" startMax="20 8 0 31" endMin="5 2 0 31" endMax="5 2 0 31" />
+        <spin startMin="-10" startMax="10" endMin="0" endMax="0"/>
+        <size startMin="30" startMax="30" endMin="5" endMax="5"/>
+      <SourceBlend>SourceAlpha</SourceBlend>
+      <DestinationBlend>One</DestinationBlend>
+    </particleTemplate>      
+    
+		<particleTemplate name="w_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="w_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="w_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="w_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>    
+    
+ 		<particleTemplate name="o_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="o_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="o_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="o_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="p_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="p_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="p_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="p_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="k_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="k_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="k_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="k_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="s_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="w_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+
+		<particleTemplate name="s_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="w_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="smoke">
+			<drawOrder>0</drawOrder>
+			<texture name="smoke" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>20</life>
+			<gravity>0 50 0</gravity>
+			<color startMin="31 31 31 20" startMax="31 31 31 20" endMin="31 31 15 5" endMax="31 31 15 5" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="10" startMax="12" endMin="5" endMax="5"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="sparks">
+			<drawOrder>0</drawOrder>
+			<texture name="sparks" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="27 27 0 31" endMax="27 27 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="purple_smoke">
+			<drawOrder>0</drawOrder>
+			<texture name="smoke" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>20</life>
+			<gravity>0 50 0</gravity>
+			<color startMin="31 0 31 20" startMax="31 10 31 20" endMin="31 15 31 5" endMax="31 15 31 5" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="13" startMax="16" endMin="7" endMax="7"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="purple_sparks">
+			<drawOrder>0</drawOrder>
+			<texture name="sparks" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="27 0 27 31" endMax="27 0 27 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="pl_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="pl_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+	
+		<particleTemplate name="pl_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="pl_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="star2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="5 20 31 31" startMax="10 25 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+		
+		<particleTemplate name="star_splash">
+			<drawOrder>0</drawOrder>
+			<texture name="crit_main_splash" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 0" endMax="10 25 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="80" startMax="90" endMin="220" endMax="240"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="star">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 31" endMax="10 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="flying_star">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 100 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 31" endMax="10 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="14" startMax="16" endMin="1" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="m_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="m_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="m_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="m_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="d_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="d_big_splat22">
+			<drawOrder>0</drawOrder>
+			<texture name="d_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>				
+	
+		<particleTemplate name="d_big_splat">
+			<drawOrder>0</drawOrder>
+			<texture name="d_big_juice" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="d_main_splash">
+			<drawOrder>0</drawOrder>
+			<texture name="d_main_splash" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>8</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 0" endMax="10 25 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="80" startMax="90" endMin="220" endMax="240"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+ 		<particleTemplate name="ac_big_splat2">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 20 31" startMax="31 31 20 31" endMin="31 25 0 31" endMax="31 25 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="sparkles">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 25 20" startMax="31 31 25 20" endMin="27 5 10 31" endMax="27 5 10 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="30" startMax="35" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="sparkles_sml">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="5 31 0 31" endMax="5 31 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="sparkles_coins">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 0 31" endMax="31 31 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="sparkles_coins_behind" useDepth="-1">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 0 31" endMax="31 31 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="25" startMax="35" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>			
+
+		<particleTemplate name="sparkles_coins_burst">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 -500 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 0 31" endMax="31 31 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="20" startMax="25" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="coins_shine">
+			<drawOrder>0</drawOrder>
+			<texture name="coin_shine" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 0" endMax="31 31 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="60" endMax="65"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>									    
+		
+ 		<particleTemplate name="confetti_1">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_1" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>130</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="29 6 4 31" startMax="29 6 4 31" />
+			<size startMin="8" startMax="12" midMin="8" midMax="12" endMin="0" endMax="0"/>
+      <cycleY startMin="0" startMax="0" endMin="-5" endMax="5"/>
+      <angle min="-50" max="50"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+ 		<particleTemplate name="confetti_2">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_2" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>100</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="31 29 0 31" startMax="31 29 0 31" />
+      <angle min="-75" max="75"/>
+			<size startMin="8" startMax="12" midMin="8" midMax="12" endMin="0" endMax="0"/>
+      <cycleX startMin="-3" startMax="3" endMin="-5" endMax="5"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+ 		<particleTemplate name="confetti_3">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_3" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>120</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<color startMin="1 16 29 31" startMax="1 16 29 31" />
+			<angle min="-60" max="60"/>
+			<size startMin="6" startMax="8" midMin="6" midMax="8" endMin="0" endMax="0"/>
+      <cycleY startMin="0" startMax="0" endMin="-6" endMax="8"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>			
+
+ 		<particleTemplate name="confetti_4">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_2" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>100</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="6 31 8 31" startMax="6 31 8 31" />
+      <angle min="-75" max="75"/>
+			<size startMin="8" startMax="12" midMin="8" midMax="12" endMin="0" endMax="0"/>
+      <cycleX startMin="-3" startMax="3" endMin="-5" endMax="5"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="stars_stripes">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="15 20 31 31" endMax="22 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="7" startMax="10" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="stars_stripes_sml">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="5 20 31 31" endMax="5 20 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="butterfly">
+			<drawOrder>0</drawOrder>
+			<texture name="butterfly" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 100 0</gravity>
+			<angle min="-50" max="50"/>
+			<cycleX startMin="-3" startMax="3" endMin="-5" endMax="5"/>
+			<color startMin="31 20 31 31" startMax="15 10 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="10" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="butterfly_sml">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="25 5 31 31" endMax="25 5 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="flame_smoke">
+			<drawOrder>0</drawOrder>
+			<texture name="light_smoke" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+			<gravity>0 200 0</gravity>
+			<color startMin="31 31 10 31" startMax="31 31 20 31" midmin="31 0 0 31" midmax="31 0 0 31" endMin="0 0 0 0" endMax="0 0 0 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="2" startMax="5" endMin="20" endMax="35"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="flame_spark">
+			<drawOrder>0</drawOrder>
+			<texture name="flame_spark" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<type>Direction</type>
+			<gravity>0 100 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="20 15 5 31" endMax="31 20 10 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="3" startMax="6" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="flames">
+			<drawOrder>0</drawOrder>
+			<texture name="flame" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 20 5 31" startMax="31 31 20 31" endMin="31 0 0 15" endMax="31 0 0 15" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="ice_fog">
+			<drawOrder>0</drawOrder>
+			<texture name="fog" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 0" startMax="31 31 31 0" endMin="20 25 31 15" endMax="31 31 31 15" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="30" startMax="35" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="snow">
+			<drawOrder>0</drawOrder>
+			<texture name="snow" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>80</life>
+			<type>Direction</type>
+			<gravity>0 -100 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="20 25 31 31" endMax="22 28 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="5" startMax="8" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="snowflakes">
+			<drawOrder>0</drawOrder>
+			<texture name="snowflake" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>60</life>
+			<gravity>0 -100 0</gravity>
+			<cycleX startMin="-1" startMax="1" endMin="-3" endMax="3"/>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="15 20 31 31" endMax="20 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="10" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="stars_winning">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>60</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 10 31" endMax="31 31 15 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="10" startMax="12" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="stars_winning_sml">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Directional</type>
+			<gravity>0 -50 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 5 31" endMax="31 31 15 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="winning_ring">
+			<drawOrder>0</drawOrder>
+			<texture name="ring" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>70</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 0" endMax="31 31 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="50" endMax="60"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="red_deploy_sparks">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 5 0 31" startMax="31 10 5 31" endMin="31 15 0 31" endMax="31 15 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="red_ring_deploy">
+			<drawOrder>0</drawOrder>
+			<texture name="ring" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>20</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 10 3 31" startMax="31 10 3 31" endMin="31 5 0 0" endMax="31 5 0 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="90" endMax="100"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="blue_deploy_sparks">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>25</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="5 10 31 31" startMax="10 20 31 31" endMin="10 20 31 31" endMax="20 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="blue_ring_deploy">
+			<drawOrder>0</drawOrder>
+			<texture name="ring" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>20</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="0 5 31 31" startMax="5 10 31 31" endMin="5 25 31 0" endMax="5 25 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="90" endMax="100"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="blue_warning_stars">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="0 10 31 31" startMax="0 5 31 31" endMin="10 25 31 31" endMax="10 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="red_warning_stars">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 10 5 31" startMax="31 5 2 31" endMin="31 20 10 31" endMax="31 25 15 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="frenzy_stars_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>35</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 25 12 31" startMax="31 13 6 31" endMin="31 30 17 31" endMax="31 31 25 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="frenzy_stars_2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>35</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 7 3 31" startMax="31 13 6 31" endMin="31 13 8 31" endMax="31 13 8 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="scorex2_stars_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+            <system>Local</system>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="15 25 31 0" startMax="15 25 31 0" endMin="0 18 31 31" endMax="5 18 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="25" startMax="30" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="scorex2_stars_2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+            <system>Local</system>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 0" startMax="31 31 31 0" endMin="5 31 15 31" endMax="15 31 25 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="x2_float">
+			<drawOrder>0</drawOrder>
+			<texture name="x2" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>60</life>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 0" endMax="31 31 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="25" startMax="25" endMin="32" endMax="32"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="stars_freeze">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="15 18 31 31" endMax="25 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="12" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="freeze_trail">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="25 25 31 31" startMax="20 20 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="20" startMax="30" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="stars_frenzy">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 0 31" startMax="31 20 10 31" endMin="31 5 0 31" endMax="31 10 0 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="5" startMax="4" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="frenzy_trail">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 20 31" startMax="31 20 20 31" endMin="31 31 0 31" endMax="31 0 0 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="20" startMax="30" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="stars_scorex2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>50</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="0 5 31 31" startMax="0 20 31 31" endMin="0 20 31 31" endMax="0 10 31 31" />
+			<spin startMin="0" startMax="0" endMin="-4" endMax="4"/>
+			<size startMin="10" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="scorex2_trail">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="0 31 10 31" endMax="0 10 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="20" startMax="30" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="freeze_hit_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 31" endMax="10 25 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="freeze_hit_2">
+			<drawOrder>0</drawOrder>
+			<texture name="snow" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="10 25 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+		
+		<particleTemplate name="freeze_hit_splash">
+			<drawOrder>0</drawOrder>
+			<texture name="crit_main_splash" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="10 25 31 0" endMax="10 25 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="80" startMax="90" endMin="220" endMax="240"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="frenzy_hit_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="31 31 0 31" startMax="31 0 0 31" endMin="31 31 20 31" endMax="31 20 10 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="frenzy_hit_2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 20 31" startMax="31 20 20  31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+		
+		<particleTemplate name="frenzy_hit_splash">
+			<drawOrder>0</drawOrder>
+			<texture name="crit_main_splash" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 0 0" endMax="31 0 0 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="80" startMax="90" endMin="220" endMax="240"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="scorex2_hit_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>45</life>
+			<gravity>0 -400 0</gravity>
+			<color startMin="0 5 31 31" startMax="0 25 31 31" endMin="5 15 31 31" endMax="20 27 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="12" startMax="14" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+ 		<particleTemplate name="scorex2_hit_2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>40</life>
+			<gravity>0 -200 0</gravity>
+			<color startMin="10 20 31 31" startMax="15 25 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="4" startMax="5" endMin="0" endMax="1"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+		
+		<particleTemplate name="scorex2_hit_splash">
+			<drawOrder>0</drawOrder>
+			<texture name="crit_main_splash" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>10</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="20 25 31 31" endMin="0 31 20 0" endMax="0 31 10 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="80" startMax="90" endMin="220" endMax="240"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="impact_burst" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="impact" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>8</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 25 0 31" startMax="31 25 0 31" endMin="31 25 0 0" endMax="31 25 0 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="100" endMax="120"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+		
+		<particleTemplate name="burst"  useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="snow" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>15</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="5" startMax="10" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="impact_ring" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="ring" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>12</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 0 31" startMax="31 31 0 31" endMin="31 31 20 0" endMax="31 31 20 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="70" endMax="75"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="swirl" useDepth="-1">
+			<drawOrder>0</drawOrder>
+			<texture name="swirl" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>100</life>
+			<type>Direction</type>
+            <system>Local</system>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 31 20" startMax="31 31 31 20" endMin="31 31 31 0" endMax="31 31 31 0" />
+			<spin startMin="2" startMax="2" endMin="2" endMax="2"/>
+			<size startMin="25" startMax="30" endMin="70" endMax="70"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="gust_1" useDepth="-1">
+			<drawOrder>0</drawOrder>
+			<texture name="gust_1" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 20 6" startMax="31 31 20 6" endMin="31 31 20 0" endMax="31 31 20 0" />
+			<spin startMin="0" startMax="0" endMin="2" endMax="5"/>
+			<size startMin="25" startMax="25" endMin="10" endMax="10"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>		
+
+		<particleTemplate name="gust_2" useDepth="-1">
+			<drawOrder>0</drawOrder>
+			<texture name="gust_1" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Direction</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 31 25 4" startMax="31 31 25 4" endMin="31 31 25 0" endMax="31 31 25 0" />
+			<spin startMin="0" startMax="0" endMin="2" endMax="5"/>
+			<size startMin="15" startMax="15" endMin="5" endMax="5"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_stars_1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 25 12 31" startMax="31 13 6 31" endMin="31 30 17 31" endMax="31 31 25 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_stars_2">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 7 3 31" startMax="31 13 6 31" endMin="31 13 8 31" endMax="31 13 8 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_stars_3">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="15 25 31 31" startMax="15 25 31 31" endMin="0 18 31 31" endMax="5 18 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_stars_4">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>18</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<angle min="-50" max="50"/>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="5 31 15 31" endMax="15 31 25 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="15" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_trail" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="20 25 31 31" startMax="20 25 31 31" endMin="31 31 31 31" endMax="31 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="30" startMax="35" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="bonus_star_trail" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="15 20 31 31" startMax="15 25 31 31" endMin="20 25 31 31" endMax="25 31 31 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="5" startMax="15" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+		
+		<particleTemplate name="sparkles_bonus_burst" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>20</life>
+			<type>Directional</type>
+			<gravity>0 -500 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="31 31 0 31" endMax="31 20 20 31" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="30" startMax="35" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="stars_bonus_burst" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>15</life>
+			<type>Directional</type>
+			<gravity>0 -500 0</gravity>
+			<color startMin="31 31 20 31" startMax="31 31 25 31" endMin="31 15 0 31" endMax="31 20 0 31" />
+			<spin startMin="0" startMax="0" endMin="-1" endMax="1"/>
+			<size startMin="16" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="bonus_shine" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="ring" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 0 0</gravity>
+			<color startMin="31 10 0 31" startMax="31 10 0 31" endMin="31 31 31 0" endMax="31 31 31 0" />
+			<spin startMin="0" startMax="0" endMin="0" endMax="0"/>
+			<size startMin="0" startMax="0" endMin="100" endMax="100"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+		<particleTemplate name="plus_3_stars" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<color startMin="31 31 31 31" startMax="31 31 31 31" endMin="25 25 25 31" endMax="25 25 25 31" />
+			<spin startMin="0" startMax="0" endMin="-1" endMax="1"/>
+			<size startMin="16" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>
+
+		<particleTemplate name="plus_3_stars_red" useDepth="1">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>30</life>
+			<type>Directional</type>
+			<gravity>0 -200 0</gravity>
+			<color startMin="22 19 19 31" startMax="22 19 19 31" endMin="11 10 10 31" endMax="11 10 10 31" />
+			<spin startMin="0" startMax="0" endMin="-1" endMax="1"/>
+			<size startMin="16" startMax="20" endMin="0" endMax="0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+ 		<particleTemplate name="arcade_confetti_1">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_1" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>130</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="31 5 0 31" startMax="31 6 4 31" endMin="29 6 20 31" endMax="29 6 10 31"/>
+			<size startMin="6" startMax="9" midMin="6" midMax="9" endMin="0" endMax="0"/>
+      <cycleY startMin="0" startMax="0" endMin="-5" endMax="5"/>
+      <angle min="-50" max="50"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+
+ 		<particleTemplate name="arcade_confetti_2">
+			<drawOrder>0</drawOrder>
+			<texture name="sparkle_32" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>100</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="31 31 0 31" startMax="31 31 20 31" endMin="31 31 25 31" endMax="31 31 31 31" />
+      <angle min="-75" max="75"/>
+			<size startMin="10" startMax="14" midMin="14" midMax="18" endMin="0" endMax="0"/>
+      <cycleX startMin="-3" startMax="3" endMin="-5" endMax="5"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>	
+    
+    		<particleTemplate name="arcade_confetti_3">
+			<drawOrder>0</drawOrder>
+			<texture name="star" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>120</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<color startMin="0 10 31 31" startMax="1 16 29 31" endMin="10 20 29 31" endMax="15 27 31 31" />
+			<angle min="-60" max="60"/>
+			<size startMin="6" startMax="8" midMin="6" midMax="8" endMin="0" endMax="0"/>
+      <cycleY startMin="0" startMax="0" endMin="-6" endMax="8"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>			
+
+ 		<particleTemplate name="arcade_confetti_4">
+			<drawOrder>0</drawOrder>
+			<texture name="confetti_1" Tsize="16" Ssize="16" format="GX_TEXFMT_PLTT4"/>
+			<life>100</life>
+			<gravity>0 -500 0</gravity> 
+      <gravity_max>0 -900 0</gravity_max> 
+			<color startMin="6 31 8 31" startMax="25 31 10 31" />
+      <angle min="-75" max="75"/>
+			<size startMin="3" startMax="6" midMin="3" midMax="6" endMin="0" endMax="0"/>
+      <cycleX startMin="-3" startMax="3" endMin="-5" endMax="5"/>
+      <friction start="0.8 0.9 0" end="0.8 0.9 0"/>
+			<SourceBlend>SourceAlpha</SourceBlend>
+			<DestinationBlend>InverseSourceAlpha</DestinationBlend>
+		</particleTemplate>								 
+    
+	</body>
+</particle_file>

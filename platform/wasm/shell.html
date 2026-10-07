@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fruit Ninja Native</title><style>
+body{margin:0;background:#171717;color:#eee;font:16px system-ui;text-align:center}
+canvas{display:block;margin:1rem auto;width:min(96vw,960px);height:auto;aspect-ratio:3/2;touch-action:none}
+button{padding:.7rem 1.5rem;margin:1rem;font:inherit}#status{margin:1rem}
+</style></head><body>
+<h1>Fruit Ninja Native</h1><p>Swipe or drag to slice. Slice a menu fruit to start.</p>
+<button id="start" disabled>Loading…</button><button id="fullscreen">Fullscreen</button>
+<div id="status" role="status">Downloading game assets…</div>
+<canvas id="canvas" width="960" height="640" tabindex="0" oncontextmenu="event.preventDefault()"></canvas>
+<script>
+var Module={noInitialRun:true,canvas:document.getElementById('canvas'),
+ setStatus:function(text){document.getElementById('status').textContent=text},
+ print:console.log,printErr:console.error,
+ onRuntimeInitialized:function(){var start=document.getElementById('start');start.disabled=false;start.textContent='Start game';
+  start.onclick=function(){start.disabled=true;start.hidden=true;Module.canvas.focus();Module.callMain([])};},
+ onAbort:function(reason){document.getElementById('status').textContent='Unable to start: '+reason}};
+document.getElementById('fullscreen').onclick=function(){Module.canvas.requestFullscreen()};
+</script>
+{{{ SCRIPT }}}
+</body></html>

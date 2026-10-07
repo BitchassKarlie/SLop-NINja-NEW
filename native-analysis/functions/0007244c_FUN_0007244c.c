@@ -1,0 +1,124 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 0007244c FUN_0007244c */
+
+undefined4 * FUN_0007244c(undefined4 *param_1,int param_2,undefined4 param_3,void *param_4)
+
+{
+  int iVar1;
+  int iVar2;
+  void *pvVar3;
+  int iVar4;
+  bool bVar5;
+  
+  if (param_4 == (void *)0x0) goto LAB_000724f0;
+  pvVar3 = *(void **)(param_2 + 8);
+  bVar5 = pvVar3 == param_4;
+  if (bVar5) {
+    pvVar3 = *(void **)((int)param_4 + 0x94);
+  }
+  if (bVar5) {
+    *(void **)(param_2 + 8) = pvVar3;
+  }
+  iVar4 = *(int *)((int)param_4 + 0x90);
+  iVar1 = *(int *)((int)param_4 + 0x8c);
+  if (iVar4 == iVar1) {
+    if (iVar4 != 0) goto LAB_00072480;
+    iVar4 = *(int *)((int)param_4 + 0x94);
+    if (iVar4 != 0) {
+      bVar5 = *(void **)(iVar4 + 0x8c) == param_4;
+      if (bVar5) {
+        *(undefined4 *)(iVar4 + 0x8c) = 0;
+      }
+      if (!bVar5) {
+        *(undefined4 *)(iVar4 + 0x90) = 0;
+      }
+      *(undefined4 *)((int)param_4 + 0x94) = 0;
+    }
+    operator_delete(param_4);
+    *(int *)(param_2 + 0xc) = *(int *)(param_2 + 0xc) + -1;
+    if (*(void **)(param_2 + 4) == param_4) {
+      *(undefined4 *)(param_2 + 4) = 0;
+    }
+  }
+  else {
+    iVar2 = iVar1;
+    if (iVar4 == 0) {
+      while (iVar4 = iVar1, iVar4 != 0) {
+        iVar2 = iVar4;
+        iVar1 = *(int *)(iVar4 + 0x90);
+      }
+      pvVar3 = *(void **)(iVar2 + 0x94);
+      if (pvVar3 == param_4) {
+        *(undefined4 *)(iVar2 + 0x90) = 0;
+      }
+      else {
+        iVar4 = *(int *)(iVar2 + 0x8c);
+        *(int *)((int)pvVar3 + 0x90) = iVar4;
+        if (iVar4 != 0) {
+          *(void **)(iVar4 + 0x94) = pvVar3;
+        }
+        iVar4 = *(int *)((int)param_4 + 0x8c);
+        *(int *)(iVar2 + 0x8c) = iVar4;
+        if (iVar4 != 0) {
+          *(int *)(iVar4 + 0x94) = iVar2;
+        }
+        iVar4 = *(int *)((int)param_4 + 0x90);
+        *(int *)(iVar2 + 0x90) = iVar4;
+        if (iVar4 != 0) {
+          *(int *)(iVar4 + 0x94) = iVar2;
+        }
+      }
+    }
+    else {
+LAB_00072480:
+      do {
+        iVar2 = iVar4;
+        iVar4 = *(int *)(iVar2 + 0x8c);
+      } while (*(int *)(iVar2 + 0x8c) != 0);
+      pvVar3 = *(void **)(iVar2 + 0x94);
+      if (pvVar3 != param_4) {
+        iVar4 = *(int *)(iVar2 + 0x90);
+        *(int *)((int)pvVar3 + 0x8c) = iVar4;
+        if (iVar4 != 0) {
+          *(void **)(iVar4 + 0x94) = pvVar3;
+        }
+        iVar4 = *(int *)((int)param_4 + 0x90);
+        *(int *)(iVar2 + 0x90) = iVar4;
+        if (iVar4 != 0) {
+          *(int *)(iVar4 + 0x94) = iVar2;
+        }
+        iVar1 = *(int *)((int)param_4 + 0x8c);
+      }
+      *(int *)(iVar2 + 0x8c) = iVar1;
+      if (iVar1 != 0) {
+        *(int *)(iVar1 + 0x94) = iVar2;
+      }
+    }
+    iVar4 = *(int *)((int)param_4 + 0x94);
+    *(int *)(iVar2 + 0x94) = iVar4;
+    if (iVar4 == 0) {
+      *(int *)(param_2 + 4) = iVar2;
+    }
+    else {
+      bVar5 = *(void **)(iVar4 + 0x8c) == param_4;
+      if (bVar5) {
+        *(int *)(iVar4 + 0x8c) = iVar2;
+      }
+      if (!bVar5) {
+        *(int *)(iVar4 + 0x90) = iVar2;
+      }
+    }
+    operator_delete(param_4);
+    *(int *)(param_2 + 0xc) = *(int *)(param_2 + 0xc) + -1;
+  }
+  do {
+    iVar4 = FUN_000723f4(param_2 + 4);
+  } while (iVar4 != 0);
+LAB_000724f0:
+  *param_1 = param_3;
+  param_1[1] = param_4;
+  return param_1;
+}
+
+
+

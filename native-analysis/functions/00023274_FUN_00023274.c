@@ -1,0 +1,14 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00023274 FUN_00023274 */
+
+int * FUN_00023274(int *param_1)
+
+{
+  *param_1 = DAT_00023290 + 0x23284;
+  FUN_00023030();
+  FUN_0008e4d8(param_1);
+  return param_1;
+}
+
+
+

@@ -1,0 +1,46 @@
+name: Build Linux
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build libsdl2-dev python3
+      - name: Check mobile package resources and Vita artwork
+        run: python3 tools/test_platform_packages.py
+      - name: Build, test and package
+        run: sh platform/linux/build.sh
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-linux-x86_64
+          path: dist/linux-x86_64.tar.gz
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
+      - name: Upload test diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: linux-test-diagnostics
+          path: build-linux/Testing/Temporary/LastTest.log
+          if-no-files-found: ignore
+          retention-days: 14

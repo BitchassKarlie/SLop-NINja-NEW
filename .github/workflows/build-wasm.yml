@@ -1,0 +1,36 @@
+name: Build WebAssembly
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Set up Emscripten 5.0.5
+        uses: emscripten-core/setup-emsdk@v15
+        with:
+          emsdk-version: '5.0.5'
+      - name: Build browser game and preload assets
+        run: sh platform/wasm/build.sh
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-wasm
+          path: dist/wasm/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<waveManagerFile version="1.0.0">
+
+
+  <WaveInfo waveNo="1">
+    <Spawn type="random, random" min="10" max="10" delay="0.3" />
+    <Wave_dt dt="1" />
+    <NextWaveDelay delay="0.8" />
+  </WaveInfo>
+  
+    <WaveInfo waveNo="4">
+    <Spawn type="random, random, bomb" min="8" max="8" delay="0.5" delayinc="-0.02"/>
+    <Wave_dt dt="1" />
+    <NextWaveDelay delay="0.8" />
+	 </WaveInfo>
+	
+	<WaveInfo waveNo="4">
+    <Spawn type="random, random, random, random, random, bomb" min="4" max="6" />
+    <Wave_dt dt="1" />
+    <NextWaveDelay delay="0.8" />
+  </WaveInfo>
+
+  
+  <!--pretty good up until here!-->
+  
+  <!--pretty good up until here!-->
+  
+      <WaveInfo waveNo="6">
+    <Spawn type="random, random, random, bomb" min="5" max="10" mininc="0.3" maxinc="0.5" delay="0.4" delayinc="-0.02"/>
+    <Wave_dt dt="1" inc="0.02" />
+    <NextWaveDelay delay="0.8" />
+	 </WaveInfo>
+	 
+	<WaveInfo waveNo="6">
+    <Spawn type="random, random, random, bomb" min="3" max="5" mininc="0.2" maxinc="0.2"/>
+    <Wave_dt dt="1" inc="0.02" />
+    <NextWaveDelay delay="0.8" />
+	</WaveInfo>
+	
+	 <WaveInfo waveNo="6">
+    <Spawn type="random" min="4" max="7" mininc="0.3" maxinc="0.5" delay="0.25" delayinc="-0.008"/>
+    <Wave_dt dt="0.9" inc="0.02" />
+    <NextWaveDelay delay="0.8" />
+	 </WaveInfo>
+	 
+	  <WaveInfo waveNo="6">
+    <Spawn type="random, random, bomb" min="5" max="7" mininc="0.3" maxinc="0.5" delay="0.4" delayinc="-0.02"/>
+    <Wave_dt dt="1" inc="0.02" />
+    <NextWaveDelay delay="0.8" />
+	 </WaveInfo>
+ 
+ 
+
+</waveManagerFile>

@@ -1,0 +1,36 @@
+name: Build macOS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Check toolchain
+        run: |
+          cmake --version
+          xcodebuild -version
+      - name: Build universal app, test and package
+        run: sh platform/macos/build.sh
+      - name: Upload package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-macos-universal
+          path: dist/fruit-ninja-macos.zip
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

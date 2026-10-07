@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<waveManagerFile version="1.0.0">
+
+  <!-- The total of percentageChances cannot exceed 100 !-->
+  <OverideProbability types="starfruit" percentageChance="0" perWave="1" />
+  <OverideProbability types="scorex2,freeze,frenzy" percentageChance="4" perWave="1" waveCount="2" disableWhenPowered="0.4"/>  
+  
+     
+  <!--same fruit waves -->
+  
+  
+    <defaults
+      dt="0.9"
+      dtSpInc = "0.009"
+      waitForEntities = "false"
+      speedLoss="4"
+      globalDtStart="1"
+      globalDtInc="0.000"
+      globalDtMax="1.0"
+      overideProbabiltyPool="150"/>
+  
+  <WaveInfo debugName="SpeedWave1" waveNo="-200" chance="15" chanceRegrowth="1">
+    <Spawn type="random, random, random" min="1" max="2" placement="LEFT_RIGHT" horizmin="-1.5" horizmax="-0.25" velYscale="0.7" />
+    <!--Spawn placement="LEFT_RIGHT" gravity="0,-0.5,0" horizmin="-0.25" horizmax="0.5" type="random, random, random, bomb" min="1" max="3" delay="0.4" /!-->
+    <NextWaveDelay waitForEntities="false" wait="0.03" />
+  </WaveInfo>
+  
+  <WaveInfo debugName="SpeedWave2" waveNo="-200" chance="10" chanceRegrowth="1">
+    <Spawn type="random, random, random" min="1" max="2" placement="LEFT_RIGHT" horizmin="-1.5" horizmax="-0.25" velYscale="0.7" />
+    <!--Spawn placement="LEFT_RIGHT" gravity="0,-0.5,0" horizmin="-0.25" horizmax="0.5" type="random, random, random, bomb" min="1" max="3" delay="0.4" /!-->
+    <NextWaveDelay waitForEntities="false" wait="0.003"  />
+  </WaveInfo>  
+  
+   <WaveInfo debugName="SpeedWaveMega" waveNo="-200" chance="5" chanceRegrowth="1">
+      <Spawn type="random" min="3" max="3" placement="LEFT" delay="0.05" horizmin="-1.5" horizmax="-0.2" velYscale="0.65" />
+      <Spawn type="random" min="3" max="3" placement="RIGHT" delay="0.05" horizmin="-1.5" horizmax="-0.2" velYscale="0.65" />
+      <!--Spawn placement="LEFT_RIGHT" gravity="0,-0.5,0" horizmin="-0.25" horizmax="0.5" type="random, random, random, bomb" min="1" max="3" delay="0.4" /!-->
+      <NextWaveDelay waitForEntities="false" wait="0.45" />
+  </WaveInfo>  
+   
+  
+  <WaveInfo debugName="FreezeWave1" waveNo="-100" chance="15" overideProbabiltyPool="75">
+    <Wave_dt dt="0.95"  />
+    <Spawn type="random, random, random, bomb" min="1" max="3" delay="0.4" />
+    <!--Spawn placement="RIGHT_RIGHT" gravity="0,-0.5,0" horizmin="-0.25" horizmax="0.5" type="random, random, random, bomb" min="1" max="3" delay="0.4" /!-->
+    <NextWaveDelay waitForEntities="false" wait="0.3" />
+  </WaveInfo>  
+  
+   <WaveInfo debugName="FreezeWave2" waveNo="-100" chance="5" overideProbabiltyPool="75">
+    <Wave_dt dt="0.95"  />
+    <Spawn type="random" min="1" max="1" delay="0.3" />
+	<Spawn type="random" min="1" max="1" delay="0.2" />
+    <!--Spawn placement="RIGHT_RIGHT" gravity="0,-0.5,0" horizmin="-0.25" horizmax="0.5" type="random, random, random, bomb" min="1" max="3" delay="0.4" /!-->
+    <NextWaveDelay waitForEntities="false" wait="0.3" />
+  </WaveInfo>  
+
+    
+  <defaults
+      dt="0.9"
+      dtSpInc = "0.014"  
+      beforeDelay = "0"
+      nextDelay = "1.3"
+      nextDelaySpInc = "-0.03"
+      waitForEntities = "false"
+      speedLoss="4"
+      globalDtStart="1"
+      globalDtInc="0.000"
+      globalDtMax="1.0"/>
+  
+  <WaveInfo debugName="BlankWave" waveNo="0" chance="5">
+    <Spawn type="1fruit" min="0" max="0" delay="0.4" />
+    <NextWaveDelay delay="0.85" wait="0" waitSpinc="0"/>
+  </WaveInfo>  
+  
+  
+  <WaveInfo debugName="1fruitSeq" waveNo="1" chance="5">
+    <Spawn type="1fruit" min="4" max="7" delay="0.35" />
+  </WaveInfo>
+  
+    <WaveInfo debugName="1fruitJump" waveNo="1" chance="3">
+    <Spawn type="1fruit" min="3" max="5"/>
+  </WaveInfo>
+    
+  <WaveInfo debugName="randomBombSequence" waveNo="1" chance="10" chanceRegrowth="0.1">
+    <Spawn type="random, random, bomb" min="4" max="6" delay="0.5" />
+  </WaveInfo>
+  
+
+  <WaveInfo debugName="randomBombMixup" waveNo="1" chance="10">
+	  <Spawn type="random, random" min="2" max="4" />
+    <Spawn type="bomb" min="1" max="2" />
+  </WaveInfo>
+  
+	 
+	<WaveInfo debugName="randomBombJump" waveNo="1" chance="10">
+		<Spawn type="random, random, random, bomb" min="3" max="5"/>
+	</WaveInfo>
+	
+	 <WaveInfo debugName="fastRandomSeq" waveNo="1" chance="10">
+		<Spawn type="random" min="4" max="7" delay="0.25"/>
+	 </WaveInfo>
+	 
+	<WaveInfo debugName="randomBombSequenceFast" waveNo="1" chance="10">
+		<Spawn type="random, random, bomb" min="5" max="7" delay="0.3"/>
+	 </WaveInfo>
+	 
+	<WaveInfo debugName="zenStyleDoubleSeq" waveNo="1" chance="10">
+		<Spawn type="random" min="4" max="7" delay="0.8"/>
+		<Spawn type="random" min="4" max="7" delay="0.6"/>
+  </WaveInfo>
+  
+  <WaveInfo debugName="randomJump" waveNo="1" chance="6">
+		<Spawn type="random" min="3" max="7"/>
+	</WaveInfo>    
+
+</waveManagerFile>

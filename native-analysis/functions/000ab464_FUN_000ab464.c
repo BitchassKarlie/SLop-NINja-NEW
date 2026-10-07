@@ -1,0 +1,14 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000ab464 FUN_000ab464 */
+
+int FUN_000ab464(int param_1)
+
+{
+  FUN_000ab40c();
+  FUN_0009f3a0(param_1);
+  FUN_0009e858(param_1 + 8);
+  return param_1;
+}
+
+
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<itemManagerFile version="1.0.0">
+
+  <!--
+  <item type="SLASH_MODIFIER" name="BLUE_SLASH" title="BLUE SLASH" colour="0,0,255" texture="item_blueblade">
+    <requirements coins="20" />
+    <description>PLAY WITH A BLUE BLADE IN ALL MODES</description>
+  </item>
+
+  <item type="SLASH_MODIFIER" name="RED_SLASH" title="RED SLASH" colour="255,0,0" texture="item_redblade">
+    <requirements coins="20" />
+    <description>PLAY WITH A RED BLADE IN ALL MODES</description>
+  </item>
+  
+  <item type="SLASH_MODIFIER" name="YELLOW_SLASH" title="YELLOW SLASH" colour="255,255,0"  texture="item_yellowblade">
+    <requirements coins="20" />
+    <description>PLAY WITH A YELLOW BLADE IN ALL MODES</description>
+  </item>
+  
+  <item type="SLASH_MODIFIER" name="GREEN_SLASH" title="GREEN SLASH" colour="0,255,0" texture="item_greenblade" >
+    <requirements coins="20" /> 
+    <description>PLAY WITH A GREEN BLADE IN ALL MODES</description>
+  </item>   
+    -->
+  
+  <item type="SLASH_MODIFIER" name="ORIGINAL_SLASH" title="DOJO_TEXT_00" colour="200,200,230" texture="item_originalblade" >
+    <description>DOJO_TEXT_02</description>
+    <slashModInfo type="NONE">
+      <colour>255,255,255</colour>   
+    </slashModInfo>
+  </item>
+  
+  <item type="SLASH_MODIFIER" name="SHINY_RED_SLASH" title="DOJO_TEXT_03" colour="255,255,255" texture="item_shiney_red_blade" >
+    <requirements>DOJO_TEXT_04</requirements>
+    <description>DOJO_TEXT_04</description>
+    <slashModInfo type="NONE" texture="shiney_red_blade" >        
+      <colour>255,255,255</colour>  
+    </slashModInfo>
+  </item>  
+
+  <item type="SLASH_MODIFIER" name="DISCO_SLASH" title="DOJO_TEXT_05" colour="255,250,255" texture="item_discoblade" >
+    <requirements total="banana_total" countDownFrom="50">DOJO_TEXT_06</requirements>    
+    <description>DOJO_TEXT_08</description>
+    <slashModInfo type="PER_SLASH" texture="disco_blade" > 
+      <colour>255,43,78</colour>
+      <colour>197,255,31</colour>               
+      <colour>95,194,255</colour> 
+      <colour>201,101,255</colour> 
+      <colour>255,202,12</colour>       
+    </slashModInfo>
+  </item>
+
+  <item type="SLASH_MODIFIER" name="SPARKLE_SLASH" title="DOJO_TEXT_09" colour="255,255,200" texture="item_mr_sparkle" >
+    <requirements>DOJO_TEXT_10</requirements> 
+    <description>DOJO_TEXT_11</description>
+    <slashModInfo particles="mr_sparkle_trail" type="NONE" texture="gold_blade" >
+      <colour>255,255,200</colour>      
+    </slashModInfo>
+    
+  </item>    
+  
+  
+  <item type="SLASH_MODIFIER" name="AMERICAN_SLASH" title="DOJO_TEXT_12" colour="255,255,255" texture="item_american_blade" >
+    <requirements>DOJO_TEXT_13</requirements>
+    <description>DOJO_TEXT_14</description>
+    <slashModInfo particles="american_blade" type="NONE" texture="american_blade" >        
+      <colour>255,255,255</colour>  
+    </slashModInfo>
+  </item>
+
+  <item type="SLASH_MODIFIER" name="BUTTERFLY_KNIFE" title="DOJO_TEXT_15" colour="255,255,255" texture="item_butterfly_knife" >
+    <requirements total="strawberry_combo_total" countDownFrom="40">DOJO_TEXT_16</requirements>
+    <description>DOJO_TEXT_17</description>
+    <slashModInfo particles="butterfly_knife" type="NONE" texture="butterfly_knife" >        
+      <colour>255,255,255</colour>  
+    </slashModInfo>
+  </item>         
+
+  <item type="SLASH_MODIFIER" name="FLAME_BLADE" title="DOJO_TEXT_18" colour="255,255,255" texture="item_flame_blade" >
+    <requirements>DOJO_TEXT_19</requirements>
+    <description>DOJO_TEXT_20</description>
+    <slashModInfo type="NONE" particles="flame_blade" texture="flame_blade" >       
+      <colour>255,255,255</colour>  
+    </slashModInfo>
+  </item> 
+  
+  <item type="SLASH_MODIFIER" name="ICE_BLADE" title="DOJO_TEXT_36" colour="255,255,255" texture="item_ice_blade" >
+    <requirements total="freeze_total" countDownFrom="20">DOJO_TEXT_37</requirements>
+    <description>DOJO_TEXT_38</description>
+    <slashModInfo type="NONE" particles="ice_blade" texture="ice_blade" >       
+      <colour>255,255,255</colour>  
+    </slashModInfo>
+  </item> 
+
+  <item type="BACKGROUND" name="background1" title="DOJO_TEXT_22" colour="255,255,255" texture="GB_game" >
+    <description>DOJO_TEXT_23</description>
+  </item>
+  
+  <item type="BACKGROUND" name="background9" title="DOJO_TEXT_24" colour="255,255,255" texture="BG_fruit_ninja" >
+    <requirements>DOJO_TEXT_25</requirements>
+    <description>DOJO_TEXT_26</description>
+  </item>   
+    
+  <item type="BACKGROUND" name="background3" title="DOJO_TEXT_27" colour="255,255,255" texture="BG_i_heart_sensei" >
+    <requirements total="strawberry_facts" countDownFrom="3" >DOJO_TEXT_28</requirements>    
+    <description>DOJO_TEXT_29</description>
+  </item>
+
+  <item type="BACKGROUND" name="background4" title="DOJO_TEXT_30" colour="255,255,255" texture="BG_greatwave" >
+    <requirements total="watermelon_total" countDownFrom="250">DOJO_TEXT_31</requirements>
+    <description>DOJO_TEXT_32</description>
+  </item>  
+  
+  <item type="BACKGROUND" name="background5" title="DOJO_TEXT_33" colour="255,255,255" texture="BG_YinYang" >
+    <requirements total="passionfruit_total" countDownFrom="75">DOJO_TEXT_34</requirements>
+    <description>DOJO_TEXT_35</description>
+  </item>  
+  
+  <!--  
+    <item type="BACKGROUND" name="background2" title="FRUIT NINJA" colour="255,255,255" texture="GB_game_02" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+   
+  
+  <item type="BACKGROUND" name="background3" title="I HEART SENSEI" colour="255,255,255" texture="GB_game_03" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+  
+  <item type="BACKGROUND" name="background4" title="WAVE" colour="255,255,255" texture="GB_game_04" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+  
+  <item type="BACKGROUND" name="background5" title="BAMBOO SKY" colour="255,255,255" texture="GB_game_05" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+  
+  <item type="BACKGROUND" name="background6" title="HORIZON" colour="255,255,255" texture="GB_game_06" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+ 
+  <item type="BACKGROUND" name="background7" title="COLOURS" colour="255,255,255" texture="GB_game_07" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+  
+  <item type="BACKGROUND" name="background9" title="FN WATER MARK" colour="255,255,255" texture="GB_game_09" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item> 
+
+  <item type="BACKGROUND" name="background10" title="SENSEI" colour="255,255,255" texture="GB_game_10" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item> 
+
+  <item type="BACKGROUND" name="background11" title="I HATE BOMBS" colour="255,255,255" texture="GB_game_11" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item> 
+  
+  <item type="BACKGROUND" name="background12" title="METAL" colour="255,255,255" texture="GB_game_12" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item> 
+  
+  <item type="BACKGROUND" name="background13" title="PERFORMANCE" colour="255,255,255" texture="GB_game_13" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>
+
+  <item type="BACKGROUND" name="background14" title="BAMBOOSUL" colour="255,255,255" texture="GB_game_14" >
+    <requirements coins="100" /> 
+    <description>PLAY WITH DIFFERENT BACKGROUND</description>
+  </item>  
+  -->
+  
+
+</itemManagerFile>

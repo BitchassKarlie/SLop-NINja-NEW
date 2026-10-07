@@ -1,0 +1,23 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 00095a84 FUN_00095a84 */
+
+void FUN_00095a84(undefined4 param_1)
+
+{
+  FUN_000959f4(param_1,0,DAT_00095b18 + 0x95a8e);
+  FUN_000959f4(param_1,1,DAT_00095b1c + 0x95a9c);
+  FUN_000959f4(param_1,2,DAT_00095b20 + 0x95aa8);
+  FUN_000959f4(param_1,3,DAT_00095b24 + 0x95ab4);
+  FUN_000959f4(param_1,4,DAT_00095b28 + 0x95ac0);
+  FUN_000959f4(param_1,5,DAT_00095b2c + 0x95acc);
+  FUN_000959f4(param_1,6,DAT_00095b30 + 0x95ad8);
+  FUN_000959f4(param_1,7,DAT_00095b34 + 0x95ae4);
+  FUN_000959f4(param_1,8,DAT_00095b38 + 0x95af0);
+  FUN_000959f4(param_1,9,DAT_00095b3c + 0x95afc);
+  FUN_000959f4(param_1,10,DAT_00095b40 + 0x95b08);
+  FUN_000959f4(param_1,0xb,DAT_00095b44 + 0x95b14);
+  return;
+}
+
+
+

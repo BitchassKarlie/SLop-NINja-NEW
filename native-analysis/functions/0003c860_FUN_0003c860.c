@@ -1,0 +1,146 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 0003c860 FUN_0003c860 */
+
+void FUN_0003c860(int param_1)
+
+{
+  float fVar1;
+  int iVar2;
+  int iVar3;
+  uint uVar4;
+  undefined4 uVar5;
+  int iVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined *puVar9;
+  undefined4 *puVar10;
+  int iVar11;
+  float fVar12;
+  float fVar13;
+  float fVar14;
+  float fVar15;
+  float fVar16;
+  undefined4 local_44;
+  undefined4 local_40;
+  float local_3c;
+  undefined local_38;
+  undefined local_37;
+  undefined local_36;
+  undefined local_35;
+  undefined4 local_34 [2];
+  
+  iVar3 = DAT_0003cad4;
+  fVar1 = DAT_0003cab4;
+  iVar6 = DAT_0003cacc + 0x3c876;
+  fVar14 = *(float *)(param_1 + 0x88);
+  if (fVar14 != DAT_0003cab4 && fVar14 < DAT_0003cab4 == (NAN(fVar14) || NAN(DAT_0003cab4))) {
+    iVar11 = *(int *)(iVar6 + DAT_0003cad0);
+    puVar10 = (undefined4 *)(DAT_0003cad4 + 0x3c898);
+    *(undefined *)(iVar11 + 0x18d4) = 0;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c89c);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8a0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8a4);
+    *(undefined4 *)(iVar11 + 0x1094) = *puVar10;
+    *(undefined4 *)(iVar11 + 0x1098) = uVar5;
+    *(undefined4 *)(iVar11 + 0x109c) = uVar7;
+    *(undefined4 *)(iVar11 + 0x10a0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8ac);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8b0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8b4);
+    *(undefined4 *)(iVar11 + 0x10a4) = *(undefined4 *)(iVar3 + 0x3c8a8);
+    *(undefined4 *)(iVar11 + 0x10a8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x10ac) = uVar7;
+    *(undefined4 *)(iVar11 + 0x10b0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8bc);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8c0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8c4);
+    *(undefined4 *)(iVar11 + 0x10b4) = *(undefined4 *)(iVar3 + 0x3c8b8);
+    *(undefined4 *)(iVar11 + 0x10b8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x10bc) = uVar7;
+    *(undefined4 *)(iVar11 + 0x10c0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8cc);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8d0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8d4);
+    *(undefined4 *)(iVar11 + 0x10c4) = *(undefined4 *)(iVar3 + 0x3c8c8);
+    *(undefined4 *)(iVar11 + 0x10c8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x10cc) = uVar7;
+    *(undefined4 *)(iVar11 + 0x10d0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c89c);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8a0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8a4);
+    *(undefined4 *)(iVar11 + 0x1894) = *puVar10;
+    *(undefined4 *)(iVar11 + 0x1898) = uVar5;
+    *(undefined4 *)(iVar11 + 0x189c) = uVar7;
+    *(undefined4 *)(iVar11 + 0x18a0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8ac);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8b0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8b4);
+    *(undefined4 *)(iVar11 + 0x18a4) = *(undefined4 *)(iVar3 + 0x3c8a8);
+    *(undefined4 *)(iVar11 + 0x18a8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x18ac) = uVar7;
+    *(undefined4 *)(iVar11 + 0x18b0) = uVar8;
+    iVar2 = DAT_0003cad8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8bc);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8c0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8c4);
+    *(undefined4 *)(iVar11 + 0x18b4) = *(undefined4 *)(iVar3 + 0x3c8b8);
+    *(undefined4 *)(iVar11 + 0x18b8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x18bc) = uVar7;
+    *(undefined4 *)(iVar11 + 0x18c0) = uVar8;
+    uVar5 = *(undefined4 *)(iVar3 + 0x3c8cc);
+    uVar7 = *(undefined4 *)(iVar3 + 0x3c8d0);
+    uVar8 = *(undefined4 *)(iVar3 + 0x3c8d4);
+    *(undefined4 *)(iVar11 + 0x18c4) = *(undefined4 *)(iVar3 + 0x3c8c8);
+    *(undefined4 *)(iVar11 + 0x18c8) = uVar5;
+    *(undefined4 *)(iVar11 + 0x18cc) = uVar7;
+    *(undefined4 *)(iVar11 + 0x18d0) = uVar8;
+    *(int *)(iVar11 + 0x18d8) = *(int *)(iVar11 + 0x18d8) + 1;
+    iVar3 = (**(code **)(**(int **)(iVar2 + 0x3c8fa) + 0x14))();
+    fVar16 = (float)(ulonglong)(iVar3 + 1);
+    iVar3 = (**(code **)(**(int **)(iVar2 + 0x3c8fa) + 0x18))();
+    *(float *)(iVar11 + 0x1894) = fVar16 * *(float *)(iVar11 + 0x1894);
+    *(float *)(iVar11 + 0x18a4) = fVar16 * *(float *)(iVar11 + 0x18a4);
+    *(float *)(iVar11 + 0x18b4) = fVar16 * *(float *)(iVar11 + 0x18b4);
+    fVar14 = (float)(ulonglong)(iVar3 + 1);
+    *(float *)(iVar11 + 0x18c4) = fVar16 * *(float *)(iVar11 + 0x18c4);
+    *(float *)(iVar11 + 0x1898) = fVar14 * *(float *)(iVar11 + 0x1898);
+    *(float *)(iVar11 + 0x18a8) = fVar14 * *(float *)(iVar11 + 0x18a8);
+    *(float *)(iVar11 + 0x18b8) = fVar14 * *(float *)(iVar11 + 0x18b8);
+    *(float *)(iVar11 + 0x18c8) = fVar14 * *(float *)(iVar11 + 0x18c8);
+    *(float *)(iVar11 + 0x189c) = *(float *)(iVar11 + 0x189c) * fVar1;
+    *(float *)(iVar11 + 0x18ac) = *(float *)(iVar11 + 0x18ac) * fVar1;
+    *(float *)(iVar11 + 0x18bc) = *(float *)(iVar11 + 0x18bc) * fVar1;
+    *(int *)(iVar11 + 0x18d8) = *(int *)(iVar11 + 0x18d8) + 1;
+    *(float *)(iVar11 + 0x18cc) = *(float *)(iVar11 + 0x18cc) * fVar1;
+    uVar4 = (**(code **)(**(int **)(iVar2 + 0x3c8fa) + 0x14))();
+    fVar12 = DAT_0003cab8 - *(float *)(param_1 + 0x88);
+    fVar16 = (float)(ulonglong)uVar4;
+    fVar13 = DAT_0003cabc - fVar12 * fVar16 * *(float *)(DAT_0003cadc + 0x3c9d0);
+    fVar15 = DAT_0003cac0 - fVar12 * fVar16 * *(float *)(DAT_0003cadc + 0x3c9d4);
+    fVar14 = *(float *)(DAT_0003cadc + 0x3c9d8);
+    *(int *)(iVar11 + 0x18d8) = *(int *)(iVar11 + 0x18d8) + 1;
+    *(float *)(iVar11 + 0x18c4) = fVar13 + *(float *)(iVar11 + 0x18c4);
+    *(float *)(iVar11 + 0x18c8) = fVar15 + *(float *)(iVar11 + 0x18c8);
+    *(float *)(iVar11 + 0x18cc) = (fVar1 - fVar12 * fVar16 * fVar14) + *(float *)(iVar11 + 0x18cc);
+    FUN_0008d434(iVar11,1);
+    FUN_000995e4(*(undefined4 *)(iVar2 + 0x3c8fa));
+    puVar9 = *(undefined **)(iVar6 + DAT_0003cae0);
+    local_38 = *puVar9;
+    local_36 = puVar9[2];
+    local_37 = puVar9[1];
+    local_35 = puVar9[3];
+    FUN_000a35f4(&local_38);
+    FUN_000995e0(*(undefined4 *)(iVar2 + 0x3c8fa));
+    local_34[0] = 0;
+    FUN_00017d64(local_34,*(undefined4 *)(iVar2 + 0x3c8f6));
+    local_3c = fVar1;
+    local_44 = DAT_0003cac4;
+    local_40 = DAT_0003cac8;
+    FUN_00037a38(param_1,local_34,*(undefined4 *)(param_1 + 0x88),&local_44);
+    FUN_00017d90(local_34);
+  }
+  return;
+}
+
+
+

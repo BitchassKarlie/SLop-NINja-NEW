@@ -1,0 +1,11 @@
+/* DECOMPILER REFERENCE ONLY; NOT RECOMPILABLE SOURCE. */
+/* 000830e0 FUN_000830e0 */
+
+void FUN_000830e0(void)
+
+{
+  return;
+}
+
+
+

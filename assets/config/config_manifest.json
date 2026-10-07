@@ -1,0 +1,66 @@
+[
+  {
+    "source": "particles/particles_fast.xml",
+    "root": "particle_file"
+  },
+  {
+    "source": "particles/particles_slow.xml",
+    "root": "particle_file"
+  },
+  {
+    "source": "xml/achievementlist.xml",
+    "root": "achievementManagerFile"
+  },
+  {
+    "source": "xml/arcadewavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/bonusawards.xml",
+    "root": "bonusAwardsFile"
+  },
+  {
+    "source": "xml/combowavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/fruitlist.xml",
+    "root": "fruitInfoFile"
+  },
+  {
+    "source": "xml/intensewavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/itemlist.xml",
+    "root": "itemManagerFile"
+  },
+  {
+    "source": "xml/musicdesc.xml",
+    "root": "music"
+  },
+  {
+    "source": "xml/originalwavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/poweruplist.xml",
+    "root": "powerInfoFile"
+  },
+  {
+    "source": "xml/survivalwavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/wavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/zenvswavelist.xml",
+    "root": "waveManagerFile"
+  },
+  {
+    "source": "xml/zenwavelist.xml",
+    "root": "waveManagerFile"
+  }
+]

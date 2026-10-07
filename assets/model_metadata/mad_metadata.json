@@ -1,0 +1,1298 @@
+[
+  {
+    "source": "models/effects/orange_outer.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "error": "unsupported metadata layout: 'utf-8' codec can't decode byte 0x83 in position 0: invalid start byte"
+  },
+  {
+    "source": "models/effects/slice_fx.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\effects\\slash_effect.max",
+    "parameter_1": 0.7000000476837158,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "slice_fx",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/effects/slice_fx_crit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\effects\\slash_effectcrit.max",
+    "parameter_1": 0.7000000476837158,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "slice_fx",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/effects/watermelon_inner.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 1.033333420753479,
+    "parameter_2": 0.01666666753590107,
+    "error": "unsupported metadata layout: 'utf-8' codec can't decode byte 0xba in position 1: invalid start byte"
+  },
+  {
+    "source": "models/effects/watermelon_outer.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "error": "unsupported metadata layout: 'utf-8' codec can't decode byte 0x83 in position 0: invalid start byte"
+  },
+  {
+    "source": "models/fruit/apple.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece_1",
+        "value": 0
+      },
+      {
+        "name": "a_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_center.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece_2",
+        "value": 0
+      },
+      {
+        "name": "a_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_center_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_red.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece_2",
+        "value": 0
+      },
+      {
+        "name": "a_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_red_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_red_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/apple_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/appleice.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece_1",
+        "value": 0
+      },
+      {
+        "name": "a_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/appleice_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "a_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_1",
+        "value": 0
+      },
+      {
+        "name": "b_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_ice.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_2",
+        "value": 0
+      },
+      {
+        "name": "b_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_ice_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_locked.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_1",
+        "value": 0
+      },
+      {
+        "name": "b_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_locked_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_speed.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_1",
+        "value": 0
+      },
+      {
+        "name": "b_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_speed_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_x2.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_2",
+        "value": 0
+      },
+      {
+        "name": "b_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/banana_x2_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/black_banana.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_2",
+        "value": 0
+      },
+      {
+        "name": "b_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/black_banana_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/black_pineapple.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece_2",
+        "value": 0
+      },
+      {
+        "name": "b_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/black_pineapple_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "b_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/bomb.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "bomb",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/bomb_blast.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "error": "unsupported metadata layout: unparsed trailing bytes"
+  },
+  {
+    "source": "models/fruit/bomb_blue.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "bomb_blue",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/bomb_purple.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "bomb_10",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/bomb_red.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "bomb_red",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/coconut.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "c_piece_2",
+        "value": 0
+      },
+      {
+        "name": "c_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/coconut_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "c_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/coconut_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "c_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/coin.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "coin",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/dragon.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "d_piece_2",
+        "value": 0
+      },
+      {
+        "name": "d_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/dragon_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "d_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/dragon_yellow.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "d_piece_1",
+        "value": 0
+      },
+      {
+        "name": "d_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/dragon_yellow_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "d_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/kiwifruit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "k_piece_2",
+        "value": 0
+      },
+      {
+        "name": "k_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/kiwifruit_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "k_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/kiwifruit_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "k_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lemon.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece_2",
+        "value": 0
+      },
+      {
+        "name": "l_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lemon_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lemon_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lime.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece_1",
+        "value": 0
+      },
+      {
+        "name": "l_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lime_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/lime_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "l_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/mango.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "m_piece_2",
+        "value": 0
+      },
+      {
+        "name": "m_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/mango_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "m_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/mango_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "m_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/openfeint.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "o_piece_2",
+        "value": 0
+      },
+      {
+        "name": "o_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/openfeint_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "o_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/orange.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "o_piece_2",
+        "value": 0
+      },
+      {
+        "name": "o_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/orange_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "o_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/orange_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "o_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/passionfruit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_1",
+        "value": 0
+      },
+      {
+        "name": "p_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/passionfruit_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/passionfruit_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pear.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_1",
+        "value": 0
+      },
+      {
+        "name": "p_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pear_gold.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_1",
+        "value": 0
+      },
+      {
+        "name": "p_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pear_gold_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pear_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_outline",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pear_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pineapple.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_2",
+        "value": 0
+      },
+      {
+        "name": "p_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pineapple_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pineapple_shiney.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_1",
+        "value": 0
+      },
+      {
+        "name": "p_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pineapple_shiney_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/pineapple_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/plum.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece_2",
+        "value": 0
+      },
+      {
+        "name": "p_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/plum_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/plum_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "p_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/slice_fx.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\slash_effect.max",
+    "parameter_1": 0.7000000476837158,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "slice_fx",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/slice_fx_crit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\slash_effectcrit.max",
+    "parameter_1": 0.7000000476837158,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "slice_fx",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/slice_fx_red.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\slash_effectcrit.max",
+    "parameter_1": 0.7000000476837158,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "slice_fx_red",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/starfruit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "s_piece_2",
+        "value": 0
+      },
+      {
+        "name": "s_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/starfruit_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "s_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/strawberry.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "s_piece_1",
+        "value": 0
+      },
+      {
+        "name": "s_piece_2",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/strawberry_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "s_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/strawberry_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "s_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/title_backing.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "title_backing",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/vs_watermelon.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "v_piece_2",
+        "value": 0
+      },
+      {
+        "name": "v_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/vs_watermelon_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "v_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/watermelon.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "w_piece_2",
+        "value": 0
+      },
+      {
+        "name": "w_piece_1",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/watermelon_outline.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_w_outlines.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "w_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/fruit/watermelon_single.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\Fruit\\Fruit_HD.max",
+    "parameter_1": 0.4333333671092987,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "w_piece",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/hud/hud_cross.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\hud_screens\\cross.max",
+    "parameter_1": 3.3333334922790527,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "Plane01",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "source": "models/hud/hud_fruit.mad",
+    "type": 1,
+    "source_max_file": "D:\\Projects\\iPhoneDev\\FruitNinja\\Asset_working\\hud_screens\\Hud_fruit.max",
+    "parameter_1": 3.3333334922790527,
+    "parameter_2": 0.01666666753590107,
+    "pieces": [
+      {
+        "name": "Plane01",
+        "value": 0
+      }
+    ]
+  }
+]

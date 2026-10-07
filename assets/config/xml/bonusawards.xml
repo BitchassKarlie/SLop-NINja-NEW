@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bonusAwardsFile version="1.0.0">
+
+  <combo length="3" bonus="2" />
+  <combo length="4" bonus="3" />
+  <combo length="5" bonus="4" />
+  <combo length="6" bonus="6" />
+  <combo length="7" bonus="8" />
+  <combo length="8" bonus="10" />
+  <combo length="9" bonus="15" />
+  <combo length="10" bonus="15" />
+
+  <bonusType total="combo_bonus" texture="bonus_icon_total_combo">
+    <bonus min="15" points="10" >GAME_TEXTURE_13</bonus>
+    <bonus min="30" points="15" >GAME_TEXTURE_14</bonus>
+    <bonus min="40" points="25" >GAME_TEXTURE_15</bonus>
+    <bonus min="55" points="35" >GAME_TEXTURE_16</bonus>
+    <bonus min="70" points="50" >GAME_TEXTURE_17</bonus>
+  </bonusType>
+  
+  <!-- 0 points means it's an achievement-->
+  
+  <!--bonusType total="best_blitz" texture="bonus_icon_blitz">
+    <bonus min="3"  points="10"  >ArcadeMode_04</bonus>
+    <bonus min="5"  points="20"  >ArcadeMode_05</bonus>
+    <bonus min="10" points="30" >ArcadeMode_06</bonus>
+    <bonus min="15" points="40" >ArcadeMode_08</bonus>
+    <bonus min="20" points="50" >ArcadeMode_09</bonus>
+  </bonusType-->
+  
+  <bonusType total="best_combo" texture="bonus_icon_max_combo">
+    <bonus min="3" points="5" >GAME_TEXTURE_18</bonus>
+    <bonus min="5" points="10" >GAME_TEXTURE_18</bonus>
+    <bonus min="6" points="20" >GAME_TEXTURE_19</bonus>
+    <bonus min="7" points="30" >GAME_TEXTURE_20</bonus>
+    <bonus min="8" points="40" >GAME_TEXTURE_21</bonus>
+    <bonus min="9" points="50" >GAME_TEXTURE_22</bonus>
+	<bonus min="10" points="55" >GAME_TEXTURE_118</bonus>
+  </bonusType>
+  
+  <bonusType total="dropped" texture="bonus_icon_no_fruit_dropped">
+    <bonus equals="0" points="50" >GAME_TEXTURE_23</bonus>
+  </bonusType>
+  
+  <bonusType total="bombs_hit" >
+    <bonus equals="0" points="10" texture="bonus_icon_no_bombs">GAME_TEXTURE_24</bonus>
+    <bonus min="3" points="50" texture="bonus_icon_hit_5_bombs">GAME_TEXTURE_25</bonus>
+  </bonusType>  
+  
+  <bonusType total="frenzy,freeze,scorex2">
+    <bonus equals="0" points="50" texture="bonus_icon_no_banana">GAME_TEXTURE_26</bonus>
+    <bonus min-frenzy="1" min-freeze="1" min-scorex2="1" points="10" texture="bonus_icon_set_of_three">GAME_TEXTURE_27</bonus>
+    <bonus min-frenzy="1" max-freeze="0" max-scorex2="0" points="30" texture="bonus_icon_one_banana">GAME_TEXTURE_28</bonus>
+    <bonus max-frenzy="0" min-freeze="1" max-scorex2="0" points="30" texture="bonus_icon_one_banana">GAME_TEXTURE_29</bonus>
+    <bonus max-frenzy="0" max-freeze="0" min-scorex2="1" points="30" texture="bonus_icon_one_banana">GAME_TEXTURE_30</bonus>
+  </bonusType>
+  
+  <bonusType total="first_fruit,last_fruit" texture="bonus_icon_first_last_fruit">
+    <bonus valuesEqual="first_fruit,last_fruit" points="25">GAME_TEXTURE_31</bonus>
+  </bonusType>
+  
+  <!-- 0 points means it's an achievement-->
+  <bonusType total="score" >
+    <bonus achievement="UNDER ACHIEVER" max="20" />
+	<bonus achievement="OVER ACHIEVER" min="400" />
+
+    <bonus multiple="111" min="110" points="50" texture="bonus_icon_multiple_5">GAME_TEXTURE_32</bonus>
+    <bonus multiple="5" min="4" points="10" texture="bonus_icon_multiple_5">GAME_TEXTURE_33</bonus>
+    <bonus multiple="10" min="9" points="20" texture="bonus_icon_multiple_10">GAME_TEXTURE_34</bonus>
+    <bonus multiple="100" min="99" points="40" texture="bonus_icon_multiple_100">GAME_TEXTURE_35</bonus>
+  </bonusType>
+  
+    <bonusType total="default1" >
+	 <bonus points="5" texture="bonus_icon_no_fruit_dropped">GAME_TEXTURE_36</bonus>
+	</bonusType>
+	
+    <bonusType total="default2" >	
+	 <bonus points="5" texture="bonus_icon_no_fruit_dropped">GAME_TEXTURE_37</bonus>
+	</bonusType>
+	
+	<bonusType total="default3" >
+	 <bonus points="5" texture="bonus_icon_no_fruit_dropped">GAME_TEXTURE_38</bonus>
+	</bonusType>
+	
+	<bonusType total="default4" >	
+	 <bonus points="5" texture="bonus_icon_no_fruit_dropped">GAME_TEXTURE_39</bonus>
+	</bonusType>
+	
+	<bonusType total="default5" >
+	 <bonus points="5" texture="bonus_icon_no_fruit_dropped">GAME_TEXTURE_40</bonus>
+	</bonusType>
+
+	
+    <bonusType total="score,bombs_hit" >
+		<bonus achievement="BOMB MAGNET" min-score="250" min-bombs_hit="3" />
+	</bonusType>
+	
+
+</bonusAwardsFile>

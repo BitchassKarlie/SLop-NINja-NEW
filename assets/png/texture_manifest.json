@@ -1,0 +1,3578 @@
+[
+  {
+    "source": "arcade_results_numbers_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "arcade_results_numbers_0.png"
+  },
+  {
+    "source": "electrofied_medium_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "electrofied_medium_0.png"
+  },
+  {
+    "source": "font_fruit_ninja_0.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "font_fruit_ninja_0.png"
+  },
+  {
+    "source": "font_fruit_ninja_hd_0.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "font_fruit_ninja_hd_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_0_hd.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_0_hd.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_blue2_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_blue2_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_blue_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_blue_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_green_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_green_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_red_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "fruit_ninja_numbers_red_0.png"
+  },
+  {
+    "source": "fruit_ninja_numbers_silver_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "fruit_ninja_numbers_silver_0.png"
+  },
+  {
+    "source": "models/effects/textures/crit_slash.tex",
+    "tag": 285464,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "models/effects/textures/crit_slash.png"
+  },
+  {
+    "source": "models/effects/textures/slash_fx.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 32,
+    "height": 32,
+    "output": "models/effects/textures/slash_fx.png"
+  },
+  {
+    "source": "models/fruit/textures/bomb_explod.tex",
+    "tag": 285464,
+    "format": 404,
+    "width": 16,
+    "height": 64,
+    "output": "models/fruit/textures/bomb_explod.png"
+  },
+  {
+    "source": "models/fruit/textures/fruit_atlas.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "models/fruit/textures/fruit_atlas.png"
+  },
+  {
+    "source": "models/fruit/textures/title_backing.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "models/fruit/textures/title_backing.png"
+  },
+  {
+    "source": "models/hud/texture/hud_cross.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "models/hud/texture/hud_cross.png"
+  },
+  {
+    "source": "models/hud/texture/hud_fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "models/hud/texture/hud_fruit.png"
+  },
+  {
+    "source": "particles/butterfly.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/butterfly.png"
+  },
+  {
+    "source": "particles/coin_shine.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/coin_shine.png"
+  },
+  {
+    "source": "particles/confetti_1.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/confetti_1.png"
+  },
+  {
+    "source": "particles/confetti_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/confetti_2.png"
+  },
+  {
+    "source": "particles/confetti_3.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/confetti_3.png"
+  },
+  {
+    "source": "particles/crit_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/crit_main_splash.png"
+  },
+  {
+    "source": "particles/d_big_juice.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/d_big_juice.png"
+  },
+  {
+    "source": "particles/d_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "particles/d_main_splash.png"
+  },
+  {
+    "source": "particles/dark_stuff.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/dark_stuff.png"
+  },
+  {
+    "source": "particles/drip.tex",
+    "tag": 285512,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/drip.png"
+  },
+  {
+    "source": "particles/dummy.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/dummy.png"
+  },
+  {
+    "source": "particles/feather.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/feather.png"
+  },
+  {
+    "source": "particles/flame.tex",
+    "tag": 285520,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/flame.png"
+  },
+  {
+    "source": "particles/flame_spark.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/flame_spark.png"
+  },
+  {
+    "source": "particles/fog.tex",
+    "tag": 285512,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/fog.png"
+  },
+  {
+    "source": "particles/gust_1.tex",
+    "tag": 285520,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/gust_1.png"
+  },
+  {
+    "source": "particles/gust_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/gust_2.png"
+  },
+  {
+    "source": "particles/impact.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/impact.png"
+  },
+  {
+    "source": "particles/k_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/k_big_juice.png"
+  },
+  {
+    "source": "particles/k_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/k_main_splash.png"
+  },
+  {
+    "source": "particles/light_smoke.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/light_smoke.png"
+  },
+  {
+    "source": "particles/m_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/m_big_juice.png"
+  },
+  {
+    "source": "particles/m_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/m_main_splash.png"
+  },
+  {
+    "source": "particles/music_note_1.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/music_note_1.png"
+  },
+  {
+    "source": "particles/music_note_1_2.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/music_note_1_2.png"
+  },
+  {
+    "source": "particles/music_note_2.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/music_note_2.png"
+  },
+  {
+    "source": "particles/music_note_2_2.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/music_note_2_2.png"
+  },
+  {
+    "source": "particles/music_note_treb.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/music_note_treb.png"
+  },
+  {
+    "source": "particles/music_note_treb_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/music_note_treb_2.png"
+  },
+  {
+    "source": "particles/o_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/o_big_juice.png"
+  },
+  {
+    "source": "particles/o_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/o_main_splash.png"
+  },
+  {
+    "source": "particles/p_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/p_big_juice.png"
+  },
+  {
+    "source": "particles/p_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/p_main_splash.png"
+  },
+  {
+    "source": "particles/pas_big_juice.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/pas_big_juice.png"
+  },
+  {
+    "source": "particles/pixel_1.tex",
+    "tag": 285520,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/pixel_1.png"
+  },
+  {
+    "source": "particles/pl_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/pl_big_juice.png"
+  },
+  {
+    "source": "particles/pl_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/pl_main_splash.png"
+  },
+  {
+    "source": "particles/rainbow_sparks.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/rainbow_sparks.png"
+  },
+  {
+    "source": "particles/rimhit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/rimhit.png"
+  },
+  {
+    "source": "particles/ring.tex",
+    "tag": 285512,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/ring.png"
+  },
+  {
+    "source": "particles/ring_wave.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/ring_wave.png"
+  },
+  {
+    "source": "particles/ripple.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/ripple.png"
+  },
+  {
+    "source": "particles/smoke.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/smoke.png"
+  },
+  {
+    "source": "particles/snow.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/snow.png"
+  },
+  {
+    "source": "particles/snowflake.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/snowflake.png"
+  },
+  {
+    "source": "particles/sparkle_32.tex",
+    "tag": 285528,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "particles/sparkle_32.png"
+  },
+  {
+    "source": "particles/sparks.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/sparks.png"
+  },
+  {
+    "source": "particles/sparks_thin.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/sparks_thin.png"
+  },
+  {
+    "source": "particles/star.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/star.png"
+  },
+  {
+    "source": "particles/swirl.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "particles/swirl.png"
+  },
+  {
+    "source": "particles/w_big_juice.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "particles/w_big_juice.png"
+  },
+  {
+    "source": "particles/w_main_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/w_main_splash.png"
+  },
+  {
+    "source": "particles/wings.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "particles/wings.png"
+  },
+  {
+    "source": "particles/x2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "particles/x2.png"
+  },
+  {
+    "source": "textures/100_bonus_points.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/100_bonus_points.png"
+  },
+  {
+    "source": "textures/about.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/about.png"
+  },
+  {
+    "source": "textures/achievment_banner.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/achievment_banner.png"
+  },
+  {
+    "source": "textures/all_out_of_juice.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/all_out_of_juice.png"
+  },
+  {
+    "source": "textures/almost_a_centery.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/almost_a_centery.png"
+  },
+  {
+    "source": "textures/american_blade.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 64,
+    "height": 16,
+    "output": "textures/american_blade.png"
+  },
+  {
+    "source": "textures/arcade_60seconds.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/arcade_60seconds.png"
+  },
+  {
+    "source": "textures/arcade_banana_meter_freeze.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/arcade_banana_meter_freeze.png"
+  },
+  {
+    "source": "textures/arcade_banana_meter_frenzy.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/arcade_banana_meter_frenzy.png"
+  },
+  {
+    "source": "textures/arcade_banana_meter_scorex2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/arcade_banana_meter_scorex2.png"
+  },
+  {
+    "source": "textures/arcade_diolog_box.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/arcade_diolog_box.png"
+  },
+  {
+    "source": "textures/arcade_mode.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/arcade_mode.png"
+  },
+  {
+    "source": "textures/arcade_results_arrow.tex",
+    "tag": 285592,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/arcade_results_arrow.png"
+  },
+  {
+    "source": "textures/arcade_results_bonus_box.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/arcade_results_bonus_box.png"
+  },
+  {
+    "source": "textures/arcade_results_diolog_box.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/arcade_results_diolog_box.png"
+  },
+  {
+    "source": "textures/arcade_results_score_box.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/arcade_results_score_box.png"
+  },
+  {
+    "source": "textures/arcade_start.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/arcade_start.png"
+  },
+  {
+    "source": "textures/arcade_time_up.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 256,
+    "height": 32,
+    "output": "textures/arcade_time_up.png"
+  },
+  {
+    "source": "textures/are_you_kidding_me.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/are_you_kidding_me.png"
+  },
+  {
+    "source": "textures/back_icon.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/back_icon.png"
+  },
+  {
+    "source": "textures/bad_luck.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/bad_luck.png"
+  },
+  {
+    "source": "textures/bg_fruit_ninja.tex",
+    "tag": 262144,
+    "format": 405,
+    "width": 512,
+    "height": 512,
+    "output": "textures/bg_fruit_ninja.png"
+  },
+  {
+    "source": "textures/bg_fruit_ninja_sml.tex",
+    "tag": 262520,
+    "format": 403,
+    "width": 256,
+    "height": 256,
+    "output": "textures/bg_fruit_ninja_sml.png"
+  },
+  {
+    "source": "textures/bg_greatwave.tex",
+    "tag": 262144,
+    "format": 405,
+    "width": 512,
+    "height": 512,
+    "output": "textures/bg_greatwave.png"
+  },
+  {
+    "source": "textures/bg_greatwave_sml.tex",
+    "tag": 262520,
+    "format": 403,
+    "width": 256,
+    "height": 256,
+    "output": "textures/bg_greatwave_sml.png"
+  },
+  {
+    "source": "textures/bg_i_heart_sensei.tex",
+    "tag": 262144,
+    "format": 405,
+    "width": 512,
+    "height": 512,
+    "output": "textures/bg_i_heart_sensei.png"
+  },
+  {
+    "source": "textures/bg_i_heart_sensei_sml.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 256,
+    "height": 256,
+    "output": "textures/bg_i_heart_sensei_sml.png"
+  },
+  {
+    "source": "textures/bg_store.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "textures/bg_store.png"
+  },
+  {
+    "source": "textures/bg_store_sml.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/bg_store_sml.png"
+  },
+  {
+    "source": "textures/bg_yinyang.tex",
+    "tag": 262144,
+    "format": 405,
+    "width": 512,
+    "height": 512,
+    "output": "textures/bg_yinyang.png"
+  },
+  {
+    "source": "textures/bg_yinyang_sml.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 256,
+    "height": 256,
+    "output": "textures/bg_yinyang_sml.png"
+  },
+  {
+    "source": "textures/blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "textures/blade.png"
+  },
+  {
+    "source": "textures/blitz_1.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_1.png"
+  },
+  {
+    "source": "textures/blitz_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_2.png"
+  },
+  {
+    "source": "textures/blitz_3.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_3.png"
+  },
+  {
+    "source": "textures/blitz_4.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_4.png"
+  },
+  {
+    "source": "textures/blitz_5.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_5.png"
+  },
+  {
+    "source": "textures/blitz_6.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/blitz_6.png"
+  },
+  {
+    "source": "textures/blurry_backing.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 16,
+    "height": 128,
+    "output": "textures/blurry_backing.png"
+  },
+  {
+    "source": "textures/bomb_explode.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 32,
+    "height": 128,
+    "output": "textures/bomb_explode.png"
+  },
+  {
+    "source": "textures/bomb_magnet.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bomb_magnet.png"
+  },
+  {
+    "source": "textures/bonus_icon_blitz.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_blitz.png"
+  },
+  {
+    "source": "textures/bonus_icon_bomb_crit.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_bomb_crit.png"
+  },
+  {
+    "source": "textures/bonus_icon_first_last_fruit.tex",
+    "tag": 285584,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_first_last_fruit.png"
+  },
+  {
+    "source": "textures/bonus_icon_hit_5_bombs.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_hit_5_bombs.png"
+  },
+  {
+    "source": "textures/bonus_icon_max_combo.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_max_combo.png"
+  },
+  {
+    "source": "textures/bonus_icon_multiple_10.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_multiple_10.png"
+  },
+  {
+    "source": "textures/bonus_icon_multiple_100.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_multiple_100.png"
+  },
+  {
+    "source": "textures/bonus_icon_multiple_5.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_multiple_5.png"
+  },
+  {
+    "source": "textures/bonus_icon_no_banana.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_no_banana.png"
+  },
+  {
+    "source": "textures/bonus_icon_no_bombs.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_no_bombs.png"
+  },
+  {
+    "source": "textures/bonus_icon_no_fruit_dropped.tex",
+    "tag": 285584,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_no_fruit_dropped.png"
+  },
+  {
+    "source": "textures/bonus_icon_one_banana.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_one_banana.png"
+  },
+  {
+    "source": "textures/bonus_icon_set_of_three.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_set_of_three.png"
+  },
+  {
+    "source": "textures/bonus_icon_total_combo.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/bonus_icon_total_combo.png"
+  },
+  {
+    "source": "textures/butterfly_knife.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 64,
+    "height": 16,
+    "output": "textures/butterfly_knife.png"
+  },
+  {
+    "source": "textures/buy_now.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/buy_now.png"
+  },
+  {
+    "source": "textures/buy_now_ring.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/buy_now_ring.png"
+  },
+  {
+    "source": "textures/change_mode.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/change_mode.png"
+  },
+  {
+    "source": "textures/classic.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/classic.png"
+  },
+  {
+    "source": "textures/classic_attack.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/classic_attack.png"
+  },
+  {
+    "source": "textures/clock_freeze.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/clock_freeze.png"
+  },
+  {
+    "source": "textures/coins_icon.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/coins_icon.png"
+  },
+  {
+    "source": "textures/combo_10.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_10.png"
+  },
+  {
+    "source": "textures/combo_3.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_3.png"
+  },
+  {
+    "source": "textures/combo_4.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_4.png"
+  },
+  {
+    "source": "textures/combo_5.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_5.png"
+  },
+  {
+    "source": "textures/combo_6.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_6.png"
+  },
+  {
+    "source": "textures/combo_7.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_7.png"
+  },
+  {
+    "source": "textures/combo_8.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_8.png"
+  },
+  {
+    "source": "textures/combo_9.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/combo_9.png"
+  },
+  {
+    "source": "textures/combo_description.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/combo_description.png"
+  },
+  {
+    "source": "textures/combo_mambo.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/combo_mambo.png"
+  },
+  {
+    "source": "textures/connect_game_center.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/connect_game_center.png"
+  },
+  {
+    "source": "textures/credits.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/credits.png"
+  },
+  {
+    "source": "textures/critical.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/critical.png"
+  },
+  {
+    "source": "textures/dark_blade.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 64,
+    "height": 16,
+    "output": "textures/dark_blade.png"
+  },
+  {
+    "source": "textures/deja_vu.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/deja_vu.png"
+  },
+  {
+    "source": "textures/dialog_box_shop.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/dialog_box_shop.png"
+  },
+  {
+    "source": "textures/diolog_box_big.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/diolog_box_big.png"
+  },
+  {
+    "source": "textures/disco_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "textures/disco_blade.png"
+  },
+  {
+    "source": "textures/dojo.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/dojo.png"
+  },
+  {
+    "source": "textures/dojo_icon.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/dojo_icon.png"
+  },
+  {
+    "source": "textures/dojo_sensei.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/dojo_sensei.png"
+  },
+  {
+    "source": "textures/dragons_wrath.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/dragons_wrath.png"
+  },
+  {
+    "source": "textures/draw.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/draw.png"
+  },
+  {
+    "source": "textures/extra_time.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 256,
+    "height": 32,
+    "output": "textures/extra_time.png"
+  },
+  {
+    "source": "textures/facebook.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/facebook.png"
+  },
+  {
+    "source": "textures/facebook_tick.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/facebook_tick.png"
+  },
+  {
+    "source": "textures/fact_board.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/fact_board.png"
+  },
+  {
+    "source": "textures/feint.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/feint.png"
+  },
+  {
+    "source": "textures/fight_blitz.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fight_blitz.png"
+  },
+  {
+    "source": "textures/first_taste.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/first_taste.png"
+  },
+  {
+    "source": "textures/flame_blade.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 64,
+    "height": 16,
+    "output": "textures/flame_blade.png"
+  },
+  {
+    "source": "textures/flash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/flash.png"
+  },
+  {
+    "source": "textures/fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/fruit.png"
+  },
+  {
+    "source": "textures/fruit_annihilation.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fruit_annihilation.png"
+  },
+  {
+    "source": "textures/fruit_fight.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fruit_fight.png"
+  },
+  {
+    "source": "textures/fruit_frenzy.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fruit_frenzy.png"
+  },
+  {
+    "source": "textures/fruit_ninja.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fruit_ninja.png"
+  },
+  {
+    "source": "textures/fruit_rampage.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/fruit_rampage.png"
+  },
+  {
+    "source": "textures/fruit_text.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/fruit_text.png"
+  },
+  {
+    "source": "textures/gameover.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/gameover.png"
+  },
+  {
+    "source": "textures/gb_game.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "textures/gb_game.png"
+  },
+  {
+    "source": "textures/gb_game_sml.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/gb_game_sml.png"
+  },
+  {
+    "source": "textures/gc_achievements.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/gc_achievements.png"
+  },
+  {
+    "source": "textures/gc_add_friends_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/gc_add_friends_button.png"
+  },
+  {
+    "source": "textures/gc_connect_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/gc_connect_button.png"
+  },
+  {
+    "source": "textures/gc_connecting.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/gc_connecting.png"
+  },
+  {
+    "source": "textures/gc_leaderboards.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/gc_leaderboards.png"
+  },
+  {
+    "source": "textures/gc_no_score_this_week.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/gc_no_score_this_week.png"
+  },
+  {
+    "source": "textures/gc_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/gc_title.png"
+  },
+  {
+    "source": "textures/go_banana.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/go_banana.png"
+  },
+  {
+    "source": "textures/gold_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "textures/gold_blade.png"
+  },
+  {
+    "source": "textures/great_fruit_ninja.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/great_fruit_ninja.png"
+  },
+  {
+    "source": "textures/haikus.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/haikus.png"
+  },
+  {
+    "source": "textures/hb_logo.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 1024,
+    "height": 1024,
+    "output": "textures/hb_logo.png"
+  },
+  {
+    "source": "textures/hd_bad_luck.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 128,
+    "output": "textures/hd_bad_luck.png"
+  },
+  {
+    "source": "textures/hd_combo_description.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 128,
+    "output": "textures/hd_combo_description.png"
+  },
+  {
+    "source": "textures/hd_credits.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 1024,
+    "height": 512,
+    "output": "textures/hd_credits.png"
+  },
+  {
+    "source": "textures/hd_diolog_box_big.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 1024,
+    "height": 512,
+    "output": "textures/hd_diolog_box_big.png"
+  },
+  {
+    "source": "textures/hd_draw.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 128,
+    "output": "textures/hd_draw.png"
+  },
+  {
+    "source": "textures/hd_fruit_text.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/hd_fruit_text.png"
+  },
+  {
+    "source": "textures/hd_gameover.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 128,
+    "output": "textures/hd_gameover.png"
+  },
+  {
+    "source": "textures/hd_haikus.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 1024,
+    "height": 512,
+    "output": "textures/hd_haikus.png"
+  },
+  {
+    "source": "textures/hd_hud_fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/hd_hud_fruit.png"
+  },
+  {
+    "source": "textures/hd_multi_sensei.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "textures/hd_multi_sensei.png"
+  },
+  {
+    "source": "textures/hd_multi_sensei_results.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 512,
+    "output": "textures/hd_multi_sensei_results.png"
+  },
+  {
+    "source": "textures/hd_music.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hd_music.png"
+  },
+  {
+    "source": "textures/hd_music_cross.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hd_music_cross.png"
+  },
+  {
+    "source": "textures/hd_news_icon_off.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/hd_news_icon_off.png"
+  },
+  {
+    "source": "textures/hd_news_icon_on.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/hd_news_icon_on.png"
+  },
+  {
+    "source": "textures/hd_ninja_text.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/hd_ninja_text.png"
+  },
+  {
+    "source": "textures/hd_pause_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/hd_pause_title.png"
+  },
+  {
+    "source": "textures/hd_score.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/hd_score.png"
+  },
+  {
+    "source": "textures/hd_slice_fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/hd_slice_fruit.png"
+  },
+  {
+    "source": "textures/hd_slide_bar_wifi_multi.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/hd_slide_bar_wifi_multi.png"
+  },
+  {
+    "source": "textures/hd_slider.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 64,
+    "output": "textures/hd_slider.png"
+  },
+  {
+    "source": "textures/hd_sml_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/hd_sml_title.png"
+  },
+  {
+    "source": "textures/hd_sound.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hd_sound.png"
+  },
+  {
+    "source": "textures/hd_sound_cross.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hd_sound_cross.png"
+  },
+  {
+    "source": "textures/hd_swipe_fruit_begin.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/hd_swipe_fruit_begin.png"
+  },
+  {
+    "source": "textures/hd_time_up.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 64,
+    "output": "textures/hd_time_up.png"
+  },
+  {
+    "source": "textures/hd_you_win.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 128,
+    "output": "textures/hd_you_win.png"
+  },
+  {
+    "source": "textures/hd_zen_sign.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/hd_zen_sign.png"
+  },
+  {
+    "source": "textures/hud_coin.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hud_coin.png"
+  },
+  {
+    "source": "textures/hud_cross.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 64,
+    "height": 32,
+    "output": "textures/hud_cross.png"
+  },
+  {
+    "source": "textures/hud_fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/hud_fruit.png"
+  },
+  {
+    "source": "textures/hud_power_meter.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 64,
+    "output": "textures/hud_power_meter.png"
+  },
+  {
+    "source": "textures/hud_unlocked_dialog.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/hud_unlocked_dialog.png"
+  },
+  {
+    "source": "textures/hud_x2_sign.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/hud_x2_sign.png"
+  },
+  {
+    "source": "textures/ice_blade.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 64,
+    "height": 16,
+    "output": "textures/ice_blade.png"
+  },
+  {
+    "source": "textures/ice_cover.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "textures/ice_cover.png"
+  },
+  {
+    "source": "textures/item_american_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_american_blade.png"
+  },
+  {
+    "source": "textures/item_bg_fruit_ninja.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_bg_fruit_ninja.png"
+  },
+  {
+    "source": "textures/item_bg_greatwave.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_bg_greatwave.png"
+  },
+  {
+    "source": "textures/item_bg_i_heart_sensei.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_bg_i_heart_sensei.png"
+  },
+  {
+    "source": "textures/item_bg_yinyang.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_bg_yinyang.png"
+  },
+  {
+    "source": "textures/item_blueblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_blueblade.png"
+  },
+  {
+    "source": "textures/item_butterfly_knife.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_butterfly_knife.png"
+  },
+  {
+    "source": "textures/item_discoblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_discoblade.png"
+  },
+  {
+    "source": "textures/item_flame_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_flame_blade.png"
+  },
+  {
+    "source": "textures/item_gb_game.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_gb_game.png"
+  },
+  {
+    "source": "textures/item_greenblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_greenblade.png"
+  },
+  {
+    "source": "textures/item_ice_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_ice_blade.png"
+  },
+  {
+    "source": "textures/item_mr_sparkle.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_mr_sparkle.png"
+  },
+  {
+    "source": "textures/item_originalblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_originalblade.png"
+  },
+  {
+    "source": "textures/item_redblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_redblade.png"
+  },
+  {
+    "source": "textures/item_shiney_red_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_shiney_red_blade.png"
+  },
+  {
+    "source": "textures/item_yellowblade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/item_yellowblade.png"
+  },
+  {
+    "source": "textures/its_all_pear_shaped.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/its_all_pear_shaped.png"
+  },
+  {
+    "source": "textures/leaderboards.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/leaderboards.png"
+  },
+  {
+    "source": "textures/leaderboards_button_arcade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/leaderboards_button_arcade.png"
+  },
+  {
+    "source": "textures/learned_ninja.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/learned_ninja.png"
+  },
+  {
+    "source": "textures/light_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/light_blade.png"
+  },
+  {
+    "source": "textures/loading.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "textures/loading.png"
+  },
+  {
+    "source": "textures/locked.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/locked.png"
+  },
+  {
+    "source": "textures/locked_stroke.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/locked_stroke.png"
+  },
+  {
+    "source": "textures/lovely_bunch.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/lovely_bunch.png"
+  },
+  {
+    "source": "textures/lucky_ninja.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/lucky_ninja.png"
+  },
+  {
+    "source": "textures/mango_magic.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/mango_magic.png"
+  },
+  {
+    "source": "textures/minus_10.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/minus_10.png"
+  },
+  {
+    "source": "textures/minus_3_red.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/minus_3_red.png"
+  },
+  {
+    "source": "textures/mode_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/mode_2.png"
+  },
+  {
+    "source": "textures/mode_select.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/mode_select.png"
+  },
+  {
+    "source": "textures/mode_sensei.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 256,
+    "output": "textures/mode_sensei.png"
+  },
+  {
+    "source": "textures/moment_of_zen.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/moment_of_zen.png"
+  },
+  {
+    "source": "textures/more_games.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/more_games.png"
+  },
+  {
+    "source": "textures/multi_player.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/multi_player.png"
+  },
+  {
+    "source": "textures/multi_player_connect.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/multi_player_connect.png"
+  },
+  {
+    "source": "textures/multi_sensei.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/multi_sensei.png"
+  },
+  {
+    "source": "textures/multi_sensei_results.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 256,
+    "output": "textures/multi_sensei_results.png"
+  },
+  {
+    "source": "textures/multiplayer_iphone.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/multiplayer_iphone.png"
+  },
+  {
+    "source": "textures/music.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/music.png"
+  },
+  {
+    "source": "textures/music_cross.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/music_cross.png"
+  },
+  {
+    "source": "textures/neutral_fruit_outline.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 16,
+    "height": 16,
+    "output": "textures/neutral_fruit_outline.png"
+  },
+  {
+    "source": "textures/new_best_score.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/new_best_score.png"
+  },
+  {
+    "source": "textures/new_item.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 64,
+    "height": 32,
+    "output": "textures/new_item.png"
+  },
+  {
+    "source": "textures/new_item_sml.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 64,
+    "height": 32,
+    "output": "textures/new_item_sml.png"
+  },
+  {
+    "source": "textures/new_stroke.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/new_stroke.png"
+  },
+  {
+    "source": "textures/newgame.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/newgame.png"
+  },
+  {
+    "source": "textures/news_backing.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/news_backing.png"
+  },
+  {
+    "source": "textures/news_icon_off.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/news_icon_off.png"
+  },
+  {
+    "source": "textures/news_icon_on.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/news_icon_on.png"
+  },
+  {
+    "source": "textures/newsurlbutton.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 64,
+    "output": "textures/newsurlbutton.png"
+  },
+  {
+    "source": "textures/ninja_text.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/ninja_text.png"
+  },
+  {
+    "source": "textures/no_doctors_here.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/no_doctors_here.png"
+  },
+  {
+    "source": "textures/no_score_this_week.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/no_score_this_week.png"
+  },
+  {
+    "source": "textures/notification.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/notification.png"
+  },
+  {
+    "source": "textures/op_add_friends_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/op_add_friends_button.png"
+  },
+  {
+    "source": "textures/op_connect_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/op_connect_button.png"
+  },
+  {
+    "source": "textures/op_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/op_title.png"
+  },
+  {
+    "source": "textures/openfeint.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/openfeint.png"
+  },
+  {
+    "source": "textures/openfeint_gamecenter.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/openfeint_gamecenter.png"
+  },
+  {
+    "source": "textures/outline_blue.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 16,
+    "height": 16,
+    "output": "textures/outline_blue.png"
+  },
+  {
+    "source": "textures/outline_red.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 16,
+    "height": 16,
+    "output": "textures/outline_red.png"
+  },
+  {
+    "source": "textures/over_300_points.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/over_300_points.png"
+  },
+  {
+    "source": "textures/over_achiever.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/over_achiever.png"
+  },
+  {
+    "source": "textures/patience_is_a_virtue.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/patience_is_a_virtue.png"
+  },
+  {
+    "source": "textures/pause_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/pause_button.png"
+  },
+  {
+    "source": "textures/pause_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/pause_title.png"
+  },
+  {
+    "source": "textures/piano_key_blade.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 256,
+    "height": 32,
+    "output": "textures/piano_key_blade.png"
+  },
+  {
+    "source": "textures/pixel_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/pixel_blade.png"
+  },
+  {
+    "source": "textures/play_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/play_button.png"
+  },
+  {
+    "source": "textures/plus_3_blue.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/plus_3_blue.png"
+  },
+  {
+    "source": "textures/press_indicate.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 16,
+    "height": 16,
+    "output": "textures/press_indicate.png"
+  },
+  {
+    "source": "textures/purple_is_a_fruit.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/purple_is_a_fruit.png"
+  },
+  {
+    "source": "textures/quit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/quit.png"
+  },
+  {
+    "source": "textures/quit_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/quit_title.png"
+  },
+  {
+    "source": "textures/rainbow_blade.tex",
+    "tag": 262520,
+    "format": 405,
+    "width": 64,
+    "height": 16,
+    "output": "textures/rainbow_blade.png"
+  },
+  {
+    "source": "textures/rave_blade.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/rave_blade.png"
+  },
+  {
+    "source": "textures/rave_blade_glow.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/rave_blade_glow.png"
+  },
+  {
+    "source": "textures/ready_multiplayer.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/ready_multiplayer.png"
+  },
+  {
+    "source": "textures/red_fruit_atlas.tex",
+    "tag": 262144,
+    "format": 405,
+    "width": 512,
+    "height": 512,
+    "output": "textures/red_fruit_atlas.png"
+  },
+  {
+    "source": "textures/results_backing_zen.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/results_backing_zen.png"
+  },
+  {
+    "source": "textures/retry.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/retry.png"
+  },
+  {
+    "source": "textures/retry_button.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/retry_button.png"
+  },
+  {
+    "source": "textures/score.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/score.png"
+  },
+  {
+    "source": "textures/score_10_fruit_combo.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/score_10_fruit_combo.png"
+  },
+  {
+    "source": "textures/score_5_fruit_combo.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/score_5_fruit_combo.png"
+  },
+  {
+    "source": "textures/score_you.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 64,
+    "height": 32,
+    "output": "textures/score_you.png"
+  },
+  {
+    "source": "textures/scratch_deviders.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 256,
+    "height": 16,
+    "output": "textures/scratch_deviders.png"
+  },
+  {
+    "source": "textures/scratchs.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/scratchs.png"
+  },
+  {
+    "source": "textures/scrollbar.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/scrollbar.png"
+  },
+  {
+    "source": "textures/select_item.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/select_item.png"
+  },
+  {
+    "source": "textures/selected.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/selected.png"
+  },
+  {
+    "source": "textures/selected_ring.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/selected_ring.png"
+  },
+  {
+    "source": "textures/selected_sml.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 64,
+    "height": 32,
+    "output": "textures/selected_sml.png"
+  },
+  {
+    "source": "textures/selected_stroke.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/selected_stroke.png"
+  },
+  {
+    "source": "textures/sensei.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/sensei.png"
+  },
+  {
+    "source": "textures/sensei_body_01.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/sensei_body_01.png"
+  },
+  {
+    "source": "textures/sensei_body_02.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/sensei_body_02.png"
+  },
+  {
+    "source": "textures/sensei_body_03.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/sensei_body_03.png"
+  },
+  {
+    "source": "textures/sensei_head.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sensei_head.png"
+  },
+  {
+    "source": "textures/sensei_head_01.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sensei_head_01.png"
+  },
+  {
+    "source": "textures/sensei_head_02.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sensei_head_02.png"
+  },
+  {
+    "source": "textures/sensei_head_03.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sensei_head_03.png"
+  },
+  {
+    "source": "textures/senseis_swag.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/senseis_swag.png"
+  },
+  {
+    "source": "textures/shiney_red_blade.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 64,
+    "height": 16,
+    "output": "textures/shiney_red_blade.png"
+  },
+  {
+    "source": "textures/slice_fruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/slice_fruit.png"
+  },
+  {
+    "source": "textures/slide_bar_wifi_multi.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/slide_bar_wifi_multi.png"
+  },
+  {
+    "source": "textures/slider.tex",
+    "tag": 293328,
+    "format": 404,
+    "width": 16,
+    "height": 32,
+    "output": "textures/slider.png"
+  },
+  {
+    "source": "textures/slider_bar.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 128,
+    "output": "textures/slider_bar.png"
+  },
+  {
+    "source": "textures/sml_ap.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_ap.png"
+  },
+  {
+    "source": "textures/sml_bn.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_bn.png"
+  },
+  {
+    "source": "textures/sml_co.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_co.png"
+  },
+  {
+    "source": "textures/sml_combo_10.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_10.png"
+  },
+  {
+    "source": "textures/sml_combo_3.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_3.png"
+  },
+  {
+    "source": "textures/sml_combo_4.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_4.png"
+  },
+  {
+    "source": "textures/sml_combo_5.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_5.png"
+  },
+  {
+    "source": "textures/sml_combo_6.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_6.png"
+  },
+  {
+    "source": "textures/sml_combo_7.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_7.png"
+  },
+  {
+    "source": "textures/sml_combo_8.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_8.png"
+  },
+  {
+    "source": "textures/sml_combo_9.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_combo_9.png"
+  },
+  {
+    "source": "textures/sml_critical.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_critical.png"
+  },
+  {
+    "source": "textures/sml_df.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_df.png"
+  },
+  {
+    "source": "textures/sml_hud_x2_sign.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_hud_x2_sign.png"
+  },
+  {
+    "source": "textures/sml_ice_cover.tex",
+    "tag": 262144,
+    "format": 404,
+    "width": 512,
+    "height": 512,
+    "output": "textures/sml_ice_cover.png"
+  },
+  {
+    "source": "textures/sml_kw.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_kw.png"
+  },
+  {
+    "source": "textures/sml_lm.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_lm.png"
+  },
+  {
+    "source": "textures/sml_lmn.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_lmn.png"
+  },
+  {
+    "source": "textures/sml_minus_10.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/sml_minus_10.png"
+  },
+  {
+    "source": "textures/sml_mn.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_mn.png"
+  },
+  {
+    "source": "textures/sml_or.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_or.png"
+  },
+  {
+    "source": "textures/sml_pas.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_pas.png"
+  },
+  {
+    "source": "textures/sml_pl.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_pl.png"
+  },
+  {
+    "source": "textures/sml_pn.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_pn.png"
+  },
+  {
+    "source": "textures/sml_pr.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_pr.png"
+  },
+  {
+    "source": "textures/sml_sf.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_sf.png"
+  },
+  {
+    "source": "textures/sml_st.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_st.png"
+  },
+  {
+    "source": "textures/sml_title.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/sml_title.png"
+  },
+  {
+    "source": "textures/sml_white_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/sml_white_splash.png"
+  },
+  {
+    "source": "textures/sml_wm.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/sml_wm.png"
+  },
+  {
+    "source": "textures/sound.tex",
+    "tag": 285536,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/sound.png"
+  },
+  {
+    "source": "textures/sound_cross.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/sound_cross.png"
+  },
+  {
+    "source": "textures/star_alphabetic.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_alphabetic.png"
+  },
+  {
+    "source": "textures/star_amazing.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_amazing.png"
+  },
+  {
+    "source": "textures/star_awards.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_awards.png"
+  },
+  {
+    "source": "textures/star_banana_cake.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_banana_cake.png"
+  },
+  {
+    "source": "textures/star_checkers.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_checkers.png"
+  },
+  {
+    "source": "textures/star_delicious.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_delicious.png"
+  },
+  {
+    "source": "textures/star_exquisite.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_exquisite.png"
+  },
+  {
+    "source": "textures/star_flightless_bird.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_flightless_bird.png"
+  },
+  {
+    "source": "textures/star_four_of_a_kind.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_four_of_a_kind.png"
+  },
+  {
+    "source": "textures/star_fruit_salad.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_fruit_salad.png"
+  },
+  {
+    "source": "textures/star_fruits_basket.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_fruits_basket.png"
+  },
+  {
+    "source": "textures/star_fruity.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_fruity.png"
+  },
+  {
+    "source": "textures/star_full_house.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_full_house.png"
+  },
+  {
+    "source": "textures/star_full_punnet.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_full_punnet.png"
+  },
+  {
+    "source": "textures/star_got_the_sweats.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_got_the_sweats.png"
+  },
+  {
+    "source": "textures/star_its_apples.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_its_apples.png"
+  },
+  {
+    "source": "textures/star_juicy.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_juicy.png"
+  },
+  {
+    "source": "textures/star_lemon_line_up.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_lemon_line_up.png"
+  },
+  {
+    "source": "textures/star_lovely_bunch.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_lovely_bunch.png"
+  },
+  {
+    "source": "textures/star_lush.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_lush.png"
+  },
+  {
+    "source": "textures/star_mango_smoothie.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_mango_smoothie.png"
+  },
+  {
+    "source": "textures/star_megamix.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_megamix.png"
+  },
+  {
+    "source": "textures/star_melon_mania.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_melon_mania.png"
+  },
+  {
+    "source": "textures/star_passion_punch.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_passion_punch.png"
+  },
+  {
+    "source": "textures/star_pear_tree.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_pear_tree.png"
+  },
+  {
+    "source": "textures/star_scurvy_cure.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_scurvy_cure.png"
+  },
+  {
+    "source": "textures/star_succulent.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_succulent.png"
+  },
+  {
+    "source": "textures/star_tasty.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_tasty.png"
+  },
+  {
+    "source": "textures/star_three_of_a_kind.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_three_of_a_kind.png"
+  },
+  {
+    "source": "textures/star_two_pairs.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_two_pairs.png"
+  },
+  {
+    "source": "textures/star_vitamin_c.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_vitamin_c.png"
+  },
+  {
+    "source": "textures/star_yummy.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 32,
+    "output": "textures/star_yummy.png"
+  },
+  {
+    "source": "textures/swipe_fruit_begin.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/swipe_fruit_begin.png"
+  },
+  {
+    "source": "textures/swipe_to_scroll.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 16,
+    "height": 128,
+    "output": "textures/swipe_to_scroll.png"
+  },
+  {
+    "source": "textures/tee_hee_hee.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/tee_hee_hee.png"
+  },
+  {
+    "source": "textures/time_up.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 256,
+    "height": 32,
+    "output": "textures/time_up.png"
+  },
+  {
+    "source": "textures/title_backing.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/title_backing.png"
+  },
+  {
+    "source": "textures/tutorial_baord.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 512,
+    "height": 256,
+    "output": "textures/tutorial_baord.png"
+  },
+  {
+    "source": "textures/twitter.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/twitter.png"
+  },
+  {
+    "source": "textures/twitter_tick.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/twitter_tick.png"
+  },
+  {
+    "source": "textures/twitterbook.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/twitterbook.png"
+  },
+  {
+    "source": "textures/twitterbook_tick.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 64,
+    "output": "textures/twitterbook_tick.png"
+  },
+  {
+    "source": "textures/twitterbook_tick_vert.tex",
+    "tag": 285576,
+    "format": 404,
+    "width": 32,
+    "height": 64,
+    "output": "textures/twitterbook_tick_vert.png"
+  },
+  {
+    "source": "textures/twitterbook_vert.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 64,
+    "output": "textures/twitterbook_vert.png"
+  },
+  {
+    "source": "textures/ultimate_fruit_ninja.tex",
+    "tag": 285568,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/ultimate_fruit_ninja.png"
+  },
+  {
+    "source": "textures/ultra_rare_plus_50.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/ultra_rare_plus_50.png"
+  },
+  {
+    "source": "textures/under_achiever.tex",
+    "tag": 285552,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/under_achiever.png"
+  },
+  {
+    "source": "textures/wake_up.tex",
+    "tag": 285544,
+    "format": 404,
+    "width": 32,
+    "height": 32,
+    "output": "textures/wake_up.png"
+  },
+  {
+    "source": "textures/white_splash.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/white_splash.png"
+  },
+  {
+    "source": "textures/wins_losses.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/wins_losses.png"
+  },
+  {
+    "source": "textures/wins_losses_backing.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 128,
+    "output": "textures/wins_losses_backing.png"
+  },
+  {
+    "source": "textures/word_freeze.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/word_freeze.png"
+  },
+  {
+    "source": "textures/word_frenzy.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/word_frenzy.png"
+  },
+  {
+    "source": "textures/word_scorex2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/word_scorex2.png"
+  },
+  {
+    "source": "textures/you_win.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 64,
+    "output": "textures/you_win.png"
+  },
+  {
+    "source": "textures/z_blitz_1.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_1.png"
+  },
+  {
+    "source": "textures/z_blitz_2.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_2.png"
+  },
+  {
+    "source": "textures/z_blitz_3.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_3.png"
+  },
+  {
+    "source": "textures/z_blitz_4.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_4.png"
+  },
+  {
+    "source": "textures/z_blitz_5.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_5.png"
+  },
+  {
+    "source": "textures/z_blitz_6.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/z_blitz_6.png"
+  },
+  {
+    "source": "textures/zen_apple.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_apple.png"
+  },
+  {
+    "source": "textures/zen_apple_red.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_apple_red.png"
+  },
+  {
+    "source": "textures/zen_banana.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_banana.png"
+  },
+  {
+    "source": "textures/zen_coconut.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_coconut.png"
+  },
+  {
+    "source": "textures/zen_duel.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 256,
+    "height": 256,
+    "output": "textures/zen_duel.png"
+  },
+  {
+    "source": "textures/zen_kiwifruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_kiwifruit.png"
+  },
+  {
+    "source": "textures/zen_lemon.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_lemon.png"
+  },
+  {
+    "source": "textures/zen_lime.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_lime.png"
+  },
+  {
+    "source": "textures/zen_mango.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_mango.png"
+  },
+  {
+    "source": "textures/zen_orange.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_orange.png"
+  },
+  {
+    "source": "textures/zen_passionfruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_passionfruit.png"
+  },
+  {
+    "source": "textures/zen_pear.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_pear.png"
+  },
+  {
+    "source": "textures/zen_pineapple.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_pineapple.png"
+  },
+  {
+    "source": "textures/zen_plum.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_plum.png"
+  },
+  {
+    "source": "textures/zen_sign.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "textures/zen_sign.png"
+  },
+  {
+    "source": "textures/zen_starfruit.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_starfruit.png"
+  },
+  {
+    "source": "textures/zen_strawberry.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_strawberry.png"
+  },
+  {
+    "source": "textures/zen_watermelon.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 64,
+    "height": 64,
+    "output": "textures/zen_watermelon.png"
+  },
+  {
+    "source": "verdana_0.tex",
+    "tag": 262520,
+    "format": 404,
+    "width": 128,
+    "height": 128,
+    "output": "verdana_0.png"
+  }
+]

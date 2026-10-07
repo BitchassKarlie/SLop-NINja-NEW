@@ -1,0 +1,23 @@
+/build*/
+/out/
+/.vs/
+/.idea/
+*.user
+*.suo
+*.tmp
+*.log
+*.bmp
+__pycache__/
+.DS_Store
+
+windows-build.log
+
+# Generated packages and per-machine Android configuration
+/dist/
+/platform/android/.gradle/
+/platform/android/app/.cxx/
+/platform/android/app/build/
+/platform/android/build/
+/platform/android/local.properties
+*.jks
+*.keystore
