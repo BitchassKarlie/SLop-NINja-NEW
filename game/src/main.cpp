@@ -7,6 +7,7 @@
 #include <iostream>
 #include <memory>
 #include <optional>
+#include <vector>
 #ifdef __VITA__
 #include <psp2/io/stat.h>
 #endif
@@ -129,7 +130,12 @@ int main(int argc, char **argv) {
         }
         SDL_SetHint(SDL_HINT_TOUCH_MOUSE_EVENTS, "0");
         SDL_SetHint(SDL_HINT_MOUSE_TOUCH_EVENTS, "0");
-        if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_TIMER | SDL_INIT_EVENTS) != 0)
+        Uint32 sdlSubsystems = SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_TIMER | SDL_INIT_EVENTS;
+#ifdef __wii__
+        // The Wii SDL port exposes the Wiimote Plus button through its joystick driver.
+        sdlSubsystems |= SDL_INIT_JOYSTICK;
+#endif
+        if (SDL_Init(sdlSubsystems) != 0)
             throw std::runtime_error(SDL_GetError());
         int width = 960, height = 640;
         int position = SDL_WINDOWPOS_CENTERED;
@@ -138,6 +144,10 @@ int main(int argc, char **argv) {
 #ifdef __VITA__
         width = 960;
         height = 544;
+        windowFlags = SDL_WINDOW_SHOWN;
+#elif defined(__wii__)
+        width = 640;
+        height = 480;
         windowFlags = SDL_WINDOW_SHOWN;
 #elif defined(__3DS__)
         width = 320;
@@ -155,6 +165,16 @@ int main(int argc, char **argv) {
             rawRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
         if (!rawRenderer)
             throw std::runtime_error(SDL_GetError());
+#ifdef __wii__
+        // The OGC SDL backend draws its system cursor from the Wiimote IR pointer.
+        SDL_ShowCursor(SDL_ENABLE);
+        SDL_JoystickEventState(SDL_ENABLE);
+        std::vector<SDL_Joystick *> wiiJoysticks;
+        for (int i = 0; i < SDL_NumJoysticks(); ++i) {
+            if (auto *joystick = SDL_JoystickOpen(i))
+                wiiJoysticks.push_back(joystick);
+        }
+#endif
         {
             auto assets = assetsPath(requested);
             auto config = Config::load(assets);
@@ -233,6 +253,40 @@ int main(int argc, char **argv) {
                     }
                 }
             };
+            Uint32 sliceMouseMask = SDL_BUTTON_LMASK;
+#ifdef __wii__
+            // devkitPro SDL maps Wiimote B to left click and A to right click.
+            sliceMouseMask |= SDL_BUTTON_RMASK;
+#endif
+            auto isSliceMouseButton = [&](Uint8 button) {
+                return (sliceMouseMask & SDL_BUTTON(button)) != 0;
+            };
+            Uint32 pressedSliceMouseButtons = 0;
+            auto mouseSliceButton = [&](Uint8 button, bool pressed, Vec2 p) {
+                const Uint32 buttonMask = SDL_BUTTON(button);
+                if ((sliceMouseMask & buttonMask) == 0)
+                    return;
+                const bool wasPressed = (pressedSliceMouseButtons & sliceMouseMask) != 0;
+                if (pressed) {
+                    pressedSliceMouseButtons |= buttonMask;
+                    if (!wasPressed)
+                        touch(-1, 0, p, 0);
+                } else {
+                    pressedSliceMouseButtons &= ~buttonMask;
+                    if (wasPressed && (pressedSliceMouseButtons & sliceMouseMask) == 0)
+                        touch(-1, 0, p, 2);
+                }
+            };
+            auto activate = [&]() {
+                if (game.screen == Screen::Paused)
+                    game.pause();
+                else if (game.screen == Screen::Results)
+                    game.start(game.mode);
+                else if (game.screen == Screen::Home)
+                    game.menu();
+                else if (game.screen == Screen::Menu)
+                    game.start(Mode::Classic);
+            };
             bool running = true;
             int count = 0;
             Uint64 last = SDL_GetPerformanceCounter();
@@ -256,6 +310,7 @@ int main(int argc, char **argv) {
                             game.pause();
                         contacts.clear();
                         captured.clear();
+                        pressedSliceMouseButtons = 0;
                         game.resetContacts();
                     } else if (e.type == SDL_KEYDOWN && !e.key.repeat) {
                         auto key = e.key.keysym.sym;
@@ -265,26 +320,26 @@ int main(int argc, char **argv) {
                             game.home();
                         else if (key == SDLK_1 || key == SDLK_2 || key == SDLK_3)
                             game.start(static_cast<Mode>(key - SDLK_1));
-                        else if (key == SDLK_RETURN) {
-                            if (game.screen == Screen::Paused)
-                                game.pause();
-                            else if (game.screen == Screen::Results)
-                                game.start(game.mode);
-                            else if (game.screen == Screen::Home)
-                                game.menu();
-                            else if (game.screen == Screen::Menu)
-                                game.start(Mode::Classic);
-                        }
+                        else if (key == SDLK_RETURN)
+                            activate();
+#ifdef __wii__
+                    } else if (e.type == SDL_JOYBUTTONDOWN && e.jbutton.button == 5) {
+                        // Wiimote Plus is button 5 in the Wii SDL joystick mapping.
+                        activate();
+#endif
                     } else if (e.type == SDL_MOUSEBUTTONDOWN &&
-                               e.button.button == SDL_BUTTON_LEFT &&
+                               isSliceMouseButton(e.button.button) &&
                                e.button.which != SDL_TOUCH_MOUSEID) {
-                        auto p = renderer.point(float(e.button.x), float(e.button.y));
-                        touch(-1, 0, p, 0);
-                    } else if (e.type == SDL_MOUSEBUTTONUP && e.button.button == SDL_BUTTON_LEFT &&
-                               e.button.which != SDL_TOUCH_MOUSEID)
-                        touch(-1, 0, renderer.point(float(e.button.x), float(e.button.y)), 2);
-                    else if (e.type == SDL_MOUSEMOTION && e.motion.which != SDL_TOUCH_MOUSEID &&
-                             (e.motion.state & SDL_BUTTON_LMASK))
+                        mouseSliceButton(e.button.button, true,
+                                         renderer.point(float(e.button.x), float(e.button.y)));
+                    } else if (e.type == SDL_MOUSEBUTTONUP &&
+                               isSliceMouseButton(e.button.button) &&
+                               e.button.which != SDL_TOUCH_MOUSEID) {
+                        mouseSliceButton(e.button.button, false,
+                                         renderer.point(float(e.button.x), float(e.button.y)));
+                    } else if (e.type == SDL_MOUSEMOTION &&
+                               e.motion.which != SDL_TOUCH_MOUSEID &&
+                               (e.motion.state & sliceMouseMask))
                         touch(-1, 0, renderer.point(float(e.motion.x), float(e.motion.y)), 1);
                     else if (e.type == SDL_FINGERDOWN || e.type == SDL_FINGERMOTION ||
                              e.type == SDL_FINGERUP) {
@@ -397,6 +452,10 @@ int main(int argc, char **argv) {
             std::cout << "frames=" << count << " score=" << game.score
                       << " bodies=" << game.bodies.size() << " waves=" << game.waveNumber() << "\n";
         }
+#ifdef __wii__
+        for (auto *joystick : wiiJoysticks)
+            SDL_JoystickClose(joystick);
+#endif
         SDL_DestroyRenderer(rawRenderer);
         SDL_DestroyWindow(window);
         SDL_Quit();

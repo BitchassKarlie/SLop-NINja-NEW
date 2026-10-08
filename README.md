@@ -6,13 +6,13 @@ A buildable, playable C++17 project reconstructed from the supplied Fruit Ninja 
 
 ## Build and run
 
-Complete configure/build/test/package scripts are provided for Windows, Linux, macOS, iOS, Android, WebAssembly, Vita and 3DS. See [platform/BUILDING.md](platform/BUILDING.md) for commands, SDK requirements, signing options and exact output paths. Start on Windows with `platform\windows\build.bat`; its executable remains `build-win-native/Release/fruit_ninja.exe`.
+Build and packaging scripts are provided for Windows, Linux, macOS, iOS, Android, WebAssembly, Vita, Wii and 3DS. See [platform/BUILDING.md](platform/BUILDING.md) for commands, SDK requirements, signing options and exact output paths. Start on Windows with `platform\windows\build.bat`; its executable remains `build-win-native/Release/fruit_ninja.exe`.
 
 Gameplay now uses fixed 60 Hz simulation ticks and a separate 60 FPS presentation cap. It runs at the same speed on high-refresh displays and catches up after ordinary slow frames. Headless verification remains deterministic and does not wait for the frame cap.
 
 ## Automatic GitHub builds
 
-Eight independent workflows in `.github/workflows` build Windows, Linux, macOS, iOS, Android, WASM, Vita and 3DS on pushes, pull requests and manual runs. Commit this folder's **contents at the repository root**, including `.github`, then download packages from the run's **Artifacts** section in GitHub's Actions tab. See [platform/ci/README.md](platform/ci/README.md) for setup and artifact names. No custom signing secrets are required for the default builds.
+Nine independent workflows in `.github/workflows` build Windows, Linux, macOS, iOS, Android, WASM, Vita, Wii and 3DS on pushes, pull requests and manual runs. Commit this folder's **contents at the repository root**, including `.github`, then download packages from the run's **Artifacts** section in GitHub's Actions tab. See [platform/ci/README.md](platform/ci/README.md) for setup and artifact names. No custom signing secrets are required for the default builds.
 
 ## Sensei, Dojo and progression
 
@@ -22,7 +22,7 @@ Arcade uses the original combo and end-of-round bonus tables. Classic restores a
 
 ## Controls
 
-- Drag the left mouse button, or swipe with a finger, to slice.
+- Drag the left mouse button, or swipe with a finger, to slice. On Wii, point the Wii Remote at the screen and hold **A** or **B** while sweeping; the IR cursor follows the remote. Press **+** to continue from the title screen, start Classic from mode selection, resume, or retry.
 - Slice a menu fruit to choose a mode: watermelon for Classic, red apple for Zen, banana for Arcade. Tapping the fruit or ring does not start a game; a short cut animation runs first.
 - **1 / 2 / 3** remain optional shortcuts for Classic / Zen / Arcade.
 - **Esc / P** pauses and resumes.
@@ -40,7 +40,7 @@ Classic ends after a bomb hit or three missed fruits. Zen has a 90-second timer.
 | `game/include/fruit`, `game/src` | Gameplay core, configuration, renderer, audio, saves and native application |
 | `game/tests` | Gameplay regression checks and original audio decoding checks |
 | `portable` | Original TEX/MMD asset readers and inspection CLI |
-| `platform` | Desktop, mobile, WASM, Vita and 3DS build/package scripts |
+| `platform` | Desktop, mobile, WASM, Vita, Wii and 3DS build/package scripts |
 | `vendor` | Pinned SDL, tinyxml2 and stb_vorbis dependencies |
 | `assets/original` | All 814 original packaged assets |
 | `assets/config` | All 16 decoded original XML configurations |

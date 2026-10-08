@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+    <name>Fruit Ninja Native</name>
+    <coder>Fruit Ninja Native Reconstruction</coder>
+    <version>0.1.0</version>
+    <release_date>202610070000</release_date>
+    <short_description>Fruit Ninja native</short_description>
+    <long_description>Point the Wii Remote at the screen and hold A or B while sweeping to slice. Press PLUS to continue or start.</long_description>
+</app>

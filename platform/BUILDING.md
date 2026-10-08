@@ -89,13 +89,24 @@ Output: `dist/3ds/fruit-ninja/fruit-ninja.3dsx`, `.smdh`, and **`fruit-ninja.cia
 
 The game runs on the **bottom touchscreen**, 320x240, with the 480x320 playfield uniformly scaled and letterboxed. Stylus strokes drive the same contact lifecycle as desktop/touch ports. The top screen is unused. Bundled SDL's 3DS backend uses software rendering. Fruit transforms now run once per unique vertex and geometry is batched once per fruit, with reusable buffers and preserved back-face culling/depth order. New 3DS CPU/L2 acceleration is enabled by SDL and the CIA exheader. Reaching 60 FPS on actual handhelds remains a performance-validation task; simulation speed still uses fixed ticks. Music streaming bounds decoded audio memory. The native DSP audio backend requires the usual working 3DS homebrew DSP setup.
 
+## Nintendo Wii
+
+Install devkitPro's Wii toolchain (`wii-dev`), the SDL2 Wii port (`wii-sdl2`), and the ELF-to-DOL tools (`gamecube-tools`) from the devkitPro shell:
+
+```sh
+pacman -S wii-dev wii-sdl2 gamecube-tools
+sh platform/wii/build.sh
+```
+
+The self-contained Homebrew Channel app is written to `dist/wii/fruit-ninja/`. Copy that folder to `apps/fruit-ninja/` on an SD card and launch it from the Homebrew Channel. The folder contains `boot.dol`, `meta.xml`, and the original/config game assets. The Wii build uses devkitPro's SDL2 OGC renderer and audio/input backends. The Wii Remote IR pointer controls the visible cursor; hold **A** or **B** while moving to slice, and press **+** to continue or start. Saves use SDL's Wii preference directory under `/apps/FruitNinjaReconstruction/` on the SD card.
+
 ### Validation of the additional targets
 
-Shell scripts are syntax-checked, the native Linux build and all four suites pass, and streaming tests cover buffer-size independence, looping and end-of-track silence. Emscripten, VitaSDK and devkitARM are absent from the execution environment: the new target binaries and browser/device execution have **not** been validated here. Use the scripts on an SDK-equipped host and retain full compiler output if an SDK-specific issue occurs.
+The existing shell scripts are syntax-checked; the native Linux build and all four suites have passed, and streaming tests cover buffer-size independence, looping and end-of-track silence. Emscripten, VitaSDK, devkitARM and devkitPPC are absent from the execution environment: the WASM, Vita, Wii and 3DS target binaries and browser/device execution have **not** been validated here. Use the scripts on an SDK-equipped host and retain full compiler output if an SDK-specific issue occurs.
 
 ### Implementation references
 
-The configuration follows the bundled SDL2 `docs/README-vita.md` and `docs/README-n3ds.md`, [Emscripten Asyncify](https://emscripten.org/docs/porting/asyncify.html), [VitaSDK toolchain](https://github.com/vitasdk/vita-toolchain/blob/master/cmake_toolchain/vita.toolchain.cmake), and [devkitPro 3dsxtool](https://github.com/devkitPro/3dstools/blob/master/src/3dsxtool.cpp). The SDK packaging helpers and original asset formats are retained.
+The configuration follows the bundled SDL2 `docs/README-vita.md` and `docs/README-n3ds.md`, [devkitPro's Wii SDL2 port](https://github.com/devkitPro/pacman-packages/tree/master/wii/SDL2), [Emscripten Asyncify](https://emscripten.org/docs/porting/asyncify.html), [VitaSDK toolchain](https://github.com/vitasdk/vita-toolchain/blob/master/cmake_toolchain/vita.toolchain.cmake), and [devkitPro 3dsxtool](https://github.com/devkitPro/3dstools/blob/master/src/3dsxtool.cpp). The SDK packaging helpers and original asset formats are retained.
 
 ## Timing and verification
 
@@ -103,7 +114,7 @@ Gameplay advances in fixed 1/60-second ticks. Presentation is capped at 60 FPS u
 
 The fixed clock still passes the recovered original frame clamp a valid 1/60-second delta; it never feeds that clamp a monitor-dependent frame interval. Timing tests compare complete fruit positions and wave state over 12 elapsed seconds at 30, 60, 75, 120, 144 and 240 rendered frames per second.
 
-Validated here: Linux build/package, all four CTest suites, and the software-rendered 60 FPS cap. Windows, macOS, iOS and Android scripts/projects require their platform SDKs and were not compiled or run in this Linux environment. A 60 FPS target cannot guarantee hardware will finish every frame within 16.67 ms.
+Validated here: Linux build/package, all four CTest suites, and the software-rendered 60 FPS cap. Windows, macOS, iOS, Android and Wii scripts/projects require platform SDKs and were not compiled or run in this environment. A 60 FPS target cannot guarantee hardware will finish every frame within 16.67 ms.
 
 ## Presentation and platform packaging changes
 

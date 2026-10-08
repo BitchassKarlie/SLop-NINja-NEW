@@ -1,0 +1,36 @@
+name: Build Nintendo Wii
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Build Wii Homebrew Channel app
+        run: |
+          docker run --rm --user 0:0 \
+            -v "$PWD:/project" -w /project \
+            devkitpro/devkitppc:latest \
+            sh platform/ci/container-build.sh wii
+      - name: Upload Wii package
+        uses: actions/upload-artifact@v7
+        with:
+          name: fruit-ninja-wii
+          path: dist/wii/
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0

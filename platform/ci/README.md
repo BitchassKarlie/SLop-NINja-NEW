@@ -1,6 +1,6 @@
 # Automatic GitHub Actions builds
 
-The project contains one independent workflow for each of the eight platforms. Every workflow runs on **push**, **pull_request** and **workflow_dispatch** (Run workflow), regardless of the branch name. A failing platform does not stop the others. Older in-progress runs of the same workflow/ref are cancelled when a newer push arrives.
+The project contains one independent workflow for each of the nine platforms. Every workflow runs on **push**, **pull_request** and **workflow_dispatch** (Run workflow), regardless of the branch name. A failing platform does not stop the others. Older in-progress runs of the same workflow/ref are cancelled when a newer push arrives.
 
 ## Put the project in a repository
 
@@ -34,15 +34,16 @@ No account tokens or signing secrets need to be added for these default builds. 
 | `build-android.yml` | Ubuntu 24.04, JDK 17/NDK 26.3 | `fruit-ninja-android-debug` | Installable debug-signed APK |
 | `build-wasm.yml` | Ubuntu 24.04, Emscripten 5.0.5 | `fruit-ninja-wasm` | `index.html`, `.js`, `.wasm`, `.data` |
 | `build-vita.yml` | VitaSDK `2026.08` Docker image | `fruit-ninja-vita` | Native VPK with original assets |
+| `build-wii.yml` | devkitPro devkitPPC `latest` Docker image | `fruit-ninja-wii` | `fruit-ninja/` Homebrew Channel app with `boot.dol`, metadata and original assets |
 | `build-3ds.yml` | devkitARM `20260610` Docker image | `fruit-ninja-3ds` | `fruit-ninja/` directory with 3DSX, SMDH and instructions |
 
-Windows, Linux and macOS builds run the existing four CTest suites. iOS builds both matrix entries even if one fails. Android installs its pinned SDK components and accepts the SDK licences through sdkmanager. Emscripten caches its SDK through the setup action. Vita and 3DS use pinned image tags; a small helper installs missing host utilities and, for minimal devkitARM images, missing 3DS development packages. SDK commands and versions appear in build logs.
+Windows, Linux and macOS builds run the existing four CTest suites. iOS builds both matrix entries even if one fails. Android installs its pinned SDK components and accepts the SDK licences through sdkmanager. Emscripten caches its SDK through the setup action. Vita and 3DS use pinned image tags. The Wii workflow uses devkitPro's `devkitppc` image and installs the Wii development and SDL2 packages before building. SDK commands and versions appear in build logs.
 
-iOS device downloads are unsigned; installable device IPAs still require Apple signing/provisioning, as described in `platform/BUILDING.md`. The simulator application can be installed with `xcrun simctl install booted /path/to/fruit_ninja.app`. macOS builds are not notarized. Android debug APKs use Gradle's debug signing; they are not production/store releases. A browser build must serve all four WASM files together over HTTP. Copy the 3DS artifact's `fruit-ninja` directory into the SD card's `/3ds/` directory; install the Vita VPK with VitaShell.
+iOS device downloads are unsigned; installable device IPAs still require Apple signing/provisioning, as described in `platform/BUILDING.md`. The simulator application can be installed with `xcrun simctl install booted /path/to/fruit_ninja.app`. macOS builds are not notarized. Android debug APKs use Gradle's debug signing; they are not production/store releases. A browser build must serve all four WASM files together over HTTP. Copy the Wii artifact's `fruit-ninja` directory into `/apps/` on the SD card; copy the 3DS artifact's `fruit-ninja` directory into the SD card's `/3ds/` directory; install the Vita VPK with VitaShell.
 
 ## Verification and maintenance
 
-Workflow YAML structure, trigger/permission settings, package paths and shell syntax were checked locally. The existing Linux build script and tests are validated. These files have **not run on GitHub yet**, because no repository/run was supplied. The first push provides the actual hosted-runner and SDK compiler validation; open failed steps for the full compiler error if a target needs an SDK-specific adjustment.
+The existing workflows and Linux build have been checked locally. The new Wii workflow has **not run on GitHub from this checkout yet**; pushing these changes starts the hosted build and uploads the `fruit-ninja-wii` artifact on success. Open the workflow run's failed step for the compiler output if a target needs an SDK-specific adjustment.
 
 Change the relevant workflow to update a runner, SDK image or Emscripten version. Default action references are `actions/checkout@v6`, `actions/upload-artifact@v7`, `actions/setup-java@v5` and `emscripten-core/setup-emsdk@v15`. Platform builds call the same scripts documented for local development, keeping local and CI packaging behavior aligned.
 
